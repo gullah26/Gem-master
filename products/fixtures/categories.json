@@ -2,22 +2,22 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "activewear",
-        "friendly_name": "Activewear"
+        "name": "amethysts",
+        "friendly_name": "Amethysts"
     }
 }, {
     "pk": 2,
     "model": "products.category",
     "fields": {
-        "name": "bed_bath",
-        "friendly_name": "Bed & Bath"
+        "name": "aquamarines",
+        "friendly_name": "Aquamarines"
     }
 }, {
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "clearance",
-        "friendly_name": "Clearance"
+        "name": "citrines",
+        "friendly_name": "Citrines"
     }
 }, {
     "pk": 4,
@@ -30,22 +30,22 @@
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "essentials",
-        "friendly_name": "Essentials"
+        "name": "garnets",
+        "friendly_name": "Garnets"
     }
 }, {
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "jeans",
-        "friendly_name": "Jeans"
+        "name": "emeralds",
+        "friendly_name": "Emeralds"
     }
 }, {
     "pk": 7,
     "model": "products.category",
     "fields": {
-        "name": "kitchen_dining",
-        "friendly_name": "Kitchen & Dining"
+        "name": "rubbies",
+        "friendly_name": "Rubbies"
     }
 }, {
     "pk": 8,
@@ -58,7 +58,42 @@
     "pk": 9,
     "model": "products.category",
     "fields": {
-        "name": "shirts",
-        "friendly_name": "Shirts"
+        "name": "sapphires",
+        "friendly_name": "Sapphires"
+    }
+}, {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "opal",
+        "friendly_name": "Opal"
+    }
+}, {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+        "name": "peridot",
+        "friendly_name": "Peridot"
+    }
+}, {
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+        "name": "tanzanites",
+        "friendly_name": "Tanzanites"
+    }
+}, {
+    "pk": 13,
+    "model": "products.category",
+    "fields": {
+        "name": "topaz",
+        "friendly_name": "Topaz"
+    }
+}, {
+    "pk": 14,
+    "model": "products.category",
+    "fields": {
+        "name": "onyx",
+        "friendly_name": "onyx"
     }
 }]
