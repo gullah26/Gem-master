@@ -93,7 +93,7 @@
                     </li>
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="">
+                            href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <!--font-awesome shopping bag-->
                                 <div><i class="fa-solid fa-bag-shopping"></i></div> 
@@ -141,7 +141,7 @@
 
 
     {% block content_footer %}
-    <div class="container">
+    <div class="container-fluid bg-white">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
