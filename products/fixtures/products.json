@@ -4,9 +4,9 @@
     "fields": {
         "sku": "pp5001340155",
         "name": "Alexandrite",
-        "description": "Czar Alexander II, Alexandrite from Russia 10.50cts",
-        "price": 450.99,
-        "category": 6,
+        "description": "10 x 7mm Color Blue Emerald Lab Created Alexandrite",
+        "price": 2199.99,
+        "category": 1,
         "rating": 94.6,
         "image": "DP0709201205510679M.jpg"
     }
@@ -15,11 +15,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001600425",
-        "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
-        "description": "Straight-leg styling and on-the-job comfort make our Audra pants a flattering business decision. flat front zip fly with hook-and-bar closure 2 front and 2 back welt pockets 34 1/2\" inseam polyester/rayon/spandex washable imported",
-        "price": 58.99,
-        "category": 4,
-        "rating": 4.6,
+        "name": "Alexandrite",
+        "description": "6 x 5mm Color Blue Emerald Lab Created Alexandrite",
+        "price": 1558.99,
+        "category": 1,
+        "rating": 93.2,
         "image": "DP0113201617034987M.jpg"
     }
 }, {
@@ -27,11 +27,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001730010",
-        "name": "Royal Velvet Matte Satin Square 3-pc. Coverlet Set",
-        "description": "Add a 5-star resort feel to your bedroom with the elegant Matte Satin Square coverlet set, featuring modern embroidered squares and flanged trim.  square embroidered pattern flanged-edge trim fabric is washable for easy care 3-piece set includes: coverlet 2 shams Polyester coverlet with cotton fill; polyester shams. Washable. Imported. Full/Queen: coverlet is 92x96\" King: coverlet is 110x96\"",
-        "price": 205.99,
-        "category": 2,
-        "rating": 4.7,
+        "name": "Alexandrite",
+        "description": "8 x 6mm Color Change Emerald Lab Created Alexandrite",
+        "price": 1205.99,
+        "category": 1,
+        "rating": 92.7,
         "image": "DP1230201417013175M.jpg"
     }
 }, {
@@ -39,11 +39,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5001890157",
-        "name": "Gibson Infinite Glaze 16-pc. Dinnerware Set",
-        "description": "An exhibition in contrast, this dinnerware sets simple, clean design is perfect for both everyday use and special occasions. durable stoneware construction microwave and oven safe service for 4 16-piece set includes: four 10\" dinner plates four 7\" dessert plates four 6\" bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-        "price": 169.99,
-        "category": 7,
-        "rating": 3.0,
+        "name": "Alexandrite",
+        "description": "5 x 6mm  Emerald Lab Created Alexandrite",
+        "price": 769.99,
+        "category": 1,
+        "rating": 93.0,
         "image": "DP0716201503423610M.jpg"
     }
 }, {
@@ -51,11 +51,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002111605",
-        "name": "Simply Calphalon Enameled Cast Iron Panini Pan",
-        "description": "Durable enameled cast iron construction allows the panini pan to heat evenly, so you can whip up a meal with ease and complete confidence.  cooks with little to no oils or fats so every recipe is healthier nonstick interior for quick and easy clean-ups stainless steel knob on cover enameled cast iron heats evenly and consistently stove, broiler and oven safe Cast iron/stainless steel. Dishwasher safe. Imported. ",
-        "price": 232.99,
-        "category": 7,
-        "rating": 5.0,
+        "name": "Alexandrite",
+        "description": "4 x 8mm Color Change Alexandrite",
+        "price": 1232.99,
+        "category": 1,
+        "rating": 85.0,
         "image": "DP1115201210371197C.jpg"
     }
 }, {
@@ -63,11 +63,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002260206",
-        "name": "The Foundry Supply Co. Solid Pocket TeeBig & Tall",
-        "description": "Get a better basic tee in a size that truly fits with this pocket t-shirt from The Foundry Supply Co.  short-sleeve, crew-neck tee left chest pocket 100% cotton washable imported",
-        "price": 30.99,
-        "category": 9,
-        "rating": 4.7,
+        "name": "Amethyst",
+        "description": "9 x 7mm Clear Cut Alexandrite",
+        "price": 1130.99,
+        "category": 2,
+        "rating": 94.5,
         "image": "DP0624201520422666C.jpg"
     }
 }, {
@@ -75,11 +75,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002440521",
-        "name": "Liz Claiborne Classic Sophie Secretly Slender Trouser Leg Pants - Plus",
-        "description": "Walk a little taller in our slimming straight-leg pants. flat front slim fit straight leg front fly with nylon zipper, hook and bar closure 32\" inseam polyester/rayon/spandex washable imported ",
-        "price": 59.0,
-        "category": 4,
-        "rating": 4.4,
+        "name": "Amethyst",
+        "description": "6 x 7mm Polar Mine Alexandrite",
+        "price": 759.0,
+        "category": 2,
+        "rating": 82.4,
         "image": "DP0226201317034754M.jpg"
     }
 }, {
@@ -87,11 +87,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002601115",
-        "name": "Rachael Ray Ceramic Olive Oil Dispenser",
-        "description": "This olive oil dispenser is designed for storing extra virgin olive oil, so it's close at hand for drizzling on food.  24-ounce capacity cruet opaque bottle and non-porous glazed interior keep oil in the dark to avoid oxidation and preserve taste playful, contemporary design Stoneware. Dishwasher-safe. Imported.",
-        "price": 36.99,
-        "category": 7,
-        "rating": 4.5,
+        "name": "Amethyst",
+        "description": "10 x 5mm Tropical Rebechite Alexandrite",
+        "price": 836.99,
+        "category": 2,
+        "rating": 90.5,
         "image": "DP0926201317071162M.jpg"
     }
 }, {
@@ -99,11 +99,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002690715",
-        "name": "Protech Performance Sheet Set",
-        "description": "Protech sheets are like activewear for your bed! The same cutting edge technology that is used in today's sportswear is also used in these Protech Plus sheets to give you a better night's sleep. Breathable ultra-fine microfiber wicks away moisture, keeping your body cool throughout the night while a 4-way stretch component allows you comfort in movement. This stretching ability also helps while making the bed, fitting most premium size mattresses; you won't have to struggle to get the sheets to fit all the way around.  4-way stretch component allows you comfort in movement available in a variety of solid colors microfiber knit fits mattresses up to 19\" deep Set includes: fitted sheet flat sheet 2 pillowcases Polyester/spandex. Washable. Imported. Full: 54x75 Queen: 60x80 King: 78x80 Cal. King: 72x84",
-        "price": 169.99,
+        "name": "Amethyst",
+        "description": "5 x 9mm Blue Aqua Alexandrite",
+        "price": 1069.99,
         "category": 2,
-        "rating": 4.7,
+        "rating": 91.7,
         "image": "DP1020201517025390M.jpg"
     }
 }, {
@@ -111,11 +111,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002701115",
-        "name": "Reflections Set of 4 Microfiber Napkins",
-        "description": "Complete the look of your table setting with these easy-care microfiber napkins.  great for everyday use or entertaining liquid-resistant design helps protect against spills set of 4 Polyester.Each measures 19x19\". Washable. Imported.",
-        "price": 33.99,
-        "category": 7,
-        "rating": 4.4,
+        "name": "Amethyst",
+        "description": "7 x 4mm Ignious Alexandrite",
+        "price": 2133.99,
+        "category": 2,
+        "rating": 84.4,
         "image": "DP0418201317011949M.jpg"
     }
 }, {
@@ -123,11 +123,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002761055",
-        "name": "Chef Designs Black-Trimmed Cook ShirtBig & Tall",
-        "description": "Stylish black-trim cook shirt from Chef Designs is just what you need for a confident, professional presence in the kitchen.  contrasting black stand collar black front buttons left chest pocket short hemmed sleeves squared bottom hem polyester/cotton washable imported of domestic fabric more sizes: regular, big",
-        "price": 29.99,
-        "category": 9,
-        "rating": 3.0,
+        "name": "Aquamarine",
+        "description": "6 x 5mm Sedimentary Alexandrite",
+        "price": 669.99,
+        "category": 3,
+        "rating": 73.0,
         "image": "0900631B81B0C2D9M.jpg"
     }
 }, {
@@ -135,11 +135,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002820069",
-        "name": "Nike 3-pk. Performance Crew Socks - Boys",
-        "description": "Keep him moving in comfort all day with quality Nike crew socks.  arch support reinforced toe and heel cotton/polyester/spandex washable imported",
-        "price": 19.99,
-        "category": 1,
-        "rating": 4.6,
+        "name": "Aquamarine",
+        "description": "5 x 3mm Deep Cut Alexandrite",
+        "price": 619.99,
+        "category": 3,
+        "rating": 54.6,
         "image": "DP0510201317010521M.jpg"
     }
 }, {
@@ -147,11 +147,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002820147",
-        "name": "Champion Jersey Tee",
-        "description": "Compete, exercise or simply relax in comfort with a classic tee from Champion, the brand that's been making quality athletic apparel since 1919.  regular fit crewneck taped neck left chest logo embroidery cotton except oxford and granite heather are cotton/polyester washable imported",
-        "price": 20.0,
-        "category": 9,
-        "rating": 3.2,
+        "name": "Aquamarine",
+        "description": "5 x 5mm Sandy Alexandrite",
+        "price": 720.0,
+        "category": 3,
+        "rating": 73.2,
         "image": "DP0430201405053680M.jpg"
     }
 }, {
@@ -159,11 +159,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002910572",
-        "name": "Stafford 4-pk. Blended Cotton A-Shirts",
-        "description": "Stafford Big & Tall ribbed athletic t-shirts deliver the tagless comfort and breathable performance he needs.  super soft, quick-drying, durable fabric preshrunk for lasting fit reinforced durable stitching tag free cotton/polyester washable imported ",
-        "price": 26.99,
-        "category": 5,
-        "rating": 4.7,
+        "name": "Aquamarine",
+        "description": "4 x 9mm Glacier Alexandrite",
+        "price": 626.99,
+        "category": 3,
+        "rating": 74.7,
         "image": "0900631B81C9387BM.jpg"
     }
 }, {
@@ -171,11 +171,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5002990740",
-        "name": "Stafford 4-pk. Heavyweight Crewneck T-ShirtsBig & Tall",
-        "description": "Soft and comfortable, two of his favorite things together in this heavyweight cotton tee from Stafford.  combed cotton heavier fabric for durability preshunk for lasting fit premium seaming reduces twisting tag free cotton washable imported",
-        "price": 48.99,
-        "category": 5,
-        "rating": 4.8,
+        "name": "Aquamarine",
+        "description": "3 x 4mm Ignious Alexandrite",
+        "price": 848.99,
+        "category": 3,
+        "rating": 64.8,
         "image": "DP1029201317111469M.jpg"
     }
 }, {
@@ -183,11 +183,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003050248",
-        "name": "Levi's 529 Curvy Bootcut Jeans",
-        "description": "Levis 529 curvy bootcut jeans are flattering and perfect for any timeday or night.  sits below the waist slim fit through hip and thigh bootcut leg with 18\" opening smooth bottom 8\" front rise; 15\" back rise cotton/polyester/elastane washable imported misses average: 32\" inseam ",
-        "price": 65.99,
-        "category": 6,
-        "rating": 4.4,
+        "name": "Citrine",
+        "description": "4 x 8mm Sahara  Alexandrite",
+        "price": 665.99,
+        "category": 4,
+        "rating": 71.4,
         "image": "DP0918201520303373C.jpg"
     }
 }, {
@@ -195,11 +195,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003070787",
-        "name": "Worthington Essential Short-Sleeve Tee - Plus",
-        "description": "Our stretchy jersey knit tee's gently pleated neckline makes a simply sweet impression.  pleated u-neck short sleeves polyester/spandex washable imported ",
-        "price": 33.99,
-        "category": 5,
-        "rating": 4.4,
+        "name": "Citrine",
+        "description": "7 x 9mm Riff Yellow  Alexandrite",
+        "price": 783.99,
+        "category": 4,
+        "rating": 54.4,
         "image": "DP1119201520340305C.jpg"
     }
 }, {
@@ -207,11 +207,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003090182",
-        "name": "Marvel Comics Avengers Hulk Pillow Buddy",
-        "description": "The Hulk may be tough, but he's actually a real softy. Get to know his softer side with this fun Hulk-shaped pillow.  adds a playful layer of texture and comfort to bed's decor measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-        "price": 59.99,
-        "category": 2,
-        "rating": 4.8,
+        "name": "Citrine",
+        "description": "3 x 5mm Radial Crystal  Alexandrite",
+        "price": 959.99,
+        "category": 4,
+        "rating": 94.2,
         "image": "DP0807201317072274M.jpg"
     }
 }, {
@@ -219,11 +219,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003090186",
-        "name": "Marvel Spiderman Pillow Buddy",
-        "description": "Now your child can sling webs next to his favorite wall crawler with this Spider-Man pillow buddy. shaped like everyone's favorite web head measures 15x9x20\"H Polyester with polyester fill. Spot clean. Imported.",
-        "price": 60.99,
-        "category": 2,
-        "rating": 5.0,
+        "name": "Citrine",
+        "description": "3 x 5mm Radial Crystalline  Alexandrite",
+        "price": 690.99,
+        "category": 4,
+        "rating": 75.0,
         "image": "DP0807201317072924M.jpg"
     }
 }, {
@@ -231,11 +231,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003161326",
-        "name": "JCPenney Home Oven Mitt",
-        "description": "Keep it cool in the kitchen with this lined oven mitt.  silicone grip protects hand from heat up to 350F contrast woven houndstooth trim fits comfortably on left or right hand handy hanging tie Sold individually. Cotton with cotton lining. Measures 7x13\". Washable. Imported. ",
-        "price": 20.99,
-        "category": 7,
-        "rating": 4.7,
+        "name": "Citrine",
+        "description": "4 x 11mm Egyptian Azure  Alexandrite",
+        "price": 1220.99,
+        "category": 4,
+        "rating": 90.4,
         "image": "DP0821201317103183M.jpg"
     }
 }, {
@@ -243,11 +243,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003230723",
-        "name": "Farberware Sonoma 2-qt. Whistling Tea Kettle",
-        "description": "The classic, trusted quality of Farberware pairs nicely with this durable stainless steel teakettle. Gelatin, hot chocolate or a cup of soupthe uses for a teakettle don't stop at tea.  whistle feature signals when water is at a boil removable lid makes kettle easy to fill 2-qt. capacity Stainless steel. Dishwasher safe. Imported. ",
-        "price": 60.99,
-        "category": 7,
-        "rating": 4.3,
+        "name": "Diamond",
+        "description": "8.0 x 8.0mm Colorless Round Diamond",
+        "price": 9460.99,
+        "category": 26,
+        "rating": 99.3,
         "image": "0900631B81D676AEM.jpg"
     }
 }, {
@@ -255,11 +255,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003270936",
-        "name": "Silver Superman Shield Cufflinks",
-        "description": "Superman shield cuff links are a work of art, and a subtle and stylish way to properly honor the man of steel.  one-piece fixed backing featuring the DC Comics logo  x \" rhodium plated metal/enamel imported",
-        "price": 76.99,
-        "category": 4,
-        "rating": 5.0,
+        "name": "Diamond",
+        "description": "5.0 x 5.0 mm Colorless Triangle Cut Diamond",
+        "price": 9476.99,
+        "category": 26,
+        "rating": 95.0,
         "image": "DP0917201317033820M.jpg"
     }
 }, {
@@ -267,11 +267,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003360384",
-        "name": "Dickies Heavyweight Long-Sleeve Pocket Tee",
-        "description": "When your workday calls for a heavyweight tee, grab this long-sleeve one from Dickies and enjoy industrial-strength comfort from the brand you trust.  chest pocket tagless back neck taped neck and shoulder seams cotton washable imported",
-        "price": 29.99,
-        "category": 9,
-        "rating": 4.8,
+        "name": "Diamond",
+        "description": "6.0 x 6.0 mm Colorless Square Cut Diamond",
+        "price": 9529.99,
+        "category": 26,
+        "rating": 95.8,
         "image": "DP0927201317061305M.jpg"
     }
 }, {
@@ -279,11 +279,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003440111",
-        "name": "Royal Velvet Down Chamber Pillow",
-        "description": "The Down Chamber pillow, with its unique pillow-in-pillow design, offers all-natural comfort. With an inner core of springy, high-loft feathers wrapped in an outer layer of silk, luxurious down, you'll receive supportive, lofty comfort. The gusset allows for additional neck support so you can sleep comfortably. inner chamber of springy, True Loft feathers provides superior all-natural comfort and support outer layer of silky, soft down adds lasting cushioning and comfort 550 fill power 300 thread-count cotton cover is hypoallergenic medium support for stomach or side sleepers hypoallergenic Cotton cover; duck feather and down fill. Washable. Manufacturer's 4-year limited warranty. Assembled in America from imported fabric. Standard/Queen pillow: 20x28\"; 32-ounce fill weight King pillow: 20x36\"; 39-ounce fill weight Be sure to care for your investment with a pillow protector. It's an added layer of protection that willhelpkeep your pillow clean and fresh. ",
-        "price": 82.0,
-        "category": 2,
-        "rating": 3.8,
+        "name": "Diamond",
+        "description": "8.0 x 4.0 mm Colorless Cushion Cut Diamond",
+        "price": 8682.0,
+        "category": 26,
+        "rating": 93.8,
         "image": "DP1023201317051585M.jpg"
     }
 }, {
@@ -291,11 +291,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003540313",
-        "name": "Dickies Heavyweight Fleece Full Zip HoodieBig & Tall",
-        "description": "This soft fleece jacket is a heavyweight champ that works overtime to keep the chill away.  drawcord closure on hood kangaroo pocket rib-knit cuffs and waistband cotton/polyester washable imported",
-        "price": 106.99,
-        "category": 9,
-        "rating": 3.0,
+        "name": "Diamond",
+        "description": "3.0 x 4.0 mm Colorless Lazer Cut Diamond",
+        "price": 7106.99,
+        "category": 26,
+        "rating": 98.0,
         "image": "DP1108201317050996M.jpg"
     }
 }, {
@@ -303,11 +303,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003560513",
-        "name": "JCPenney Home Ashley Scalloped Stoneware 50-pc. Dinnerware Set - Service for 8",
-        "description": "A glossy glaze and scalloped rim add a fun feel to this oversized dinnerware set that includes enough pieces to set the table for everyday dining or a special dinner party.  adds a layer of texture to your place setting generous size is perfect for small or large parties microwave safe service for 8 50-piece set includes: eight 10 dinner plates eight 7 salad plates eight 6 cereal bowls with 22-ounce capacity eight 4 fruit bowls with 8-ounce capacity eight 3 dip bowls with 3-ounce capacity eight 12-ounce mugs one 9 serving bowl with 60-ounce capacity one 8.75x12 serving platter Stoneware. Dishwasher safe. Imported.",
-        "price": 241.99,
-        "category": 7,
-        "rating": 4.4,
+        "name": "Emerald",
+        "description": "10.8 x 9.3mm Super Premium Emerald",
+        "price": 5241.99,
+        "category": 5,
+        "rating": 94.4,
         "image": "DP0219201502115503C.jpg"
     }
 }, {
@@ -315,11 +315,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003560948",
-        "name": "Rachael Ray Porcelain II 10-pc. Cookware Set",
-        "description": "Youll really get cooking with this incredible, hard-enamel cookware set as it contains all the basic pieces to ensure youll get your use out of each and every pan.  heats quickly and evenly, reducing hot spots that can burn foods long-lasting, nonstick cooking surface allows food to release from the pan, making cleanup quick and easy sylish two-tone gradient exterior adds color and style to any kitchen handles are rubberized for comfort, dual-riveted for durability and oven safe to 350F 10-piece set includes: 1-quart saucepan with lid 2-quart saucepad with lid 3-quart saut pan with lid 6-quart stock pot with lid 8\" skillet 10\" skillet Aluminum/porcelain/silicone. Hand wash. Imported.   ",
-        "price": 338.99,
-        "category": 7,
-        "rating": 5.0,
+        "name": "Emerald",
+        "description": "8.8 x 5.3mm Super Premium Emerald",
+        "price": 8338.99,
+        "category": 5,
+        "rating": 95.0,
         "image": "DP0610201317080834M.jpg"
     }
 }, {
@@ -327,11 +327,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003570628",
-        "name": "Hanes 3pk. Cotton Crewneck TShirts  Big & Tall",
-        "description": "This midweight t-shirt from Hanes features ultra-soft cotton for superior comfort you'll reach for everyday.  all-day comfortable fit longer stay-tucked length tagless midweight ComfortSoft cotton fabric cotton washable imported",
-        "price": 53.99,
-        "category": 4,
-        "rating": 4.3,
+        "name": "Emerald",
+        "description": "8.3 x 5.1mm Super Premium Emerald",
+        "price": 7153.99,
+        "category": 5,
+        "rating": 84.3,
         "image": "0900631B818ABCB9M.jpg"
     }
 }, {
@@ -339,11 +339,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003620308",
-        "name": "Chenille Lines Bath Rug Collection",
-        "description": "Keep your feet happy with our soft tufted bath rugs. They're available in a variety of complementary colors to suit your style.  ultra-soft 1\" pile microfiber polyester durable, tufted design resists matting nonskid latex backing Each rug sold separately. Polyester. Washable. Imported. Available in sizes 17x24\", 21x34\", or 27x45\"",
-        "price": 31.99,
-        "category": 2,
-        "rating": 4.6,
+        "name": "Emerald",
+        "description": "5.3 x 3.1mm Super Premium Emerald",
+        "price": 9031.99,
+        "category": 5,
+        "rating": 94.1,
         "image": "DP0422201517022488M.jpg"
     }
 }, {
@@ -351,11 +351,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003690115",
-        "name": "Home Expressions Jacobean Stripe Oblong Decorative Pillow",
-        "description": "Our Jacobean Stripe oblong pillow adds classic style and elegance to your room.  soothing shades of green, blue, coral and ivory  pieced fabric with rice-stitched detail a perfect complement to the Jacobean Stripe quilt, sold separately measures 18x12\"  Cotton with polyester fill. Spot clean. Imported.",
-        "price": 72.99,
-        "category": 2,
-        "rating": 5.0,
+        "name": "Emerald",
+        "description": "5.3 x 3.1mm Super Premium Emerald",
+        "price": 9972.99,
+        "category": 5,
+        "rating": 89.0,
         "image": "DP0113201417050002M.jpg"
     }
 }, {
@@ -363,11 +363,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003690116",
-        "name": "Armitron Now Womens Crystal-Accent White Leather Strap Watch",
-        "description": "Genuine leather and sparkling CRYSTALLIZED - Swarovski Elements set this watch apart as a high-quality luxury, perfect for women looking for the finer things in life.  Brand: Armitron Dial Color: White Strap: White leather Accents: 10 CRYSTALLIZED - Swarovski Elements Clasp: Buckle Movement: Quartz Case Width: 22mm Case Thickness: 9mm Bracelet Dimensions: 8 long, 23mm wide Model No.: 75/5089WTGPWT Special Features: white dial, white leather strap, 10 CRYSTALLIZED - Swarovski Elements markers, sweeping second hand Jewelry photos are enlarged to show detail.",
-        "price": 69.99,
-        "category": 3,
-        "rating": 4.0,
+        "name": "Garnet Red",
+        "description": "7.1 x 5.4mm Red Rhodolite Garnet",
+        "price": 3269.99,
+        "category": 6,
+        "rating": 74.0,
         "image": "DP0213201417022274M.jpg"
     }
 }, {
@@ -375,11 +375,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003780391",
-        "name": "Nike NA Swoosh Dri-FIT Cotton Tee",
-        "description": "Get a tee that fits your active lifestyle, like this moisture-wicking, cotton-rich crewneck with crosshatch swoosh design.  Dri-FIT Cotton moisture management technology helps keep you cool and dry crewneck cotton/polyester washable imported",
-        "price": 35.99,
-        "category": 9,
-        "rating": 4.8,
+        "name": "Garnet Red",
+        "description": "7.1 x 5.4mm Red Rhodolite Garnet",
+        "price": 3935.99,
+        "category": 6,
+        "rating": 75.8,
         "image": "DP1028201517024563M.jpg"
     }
 }, {
@@ -387,11 +387,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003790542",
-        "name": "Liz Claiborne 300tc Liquid Cotton Set of 2 Pillowcases",
-        "description": "Rest easy with these silky-smooth, 300 thread-count Liquid Cotton pilowcases. Engineered with the finest 100% cotton Pima yarns, these sumptous pillowcases have the sheen of silk and are ready to give you your best night's sleep yet.  made with extra-fine yarn for an incredibly smooth feel soft 300 thread-count Pima cotton with the feel and sheen of silk tightly woven fabric washes well and offers lasting performance great moisture absorbency due to extra-long staple cotton set of 2 Cotton. Washable. Imported. Standard pillowcase: 21x30\" King pillowcase: 21x40\"",
-        "price": 58.99,
-        "category": 2,
-        "rating": 4.5,
+        "name": "Garnet Red",
+        "description": "8.5 x 5.9mm Red Rhodolite Garnet",
+        "price": 2358.99,
+        "category": 6,
+        "rating": 74.5,
         "image": "DP0422201617033665M.jpg"
     }
 }, {
@@ -399,11 +399,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003831225",
-        "name": "Stafford Year-Round Pleated PantsBig & Tall",
-        "description": "Indispensable wrinkle resistant and machine washable pants, with a hidden expandable waistline, offer year-round wear in colors that go with any season.  hidden expandable waistband for ease of movement wrinkle-resistant machine washable big & tall fit with slight fullness in seat and hip; thigh has additional room double-pleated front 4 pockets button closure with hook-and-eye straight leg cuffed polyester/viscose washable imported more sizes in big",
-        "price": 93.99,
-        "category": 5,
-        "rating": 4.5,
+        "name": "Garnet Red",
+        "description": "6.5 x 4.9mm Red Rhodolite Garnet",
+        "price": 3193.99,
+        "category": 6,
+        "rating": 75.5,
         "image": "DP0915201413433903C.jpg"
     }
 }, {
@@ -411,11 +411,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003861402",
-        "name": "Arizona Super-Skinny Jeans",
-        "description": "Our super-skinny jeans feature a feminine cut for a flattering fit that will make you miss them when theyre in the dryer.  approx. 29\"  34\" inseam cotton/polyester/spandex washable imported",
-        "price": 50.99,
+        "name": "Garnet Red",
+        "description": "4.5 x 7.9mm Red Rhodolite Garnet",
+        "price": 2250.99,
         "category": 6,
-        "rating": 4.7,
+        "rating": 74.2,
         "image": "DP0430201405113681M.jpg"
     }
 }, {
@@ -423,11 +423,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003910638",
-        "name": "Nike 3-pk. Dri-FIT Fly Rise Crew Socks",
-        "description": "With moisture-wicking fabric, durability and shock absorption, these socks go the extra mile so that you can too.  dri-FIT moisture technology wicking keeps feet cool and dry maximum breathability cushioned footbed for comfort arch compression for perfected fit reinforced heel & toe for durability cushioned foot nylon/cotton/polyester/spandex washable imported",
-        "price": 23.99,
-        "category": 4,
-        "rating": 4.6,
+        "name": "Jade",
+        "description": "4.3 x 6.9mm Jade Trau Alure Solitaire",
+        "price": 1223.99,
+        "category": 28,
+        "rating": 74.6,
         "image": "DP0401201417083996M.jpg"
     }
 }, {
@@ -435,11 +435,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003950574",
-        "name": "Royal Velvet Egyptian Cotton Solid Bath Towels",
-        "description": "These Egyptian cotton bath towels complete your bath with a splash of color and a touch of luxurious softness. 2-ply construction provides extra softness incredibly soft and absorbent hollow yarns get fluffier after every wash coordinates with the Royal Velvet plush bath rug, sold separately Egyptian cotton. Washable. Imported. Bath towel: 30x56\" Hand towel: 16x28\" Washcloth: 13x13\" Bath sheet: 34x64\" Tub mat: 21x34\" 6-piece set including 2 bath towels, 2 hand towels and 2 washcloths. You can purchase these towels individually, but your best value is to buy the six-piece set altogether. This set will give your bathroom a coordinated look and feel while saving you money. Care tip: Some lint may be observed in the first few launderings of towels, and will diminish with each subsequent laundering. This does not affect the look, feel or performance of your towels. Please follow the recommended care instructions on the label and keep the lint trap clean on your dryer. Care tip: Avoid contact with skincare products to help minimize towel spotting or bleaching. Eco-friendly tip: This towel is made with long-lasting quality in mind. Give it a second life when you're through with it by donating it to a local charity instead of discarding in the trash. **This product meets the Green Good Housekeeping Seal environmental standard for Textiles for following strict industry standard and energy-efficient production processes and for J.C. Penney's corporate social responsibility efforts.",
-        "price": 21.99,
-        "category": 2,
-        "rating": 4.0,
+        "name": "Jade",
+        "description": "3.3 x 5.9mm Jade Trau Alure Solitaire",
+        "price": 1121.99,
+        "category": 28,
+        "rating": 74.0,
         "image": "DP0828201517030241M.jpg"
     }
 }, {
@@ -447,11 +447,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003950576",
-        "name": "Levinsohn Master Block All-In-One Mattress Protector",
-        "description": " Perfect for your son or daughter as they head off for college, this zippered mattress protector from Levinsohn features a three-layer micro-porous barrier to protect against bed bugs and dust mites.   quilted 200 thread-count fabric waterproof, stain resistant and antimicrobial  Polypropylene/polyethylene with polyester skirt. Washable. Imported.  Twin mattress protector: 39x75\" Twin XL mattress protector: 39x80\"",
-        "price": 60.99,
-        "category": 2,
-        "rating": 4.5,
+        "name": "Jade",
+        "description": "3.4 x 5.4mm Jade Trau Alure Solitaire",
+        "price": 1360.99,
+        "category": 28,
+        "rating": 74.5,
         "image": "DP0403201417141773M.jpg"
     }
 }, {
@@ -459,11 +459,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003960062",
-        "name": "Home Expressions Microfiber Twin XL Sheet Set",
-        "description": "Show off your fun side with this microfiber sheet set in exciting patterns and colors.  soft microfiber fabric feels great easy-care, long-lasting construction fitted sheet fits mattresses up to 14\" deep Set includes: flat sheet fitted sheet pillowcase Polyester. Washable. Imported. Twin XL: flat 66x96\"; fitted 39x80\"; pillowcase 21x32\"",
-        "price": 41.99,
-        "category": 3,
-        "rating": 3.8,
+        "name": "Jade",
+        "description": "3.4 x 5.4mm Jade Trau Alure Solitaire",
+        "price": 1141.99,
+        "category": 28,
+        "rating": 73.8,
         "image": "DP0715201417203832M.jpg"
     }
 }, {
@@ -471,11 +471,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003960682",
-        "name": "Cake Boss Powdered Sugar Shaker with Lid",
-        "description": "Sprinkle more sweet love over cakes, cookies and more with the Cake Boss stainless steel powdered sugar shaker with lid.  holds one cup of dry ingredients and is perfect for shaking confectioner's sugar, cocoa power, cinnamon and more over desserts and baked goods crafted from top-quality stainless steel with a tight-fitting, fine mesh cap includes a snug-fitting translucent plastic lid to cover the opening and keep air and moisture away from sugars and other ingredients Stainless steel. Dishwasher safe. Imported. ",
-        "price": 31.99,
-        "category": 7,
-        "rating": 5.0,
+        "name": "Jade",
+        "description": "3.3 x 5.4mm Jade Trau Alure Solitaire",
+        "price": 1731.99,
+        "category": 28,
+        "rating": 75.0,
         "image": "DP0430201405213832M.jpg"
     }
 }, {
@@ -483,11 +483,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003960775",
-        "name": "Cake Boss Set of 2 Silicone Baking Mats",
-        "description": "Reach for the Cake Boss two-piece set of silicone baking mats every time you bake for fun and easy cookie making, just like the Boss!  durable, professional-quality silicone mats are the ideal pan liners for baking and cookie sheets, so there's no need for aerosol sprays, pan greasing or parchment paper each mat features convenient measurement markings to take the guesswork out of baking use these as a handy and versatile work surface for rolling pastry and cookie doughs, and help to protect countertops for decorating cupcakes and other treats crafted from flexible, durable silicone, favored by bakers for its functionality and dependability perfectly sized for standard cookie sheets and baking pans, with convenient measurement lines along both sides heat safe to 450F includes two 9x13\" silicone baking mats Silicone. Top-rack dishwasher safe. Imported. ",
-        "price": 41.99,
+        "name": "Morganite",
+        "description": "8mm Peach Round Morganite",
+        "price": 841.99,
         "category": 7,
-        "rating": 3.0,
+        "rating": 73.0,
         "image": "DP0430201405232442M.jpg"
     }
 }, {
@@ -495,11 +495,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003990736",
-        "name": "Corelle Livingware 16-pc. Dinnerware Set",
-        "description": "Strike the perfect balance between fun and functional with this 16-piece dinnerware set featuring an eye-catching pattern.  Vitrelle glass is a special tempered glass consisting of 3 glass layers pressed together for a thin design with added strength break, chip and scratch resistant for carefree durability microwave and oven safe 16-piece set includes: four 10\" dinner plates four 6\" luncheon plates four 18-ounce bowls four 11-ounce mugs Vitrelle glass; stoneware mugs. Dishwasher safe. Some pieces made in America; some pieces imported.",
-        "price": 118.99,
+        "name": "Morganite",
+        "description": "9 x 7mm Premium Pink Radiant Morganite",
+        "price": 718.99,
         "category": 7,
-        "rating": 4.7,
+        "rating": 74.7,
         "image": "DP0519201417080443M.jpg"
     }
 }, {
@@ -507,11 +507,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5003990746",
-        "name": "Cuisinart Round Classic Waffle Maker",
-        "description": "Wake up your breakfast or brunch menu with crispy, delicious waffles made with this durable, dependable waffle iron. Stainless steel housing features nonstick baking plates. Custom-control knobs for perfect browning. Heavy weight lid won't rise during baking so your waffles brown evenly on both sides.  red and green ready-to-bake/ready-to-eat indicator lights 5-setting brown control with regulating thermostat recipe book included. 1000W",
-        "price": 65.99,
+        "name": "Morganite",
+        "description": "6 x 5mm Premium Pink Radiant Morganite",
+        "price": 1165.99,
         "category": 7,
-        "rating": 4.0,
+        "rating": 74.0,
         "image": "0900631B8140782DM.jpg"
     }
 }, {
@@ -519,11 +519,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004111503",
-        "name": "The Foundry Supply Co. Quick-Dri PoloBig & Tall",
-        "description": "Moisture-wicking polo is rich in Pima cotton for a luxuriously soft shirt that keeps you cool and dry.  Quick-Dri moisture-wicking fabric flat knit collar 3-button placket tennis tail with taped side vents cotton/polyester washable imported",
-        "price": 60.99,
-        "category": 5,
-        "rating": 4.9,
+        "name": "Morganite",
+        "description": "7 x 7mm Premium Pink Radiant Morganite",
+        "price": 860.99,
+        "category": 7,
+        "rating": 74.9,
         "image": "DP0421201520311379C.jpg"
     }
 }, {
@@ -531,11 +531,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004230059",
-        "name": "JCPenney Home Ultra Soft Micro Fleece Blanket",
-        "description": "Super soft and undeniably cuddly, this micro-fleece blanket will keep you warm and comforted all year long.  brushed micro fleece for extra softness lightweight warmth anti-pilling treatment on one side Polyester. Washable. Imported. Twin: 60x90\" Full/Queen: 90x90\" King blanket: 108x90\"",
-        "price": 41.0,
-        "category": 2,
-        "rating": 4.6,
+        "name": "Morganite",
+        "description": "8 x 7mm Premium Pink Radiant Morganite",
+        "price": 941.0,
+        "category": 7,
+        "rating": 84.6,
         "image": "DP0716201503421212M.jpg"
     }
 }, {
@@ -543,11 +543,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004310089",
-        "name": "Cottonloft Natural Cotton Blanket",
-        "description": "Keep warm all year round with this hypoallergenic blanket featuring Cottonloft technology that keeps you warm when it's cold, but also cooler when it's warm due to the natural properties of cotton.  lofted cotton fill breathable fluffy, soft and warm 100% cotton fill and cover 240 thread count taped edge Cotton. Washable. Imported. Twin: 66x90\" Full/Queen: 90x90\" King: 110x90\"",
-        "price": 162.99,
-        "category": 2,
-        "rating": 4.5,
+        "name": "Peridot",
+        "description": "6 x 9mm Premium Pear Lime Radiant Peridot",
+        "price": 762.99,
+        "category": 8,
+        "rating": 74.5,
         "image": "DP0722201417110136M.jpg"
     }
 }, {
@@ -555,11 +555,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004610254",
-        "name": "Konitz Dots and Stripes Set of 2 Bone China Mugs",
-        "description": "As these simple, beautiful mugs go to show, dots and stripes are classic patterns that never go out of style.  sturdy bone china construction easy-grip handles each has a 14-ounce capacity microwave safe set of 2 Bone china. Dishwasher safe. Imported.",
-        "price": 48.99,
-        "category": 7,
-        "rating": 5.0,
+        "name": "Peridot",
+        "description": "8 x 2mm Premium Lime Radiant Peridot",
+        "price": 748.99,
+        "category": 8,
+        "rating": 65.0,
         "image": "DP1017201420511297C.jpg"
     }
 }, {
@@ -567,11 +567,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004650050",
-        "name": "Jacques Mort 2-pk. Short-Sleeve Leotard - Girls",
-        "description": "Shell get plenty of use from this versatile short-sleeve leotard from Jacques Moret.  nylon washable imported",
-        "price": 34.99,
-        "category": 1,
-        "rating": 3.0,
+        "name": "Peridot",
+        "description": "5 x 6mm Premium Lime Radiant Peridot",
+        "price": 734.99,
+        "category": 8,
+        "rating": 83.0,
         "image": "DP0919201417043014M.jpg"
     }
 }, {
@@ -579,11 +579,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004821375",
-        "name": "Disney Cars McQueen Pillow Buddy",
-        "description": "Life is a highway, and with this McQueen decorative pillow, your child can pretend that highway is wherever the road will take them. Lightning McQueen-shaped pillow adds and extra layer of detail and texture to bedding Polyester. Measures 9x8x19\". Spot clean. Imported.",
-        "price": 60.99,
-        "category": 2,
-        "rating": 4.0,
+        "name": "Peridot",
+        "description": "7 x 6mm Premium Lime Radiant Peridot",
+        "price": 660.99,
+        "category": 8,
+        "rating": 84.0,
         "image": "DP1015201417131329M.jpg"
     }
 }, {
@@ -591,11 +591,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004900522",
-        "name": "Dockers Long-Sleeve No-Wrinkle Woven Shirt",
-        "description": "Achieve effortless everyday style in this no-wrinkle woven shirt from Dockers. no-wrinkle fabric button-down collar left chest pocket with logo embroidery cotton/polyester washable imported",
-        "price": 66.99,
-        "category": 9,
-        "rating": 4.6,
+        "name": "Peridot",
+        "description": "9 x 6mm Premium Lime Radiant Peridot",
+        "price": 966.99,
+        "category": 8,
+        "rating": 84.6,
         "image": "DP1202201412542357M.jpg"
     }
 }, {
@@ -603,11 +603,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004910158",
-        "name": "Stylus Short-Sleeve V-Neck Slub Tee - Plus",
-        "description": "The classic styling and soft slub fabric of our v-neck tee will make it one of the most versatile pieces in your closet.  cotton washable imported",
-        "price": 19.99,
-        "category": 5,
-        "rating": 3.8,
+        "name": "Ruby",
+        "description": "6.8 x 5.3mm Pear Greenland Ruby",
+        "price": 2339.99,
+        "category": 9,
+        "rating": 73.8,
         "image": "DP1019201520531375C.jpg"
     }
 }, {
@@ -615,11 +615,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004910477",
-        "name": "Philips Airfryer Grill Pan",
-        "description": "Created exclusively for the Philips Airfryer (sold separately), this grill pan has a ridged surface to grill and sear meat, fish and vegetables. nonstick surface is ideal for delicate food and is easy to clean perfect for grilling and searing meat, fish and vegetables perforated surface creates ideal air flow while grilling Aluminum. Measures 6.7x7.1x3.3\"H. Dishwasher safe. Imported. ",
-        "price": 88.99,
-        "category": 7,
-        "rating": 5.0,
+        "name": "Ruby",
+        "description": "7.8 x 6.3mm Round Greenland Ruby",
+        "price": 2288.99,
+        "category": 9,
+        "rating": 85.0,
         "image": "DP1124201417012025M.jpg"
     }
 }, {
@@ -627,11 +627,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004940703",
-        "name": "Claiborne Short-Sleeve Woven Shirt",
-        "description": "This easy-match cotton poplin from Claiborne offers the color and comfort you love in an everyday favorite. point collar button front short sleeves side pleat back slightly rounded hem cotton washable imported",
-        "price": 53.99,
-        "category": 3,
-        "rating": 3.7,
+        "name": "Ruby",
+        "description": "8.8 x 7.3mm Oval Greenland Ruby",
+        "price": 3453.99,
+        "category": 9,
+        "rating": 83.7,
         "image": "DP1220201417020921M.jpg"
     }
 }, {
@@ -639,11 +639,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004991006",
-        "name": "adidas Adilogo Shock Energy Tee",
-        "description": "Crewneck tee from adidas sends shockwaves through your athletic style with captivating tonal colors on an oversized logo print. crewneck short sleeves polyester/cotton washable imported",
-        "price": 26.99,
+        "name": "Ruby",
+        "description": "7.3 x 7.3mm Oval Greenland Ruby",
+        "price": 2226.99,
         "category": 9,
-        "rating": 5.0,
+        "rating": 85.0,
         "image": "DP0414201520383920C.jpg"
     }
 }, {
@@ -651,11 +651,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5004991162",
-        "name": "adidas climacool Boxer Briefs",
-        "description": "These climacool mesh boxer briefs are the ideal blend of performance and comfort, with a streamlined fit to complement your body's movement. fabric combines soft finish with moisture-wicking management mesh panels for ventilation double-lined support pouch no ride-up leg construction non-chafing stitching tag free polyester/spandex washable imported",
-        "price": 28.99,
-        "category": 4,
-        "rating": 4.5,
+        "name": "Ruby",
+        "description": "6.3 x 5.3mm  Greenland Ruby",
+        "price": 2228.99,
+        "category": 9,
+        "rating": 84.5,
         "image": "DP0428201617042837M.jpg"
     }
 }, {
@@ -663,11 +663,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005000046",
-        "name": "Stylus Slim Straight-Leg Jeans - Plus",
-        "description": "Give your style a classic cool edge in our must-have slim-fit straight-leg jeans. 5-pocket styling button-and-zip closure plus short: 31\" inseam cotton/rayon/polyester/spandex washable imported",
-        "price": 65.99,
-        "category": 6,
-        "rating": 3.9,
+        "name": "Blue Sapphire",
+        "description": "6mm Premium Blue Round Sapphire",
+        "price": 1165.99,
+        "category": 10,
+        "rating": 73.9,
         "image": "DP0113201523230512M.jpg"
     }
 }, {
@@ -675,11 +675,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005070254",
-        "name": "Worthington Sateen Cropped Pants - Petite",
-        "description": "From the workweek to weekend fun, our sateen cropped pants are a perfect way to make sure you're always flaunting a put-together look. zipper closure 2 front slash pockets 2 faux back pockets 18\" inseam black white print: cotton/polyester/spandex all others: cotton/nylon/spandex washable imported",
-        "price": 66.0,
-        "category": 3,
-        "rating": 4.7,
+        "name": "Blue Sapphire",
+        "description": "7mm Premium Blue  Sapphire",
+        "price": 1266.0,
+        "category": 10,
+        "rating": 74.7,
         "image": "DP0323201517042926M.jpg"
     }
 }, {
@@ -687,11 +687,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005071145",
-        "name": "Madison Park Essentials Concord Reversible Complete Bedding Set with Sheets",
-        "description": "Create a chic look in your space with this bedding set featuring a comforter with a geometric fretwork design that's inverted on the other side for fresh, versatile fabric. white and dusty teal tones reversible for two looks in one 180 thread-count printed sheet set fitted sheet fits twin mattresses up to 12\" deep and all other sizes up to 14\" deep 7-piece Twin set includes: comforter sham flat sheet fitted sheet pillowcase bedskirt with 15\" drop decorative pillow 9-piece Full, Queen, King or Cal. King set includes: comforter 2 shams flat sheet fitted sheet 2 pillowcases bedskirt with 15\" drop decorative pillow Coordinating accessories sold separately. Twin, Full and Queen sets include standard sham(s). King and Cal. King sets include king shams. Polyester comforter and decorative pillow with polyester fill; polyester shams and bedskirt; cotton sheets and pillowcases. Washable; spot clean decorative pillows. Imported. Twin: comforter is 68x86\"; sham is 26x20\"; flat sheet is 66x96\"; fitted sheet is 39x75\"; pillowcase is 30x20\"; bedskirt is 75x39\"; decorative pillow is 18x12\" Full: comforter is 78x86\"; shams are 26x20\"; flat sheet is 81x96\"; fitted sheet is 54x75\"; pillowcases are 30x20\"; bedskirt is 75x54\"; decorative pillow is 18x12\" Queen: comforter is 90x90\"; shams are 26x20\"; flat sheet is 90x102\"; fitted sheet is 60x80\"; pillowcases are 30x20\"; bedskirt is 80x60\"; decorative pillow is 18x12\" King: comforter is 104x92\"; shams are 36x20\"; flat sheet is 108x102\"; fitted sheet is 78x80\"; pillowcases are 40x20\"; bedskirt is 80x78\"; decorative pillow is 18x12\" Cal. King: comforter is 104x92\"; shams are 36x20\"; flat sheet is 108x102\"; fitted sheet is 72x84\"; pillowcases are 40x20\"; bedskirt is 72x84\"; decorative pillow is 18x12\" King and Cal. King comforters are designed to be the same size, while the coordinating bedskirt is sized to fit the specific type you order.",
-        "price": 265.0,
-        "category": 2,
-        "rating": 3.3,
+        "name": "Blue Sapphire",
+        "description": "6.5mm Premium Pear Blue  Sapphire",
+        "price": 1465.0,
+        "category": 10,
+        "rating": 73.3,
         "image": "DP0204201517030626M.jpg"
     }
 }, {
@@ -699,11 +699,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005140282",
-        "name": "Keurig K250 2.0 Compact Brewer",
-        "description": "This Keurig brewer features revolutionary technology designed to read the lid of each K-Cupor K-Carafe pack to brew the perfect beverage every timeall at the touch of a button. allows you to brew a piping hot 4-cup carafe with the same ease and convenience of a single-serve cup 40-ounce water reservoir black and white touch display most compact Keurig 2.0 brewing system Brewer includes: Keurig 2.0 water filter Keurig descaling solution K-Cup packs to get you started Plastic. Measures 13x9x13\"H.Imported.",
-        "price": 211.99,
-        "category": 7,
-        "rating": 4.0,
+        "name": "Blue Sapphire",
+        "description": "7.5mm Premium Square Cut Blue  Sapphire",
+        "price": 1211.99,
+        "category": 10,
+        "rating": 74.0,
         "image": "DP0224201517023517M.jpg"
     }
 }, {
@@ -711,11 +711,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005200166",
-        "name": "Wrangler Reserve Authentic Relaxed-Fit Jeans-Big & Tall",
-        "description": "When comfort and durability are a priority, reach for these premium denim jeans from Wrangler. sits at waist relaxed fit through seat and thigh 5-pocket styling straight leg cotton/spandex washable imported",
-        "price": 65.99,
-        "category": 4,
-        "rating": 4.4,
+        "name": "Blue Sapphire",
+        "description": "8.5mm Premium Emerald Cut Blue  Sapphire",
+        "price": 1165.99,
+        "category": 10,
+        "rating": 74.4,
         "image": "DP0320201517010207M.jpg"
     }
 }, {
@@ -723,11 +723,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005210241",
-        "name": "Eva Longoria Home Solana 4-pc. Comforter Set",
-        "description": "With a sophisticated palette and beautiful damask design, this comforter set will bring warmth and sophistication to your bedroom. 200 thread-count cotton sateen face; brushed polyester microfiber back lavender and gray tones shams have 1\" flange bedskirt has 100% cotton drop and brushed polyester microfiber platform 4-piece set includes: comforter 2 shams bedskirt with 15\" drop Coordinating accessories sold separately. Full and Queen sets include standard shams. King and Cal. King sets include king shams. Cotton comforter with polyester back and polyester fill; cotton shams with polyester back; cotton bedskirt with polyester platform. Washable. Imported. Full: comforter is 80x90\"; shams are 26x20\"; bedskirt is 54x75\" Queen: comforter is 92x96\"; shams are 26x20\"; bedskirt is 60x80\" King: comforter is 110x96\"; shams are 36x20\"; bedskirt is 78x80\" Cal. King: comforter is 104x100\"; shams are 36x20\"; bedskirt is 72x84\"",
-        "price": 344.99,
-        "category": 2,
-        "rating": 4.5,
+        "name": "Pink Sapphire",
+        "description": "8 x 7mm Pink Sapphire",
+        "price": 1344.99,
+        "category": 19,
+        "rating": 74.5,
         "image": "DP0302201517030242M.jpg"
     }
 }, {
@@ -735,11 +735,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005280104",
-        "name": "Carter's 4-pc. Take Me Home Set - Baby Boys preemie-6m",
-        "description": "Your ruff-and-tumble boy will stay snuggly warm in this adorable 4-piece set. includes bodysuit, tee, footed pants and cap bodysuit: nickel-free snaps on reinforced panel, long sleeves, embroidered, attached footies tee: expandable shoulders, short sleeves pants: elastic waist, attached footies with dog appliqu cap: embroidered, 3D ears 100% cotton washable imported",
-        "price": 31.99,
-        "category": 3,
-        "rating": 5.0,
+        "name": "Pink Sapphire",
+        "description": "5 x 7mm Pink Sapphire",
+        "price": 1131.99,
+        "category": 19,
+        "rating": 75.0,
         "image": "DP0401201517030651M.jpg"
     }
 }, {
@@ -747,11 +747,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005310360",
-        "name": "Pfaltzgraff Everyday Sandy Shore 16-pc. Dinnerware Set",
-        "description": "Evoking a day at the beach with its coastal theme, this inviting dinnerware set features seashells and starfish over a solid tan background. durable stoneware construction microwave safe service for 4 16-piece set includes: four 11\" dinner plates four 8\" salad plates four 6\" soup bowls four 12-ounce mugs Stoneware. Dishwasher safe. Imported.",
-        "price": 169.99,
-        "category": 7,
-        "rating": 5.0,
+        "name": "Pink Sapphire",
+        "description": "7 x 6mm Pink Sapphire",
+        "price": 1169.99,
+        "category": 19,
+        "rating": 65.0,
         "image": "DP0408201517021489M.jpg"
     }
 }, {
@@ -759,11 +759,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005330595",
-        "name": "Arizona Graphic Tee - Boys 8-20 and Husky",
-        "description": "An edgy print on cotton-rich fabric will make this soft, durable tee a casual day favorite. crewneck short sleeves cotton/polyester washable imported ",
-        "price": 19.99,
-        "category": 3,
-        "rating": 4.9,
+        "name": "Pink Sapphire",
+        "description": "10 x 6mm Pink Sapphire",
+        "price": 2119.99,
+        "category": 19,
+        "rating": 84.9,
         "image": "DP0527201520374912C.jpg"
     }
 }, {
@@ -771,23 +771,23 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005330596",
-        "name": "Armitron Now Womens Crystal-Accent White Leather Strap Watch",
-        "description": "Genuine leather and sparkling CRYSTALLIZED - Swarovski Elements set this watch apart as a high-quality luxury, perfect for women looking for the finer things in life.  Brand: Armitron Dial Color: White Strap: White leather Accents: 10 CRYSTALLIZED - Swarovski Elements Clasp: Buckle Movement: Quartz Case Width: 22mm Case Thickness: 9mm Bracelet Dimensions: 8 long, 23mm wide Model No.: 75/5089WTGPWT Special Features: white dial, white leather strap, 10 CRYSTALLIZED - Swarovski Elements markers, sweeping second hand Jewelry photos are enlarged to show detail.",
-        "price": 69.99,
-        "category": 3,
-        "rating": 4.0,
-        "image": "DP0213201417022274M.jpg"
+        "name": "Pink Sapphire",
+        "description": "6 x 7mm Pink Sapphire",
+        "price": 1169.99,
+        "category": 19,
+        "rating": 64.0,
+        "image": "DP0213201417021174M.jpg"
     }
 }, {
     "pk": 66,
     "model": "products.product",
     "fields": {
         "sku": "pp5005430914",
-        "name": "Nike Air Sickness Graphic Tee",
-        "description": "Sick style is easily achieved with this colorful, Air-themed graphic tee from Nike, the one you want when youre getting ready to launch. non-restrictive crewneck short sleeves chest graphic with Swoosh 100% cotton washable imported",
-        "price": 30.99,
-        "category": 3,
-        "rating": 4.0,
+        "name": "Purple Sapphire",
+        "description": "8 x 7mm Purple Pearl Sapphire",
+        "price": 2130.99,
+        "category": 18,
+        "rating": 84.0,
         "image": "DP0515201517013144M.jpg"
     }
 }, {
@@ -795,11 +795,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005430944",
-        "name": "Claiborne Long-Sleeve Linen Shirt",
-        "description": "Our washable linen shirt from Claiborne brings a breezy perspective to your daily dress in a variety of soft colors. point collar button front long sleeves left chest pocket adjustable button cuffs slightly rounded hem 100% linen washable imported",
-        "price": 72.99,
-        "category": 9,
-        "rating": 4.5,
+        "name": "Purple Sapphire",
+        "description": "4 x 7mm Purple Round Sapphire",
+        "price": 1172.99,
+        "category": 18,
+        "rating": 84.5,
         "image": "DP0515201517012588M.jpg"
     }
 }, {
@@ -807,11 +807,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005510265",
-        "name": "Arizona Bootcut Jeans",
-        "description": "Pair your favorite top and accessories with our versatile bootcut jeans to create the perfect day-to-night look. 5-pocket styling cotton/polyester/spandex washable imported short: 29\" inseam regular: 32\" inseam long: 34\" inseam",
-        "price": 50.99,
-        "category": 6,
-        "rating": 4.7,
+        "name": "Purple Sapphire",
+        "description": "3 x 7mm Purple  Sapphire",
+        "price": 1250.99,
+        "category": 18,
+        "rating": 84.7,
         "image": "DP0526201517022624M.jpg"
     }
 }, {
@@ -819,11 +819,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005520201",
-        "name": "Home Expressions Microfiber Twin XL Sheet Set",
-        "description": "Add softness and a splash of color to your bed with this ultra-comfy microfiber sheet set. wrinkle-resistant won't pill or fade fitted sheet fits mattresses up to 14\" deep 3-piece set includes: flat sheet fitted sheet pillowcase Polyester. Washable. Imported. Twin XL: flat sheet is 66x102\"; fitted sheet is 39x80\"; pillowcase is 32x21\" ",
-        "price": 42.0,
-        "category": 2,
-        "rating": 4.3,
+        "name": "Purple Sapphire",
+        "description": "4 x 5mm Purple  Sapphire",
+        "price": 1342.0,
+        "category": 18,
+        "rating": 84.3,
         "image": "DP0519201517025089M.jpg"
     }
 }, {
@@ -831,11 +831,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005520205",
-        "name": "Isotonic Iso-Cool Memory Foam Contour Pillow",
-        "description": "Sleep Betterwith the supremely plush Isotonic contour memory foam pillow that equalizes pressure and reduces tension.  300 thread-count cotton cover is zippered and hypoallergenic Outlast Adaptive Comfort technology regulates body temperature, absorbing and releasing body heat as needed contour shape promotes neck and shoulder comfort Sold individually.Visco-elastic memory foam measures 14x20x5\"H. Cover is washable; spot clean foam. Manufacturer's 5-year warranty. Made in America of imported materials. Be sure to care for your investment with a pillow protector. It's an added layer of protection that willhelpkeep your pillow clean and fresh.  ",
-        "price": 108.99,
-        "category": 2,
-        "rating": 4.2,
+        "name": "Purple Sapphire",
+        "description": "8 x 4mm Purple  Sapphire",
+        "price": 1608.99,
+        "category": 18,
+        "rating": 84.2,
         "image": "0900631B8142A3AFM.jpg"
     }
 }, {
@@ -843,11 +843,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630545",
-        "name": "totes Tracey Womens Cold-Weather Boots",
-        "description": "Featuring a THERMOLITE fabric that keeps you warm and comfortable, these waterproof boots are perfect for wet or cold weather. synthetic upper approx. 9\" shaft lace up fleece lining rubber sole Measurements are approximate and may vary by size.",
-        "price": 108.99,
-        "category": 8,
-        "rating": 4.3,
+        "name": "Yellow Sapphire",
+        "description": "7 x 6mm Yellow Sapphire",
+        "price": 2108.99,
+        "category": 29,
+        "rating": 84.3,
         "image": "DP0608201517025373M.jpg"
     }
 }, {
@@ -855,11 +855,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630605",
-        "name": "Love Indigo Wing Back Flap Pocket Jeans",
-        "description": "Classic wing embroidery and rhinestone studs embellish the back flap pockets of our denim jeans for eye-catching style. 5-pocket styling cotton/polyester/spandex washable imported",
-        "price": 60.99,
-        "category": 6,
-        "rating": 4.6,
+        "name": "Yellow Sapphire",
+        "description": "5 x 6mm Round Yellow Sapphire",
+        "price": 2360.99,
+        "category": 29,
+        "rating": 84.6,
         "image": "DP0608201517035688M.jpg"
     }
 }, {
@@ -867,11 +867,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630637",
-        "name": "Love Indigo Embroidered Back Pocket Jeans",
-        "description": "Glam up your look with the elaborately embroidered and sequined back yoke and pockets of our flattering denim jeans. 5-pocket styling cotton/rayon/polyester/spandex washable imported",
-        "price": 60.99,
-        "category": 6,
-        "rating": 4.7,
+        "name": "Yellow Sapphire",
+        "description": "5 x 9mm Oval Yellow Sapphire",
+        "price": 1460.99,
+        "category": 29,
+        "rating": 84.7,
         "image": "DP0608201517035747M.jpg"
     }
 }, {
@@ -879,11 +879,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005630638",
-        "name": "Love Indigo Cross Back Flap Pocket Jeans",
-        "description": "You'll take a shine to the eye-catching sparkle of our flattering denim jeans with sequined and embroidered back pockets. 5-pocket styling cotton/polyester/spandex washable imported",
-        "price": 60.99,
-        "category": 6,
-        "rating": 4.2,
+        "name": "Yellow Sapphire",
+        "description": "7 x 9mm Square Cut Yellow Sapphire",
+        "price": 1960.99,
+        "category": 29,
+        "rating": 84.2,
         "image": "DP0608201517035763M.jpg"
     }
 }, {
@@ -891,11 +891,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005650677",
-        "name": "Arizona Ankle-Zip Jeggings",
-        "description": "Zipper styling at the ankles brings a funky edge to our flattering jeggings. 30\" inseam 5-pocket styling cotton/rayon/polyester/spandex washable imported",
-        "price": 48.99,
-        "category": 6,
-        "rating": 4.4,
+        "name": "Yellow Sapphire",
+        "description": "7 x 9mm Emerald Cut Yellow Sapphire",
+        "price": 3448.99,
+        "category": 29,
+        "rating": 84.4,
         "image": "DP0612201517032350M.jpg"
     }
 }, {
@@ -903,11 +903,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005700140",
-        "name": "Vanilla Star Embellished Skinny Jeans - Girls 7-16 and Plus",
-        "description": "The eye-catching embellishment on the back pocket of these classic skinny jeans takes casual style to the next level. 5-pocket styling zip fly with button closure back pocket embellishments ramie/cotton/polyester/spandex washable imported",
-        "price": 50.99,
-        "category": 6,
-        "rating": 5.0,
+        "name": "Spinel",
+        "description": "5mm Carbon Black Emerald Spinel",
+        "price": 3450.99,
+        "category": 11,
+        "rating": 85.0,
         "image": "DP0831201520432399C.jpg"
     }
 }, {
@@ -915,11 +915,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005740430",
-        "name": "Worthington 3/4-Sleeve Button-Front Oxford Shirt - Petite",
-        "description": "Neat pleats parallel the hidden button-front placket of our comfy stretch-cotton shirt for anall-business finish.  shirt collar cuffed sleeves gently rounded hem approx. 25\" - 26\" center-back length cotton/spandex cheerful pink: cotton/polyester/spandex washable imported",
-        "price": 36.99,
-        "category": 5,
-        "rating": 4.7,
+        "name": "Spinel",
+        "description": "7mm Carbon Black Pearl Spinel",
+        "price": 2336.99,
+        "category": 11,
+        "rating": 84.7,
         "image": "DP0526201623053167C.jpg"
     }
 }, {
@@ -927,11 +927,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005740561",
-        "name": "a.n.a Skinny Jeans",
-        "description": "Show off your polished, casual style with the slimming look of our versatile skinny jeans. mid rise 5-pocket styling shank button-and-zip closure cotton/rayon/polyester/spandex washable imported misses: 31\" inseam misses short: 29\" inseam misses long: 33\" inseam petites: 28\" inseam petites short: 25\" inseam tall:32\" inseam",
-        "price": 60.99,
-        "category": 6,
-        "rating": 4.6,
+        "name": "Spinel",
+        "description": "6mm Carbon Black Spinel",
+        "price": 2260.99,
+        "category": 11,
+        "rating": 84.6,
         "image": "DP0623201517030671M.jpg"
     }
 }, {
@@ -939,11 +939,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005740634",
-        "name": "a.n.a Bootcut Jeans",
-        "description": "Your everyday go-to denim style, our classic bootcut jeans are the one to turn to for a flattering, leg-lengthening look. mid rise 5-pocket styling shank button-and-zip closure cotton/rayon/polyester/spandex washable imported misses average: 33\" inseam misses short: 31\" inseam misses long: 35\" inseam petite: 29 1/2\" inseam tall: 35\" inseam",
-        "price": 60.99,
-        "category": 6,
-        "rating": 4.5,
+        "name": "Spinel",
+        "description": "7mm Carbon Black Round Spinel",
+        "price": 1260.99,
+        "category": 11,
+        "rating": 84.5,
         "image": "DP0623201517030686M.jpg"
     }
 }, {
@@ -951,11 +951,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005760088",
-        "name": "Levi's Houlihan Short-Sleeve Logo Tee",
-        "description": "The iconic arcuate logo gets a geo-patterned upgrade on this heathered crewneck tee from Levis. crewneck short sleeves cotton/polyester washable imported ",
-        "price": 29.0,
-        "category": 3,
-        "rating": 5.0,
+        "name": "Spinel",
+        "description": "7mm Carbon Black Round Spinel",
+        "price": 2929.0,
+        "category": 11,
+        "rating": 85.0,
         "image": "DP0702201517031050M.jpg"
     }
 }, {
@@ -963,11 +963,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005810108",
-        "name": "a.n.a Jeggings - Plus",
-        "description": "Our sleek, stretchy jeggings will let you flaunt your silhouette to best advantage. super stretch mid rise fitted through hip and thigh super skinny leg flat front 5-pocket styling cotton/lyocell/polyester/spandex black, medium gray: rayon/cotton/polyester/spandex washable imported plus: 31\" inseam plus short: 29\" inseam",
-        "price": 60.99,
-        "category": 6,
-        "rating": 4.7,
+        "name": "Sunstone",
+        "description": "10.1x8.2mm Unheated Cognac Cushion Zircon Sunstone",
+        "price": 1160.99,
+        "category": 27,
+        "rating": 84.7,
         "image": "DP0702201517033643M.jpg"
     }
 }, {
@@ -975,11 +975,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005820197",
-        "name": "Nike Therma-FIT Pullover Hoodie - Boys 8-20",
-        "description": "Add a cozy layer to any game-ready style with this insulated performance hoodie, featuring a pullover design and Therma-FIT fabric for warmth. Therma-FIT microfiber fleece fabric keeps you warm and insulated mesh-lined hood for breathable coverage long sleeves ribbed cuffs and hem kangaroo pocket polyester washable imported",
-        "price": 48.99,
-        "category": 1,
-        "rating": 4.9,
+        "name": "Sunstone",
+        "description": "8.1 x 8.2mm Unheated Cognac Cushion Zircon Sunstone",
+        "price": 1248.99,
+        "category": 27,
+        "rating": 84.9,
         "image": "DP1008201517035763M.jpg"
     }
 }, {
@@ -987,11 +987,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005840598",
-        "name": "Disney Collection Frozen Elsa Graphic Tee - Girls 2-12",
-        "description": "Girly style gets a cool Frozen touch with this Elsa graphic tee. crewneck short sleeves glitter details 100% cotton washable imported",
-        "price": 27.0,
-        "category": 3,
-        "rating": 5.0,
+        "name": "Sunstone",
+        "description": "7.1 x 8.2mm Unheated Cognac Oval Zircon Sunstone",
+        "price": 1227.0,
+        "category": 27,
+        "rating": 85.0,
         "image": "DP0716201517033520M.jpg"
     }
 }, {
@@ -999,11 +999,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005840776",
-        "name": "Dickies Short-Sleeve Performance Polo",
-        "description": "When performance counts, reach for this easy-care piqu polo from Dickies, featuring moisture-wicking technology and protection from the sun. moisture-wicking fabric fade and snag resistant UV protection rib-knit collar tagless neck for comfort 3-button placket side vents polyester washable imported",
-        "price": 29.99,
-        "category": 9,
-        "rating": 5.0,
+        "name": "Sunstone",
+        "description": "7.1 x 8.2mm Unheated Cognac  Gircon Sunstone",
+        "price": 2229.99,
+        "category": 27,
+        "rating": 85.3,
         "image": "DP0717201517041911M.jpg"
     }
 }, {
@@ -1011,11 +1011,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005850180",
-        "name": "Sunbeam Comfy Toes Microplush Heated Throw",
-        "description": "Snuggling on the couch just got better with this throw that has a pocket built in to help keep your feet from popping out and getting cold. foot pocket designed to keep feet nice and warm 3 heat settings 3-hour auto off 12' cord measures 50x60\" Polyester. Washable. Imported.",
-        "price": 138.99,
-        "category": 3,
-        "rating": 4.2,
+        "name": "Sunstone",
+        "description": "7.1 x 8.2mm Unheated Cognac  Hircon Sunstone",
+        "price": 1138.99,
+        "category": 27,
+        "rating": 84.2,
         "image": "DP0527201517022924M.jpg"
     }
 }, {
@@ -1023,11 +1023,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005851218",
-        "name": "Madison Park Lavinia 6-pc. Quilted Coverlet Set",
-        "description": "A classic paisley print in contrasting brown and blue gives this coverlet set a timeless look that's accented with coordinating print accessories for a rich, full new look. chocolate brown with baby blue and ivory colored paisley brown border on coverlet and shams decorative pillows feature embroidery, tucking and pleating details 6-piece sets include: coverlet 2 shams 3 decorative pillows Full/Queen sets include standard shams. King/Cal. King sets include king shams. Polyester coverlet with cotton, polyester, rayon and olefin fill; polyester decorative pillows with polyester fill; polyester shams. Washable; spot clean pillows. Imported. Full/Queen: coverlet is 90x90\"; shams are 26x20\"; decorative pillows are 18x18\", 16x16\" and 18x12\" King/Cal. King: coverlet is 104x94\"; shams are 36x20\"; decorative pillows are 18x18\", 16x16\" and 18x12\" For best results, launder in a large-capacity front-loading washer and dryer. If the coverlet doesn't have free movement in the washer and dryer, a large-capacity commercial washer and dryer are recommended.",
-        "price": 326.99,
-        "category": 11,
-        "rating": 4.1,
+        "name": "Tanzanite",
+        "description": "9mm Purple Oval Tanzanite",
+        "price": 1326.99,
+        "category": 12,
+        "rating": 84.1,
         "image": "DP0714201504201760M.jpg"
     }
 }, {
@@ -1035,11 +1035,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005860175",
-        "name": "Xersion Quick-Dri Performance Bootcut Pant - Short",
-        "description": "Whether you're working out or runningor heading to the coffee shop afterwardsour regular rise, slim-fit, bootcut pants will keep you comfortable. tight compression fit provides added comfort during workouts Quick-Dri moisture-wicking fabric helps keep you dry no-chafe seams won't irritate your skin key pocket at inside waistband 30\" inseam jersey knit polyester/spandex washable imported",
-        "price": 58.99,
+        "name": "Tanzanite",
+        "description": "12mm Purple Tanzanite",
+        "price": 1158.99,
         "category": 12,
-        "rating": 4.8,
+        "rating": 54.8,
         "image": "DP0710201517034239M.jpg"
     }
 }, {
@@ -1047,11 +1047,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005860263",
-        "name": "Lugz Empire Hi Mens Water-Resistant Hiking Boots",
-        "description": "Offering extra coverage with its high-top design, these water-resistant boots keep you looking good while you accomplish the task at hand. technology Flexa-stride memory foam insole construction synthetic upper rubber sole details lace up padded tongue and collar",
-        "price": 108.99,
-        "category": 14,
-        "rating": 4.0,
+        "name": "Tanzanite",
+        "description": "11mm Purple Tanzanite",
+        "price": 1108.99,
+        "category": 12,
+        "rating": 94.0,
         "image": "DP0805201520415923C.jpg"
     }
 }, {
@@ -1059,11 +1059,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005870183",
-        "name": "Made For Life Mesh Jacket - Plus",
-        "description": "Layer our moisture-wicking mesh jacket over a tee or tank for breathable comfort all day long. Quick-Dri moisture-wicking fabric helps keep you dry front pockets approx. 27\" - 28\" length polyester washable imported",
-        "price": 52.99,
-        "category": 13,
-        "rating": 5.0,
+        "name": "Tanzanite",
+        "description": "7mm Purple Tanzanite",
+        "price": 1152.99,
+        "category": 12,
+        "rating": 85.0,
         "image": "DP0724201517031934M.jpg"
     }
 }, {
@@ -1071,11 +1071,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005870599",
-        "name": "Stafford Travel Brown Check Suit Jacket - Classic Fit",
-        "description": "Our brown check suit jacket updates your formal look with a easy-to-match pattern and a resilient fabric that wont get road-weary. crease-resistant and resilient fabric classic fit notch lapel 2-button front slant chest pocket front flap pockets 3 interior pockets (1 with triangle flap) fully lined side vents shell: wool/polyester body and sleeve lining: polyester dry clean only imported",
-        "price": 244.99,
-        "category": 11,
-        "rating": 4.4,
+        "name": "Tanzanite",
+        "description": "9mm Purple Tanzanite",
+        "price": 1244.99,
+        "category": 12,
+        "rating": 84.4,
         "image": "DP0721201517041500M.jpg"
     }
 }, {
@@ -1083,11 +1083,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005870638",
-        "name": "Arizona Raglan-Sleeve Thermal Pullover",
-        "description": "Weather the season in sporty style with this slub thermal pullover, featuring a v-notched crewneck and contrasting raglan sleeves. Available in a variety of jeans-friendly colors. crewneck with v-notch long sleeves tarragon lt grey heather, lt grey heather/oatmeal, charcoal/lt grey heather: cotton/polyester all other colors: 100% cotton washable imported ",
-        "price": 33.99,
-        "category": 11,
-        "rating": 4.4,
+        "name": "Topaz",
+        "description": "8 x 5mm London Blue  Topaz",
+        "price": 1133.99,
+        "category": 13,
+        "rating": 84.4,
         "image": "DP0724201517024000M.jpg"
     }
 }, {
@@ -1095,11 +1095,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005910565",
-        "name": "Made For Life Long-Sleeve Flyaway Cardigan",
-        "description": "Pull your look together with our fluid, fine-gauge knit flyaway cardigan, an easy-going, lightweight layer for all your casual looks. cotton/polyester washable imported",
-        "price": 50.99,
-        "category": 11,
-        "rating": 4.3,
+        "name": "Topaz",
+        "description": "9 x 5mm Roman Blue  Topaz",
+        "price": 1550.99,
+        "category": 13,
+        "rating": 84.3,
         "image": "DP0731201517031510M.jpg"
     }
 }, {
@@ -1107,11 +1107,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005930313",
-        "name": "Stafford Flannel Pajama Set - Big & Tall",
-        "description": "This long-sleeve, flannel pajama set brings brushed cotton warmth to your cold-weather nights. includes top and pants washed for extra softness & reduced shrinkage notch collar long sleeves elastic waist with drawstring 100% cotton washable imported",
-        "price": 70.99,
-        "category": 12,
-        "rating": 4.9,
+        "name": "Topaz",
+        "description": "10 x 5mm Indian Blue  Topaz",
+        "price": 1170.99,
+        "category": 13,
+        "rating": 84.9,
         "image": "DP0807201517015600M.jpg"
     }
 }, {
@@ -1119,11 +1119,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005940242",
-        "name": "Arizona Flannel Shirt - Preschool Boys 4-7",
-        "description": "This comfy flannel shirt is a cool-weather essential that welcomes chilly days with bright colors and fresh style. button front long sleeves 2 chest pockets 100% cotton washable imported",
-        "price": 31.99,
-        "category": 14,
-        "rating": 3.7,
+        "name": "Topaz",
+        "description": "11 x 6mm Round Blue  Topaz",
+        "price": 1831.99,
+        "category": 13,
+        "rating": 83.7,
         "image": "DP0731201517024285M.jpg"
     }
 }, {
@@ -1131,11 +1131,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005940299",
-        "name": "Vieste Green Stone Statement Necklace",
-        "description": "Give any dress a sultry splash of style with this green stone statement necklace that's sure to get you noticed. Metal: Gold-tone metal Stones: Glass stones Closure: Lobster clasp Dimensions: 18\" long chain with 3\" extender Jewelry photos are enlarged to show detail.",
-        "price": 42.99,
+        "name": "Topaz",
+        "description": "8 x 6mm  Blue  Topaz",
+        "price": 1542.99,
         "category": 13,
-        "rating": 5.0,
+        "rating": 85.0,
         "image": "DP0810201517010458M.jpg"
     }
 }, {
@@ -1143,11 +1143,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005941612",
-        "name": "Bonnie Jean Plaid Dress and Cardigan - Girls Plus",
-        "description": "Getting all dolled up is fun with this festive, twirlable dress and coordinating cardigan from Bonnie Jean. includes dress and cardigan dress: scoopneck, sleeveless, front bow cardigan: long sleeves, velvet dress: polyester/metallic cardigan: polyester/spandex machine wash, line dry imported",
-        "price": 92.99,
-        "category": 13,
-        "rating": 5.0,
+        "name": "Tourmaline",
+        "description": "10 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 992.99,
+        "category": 14,
+        "rating": 85.0,
         "image": "DP0805201517023421M.jpg"
     }
 }, {
@@ -1155,11 +1155,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005980058",
-        "name": "Arizona Quilted Sweatshirt - Toddler Girls 2t-5t",
-        "description": "The quilted comfort and glittery style of this colorful sweatshirt make it the perfect grab-and-go look all season long. crewneck long sleeves quilted glitter detail cotton/polyester washable imported",
-        "price": 26.99,
-        "category": 13,
-        "rating": 5.0,
+        "name": "Tourmaline",
+        "description": "8 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 826.99,
+        "category": 14,
+        "rating": 87.0,
         "image": "DP0917201520473680C.jpg"
     }
 }, {
@@ -1167,11 +1167,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5005980146",
-        "name": "Arlee Jada Plaid Set of 4 Placemats",
-        "description": "With festive colors and a classic plaid design, these placemats help create an inviting atmosphere for meals all season long. easy-care fabric set of 4 cotton/polyester each measures 19x13\" washable imported.",
-        "price": 58.99,
+        "name": "Tourmaline",
+        "description": "9 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 758.99,
         "category": 14,
-        "rating": 4.5,
+        "rating": 84.5,
         "image": "DP0820201517013830M.jpg"
     }
 }, {
@@ -1179,11 +1179,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5006070077",
-        "name": "St. John's Bay Short-Sleeve Polo Shirt - Plus",
-        "description": "Get active in the cool breathability of our short-sleeve piqu knit polo shirt. open-front placket cotton/spandex washable imported",
-        "price": 29.99,
-        "category": 5,
-        "rating": 4.4,
+        "name": "Tourmaline",
+        "description": "9 x 7mm Pear Lab Created Emerald Tourmaline",
+        "price": 829.99,
+        "category": 14,
+        "rating": 84.4,
         "image": "DP0903201517023529M.jpg"
     }
 }, {
@@ -1191,11 +1191,11 @@
     "model": "products.product",
     "fields": {
         "sku": "pp5006081758",
-        "name": "Stylus Crossover Ankle Pants",
-        "description": "Youll find so many ways to wear our slim-fit stretch-twill cropped pantsdressed up or down, to the office or on the weekendyou might want more than one pair. flat front hook-and-bar with zip closure 2 front slash pockets 2 back welt pockets cotton/spandex washable imported misses: 28\" inseam petite: 26\" inseam",
-        "price": 53.99,
-        "category": 4,
-        "rating": 4.8,
+        "name": "Tourmaline",
+        "description": "12 x 8mm Pear Lab Created Emerald Tourmaline",
+        "price": 953.99,
+        "category": 14,
+        "rating": 84.8,
         "image": "DP0908201517020936M.jpg"
     }
 }]
