@@ -201,11 +201,4 @@
         "name": "yellow",
         "friendly_name": "Yellow"
     }
-},  {
-    "pk": 30,
-    "model": "products.category",
-    "fields": {
-        "name": "green",
-        "friendly_name": "Green"
-    }
 }]

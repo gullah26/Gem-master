@@ -1,5 +1,10 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -14,31 +19,35 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Precious Gems
+                Precious Gemstones
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=Sapphires" class="dropdown-item">Sapphires</a>
-                <a href="{% url 'products' %}?category=rubies" class="dropdown-item">Rubies</a>
-                <a href="{% url 'products' %}?category=emeralds" class="dropdown-item">Emeralds</a>
-                <a href="{% url 'products' %}?category=sapphires,rubies,emeralds" class="dropdown-item">All Precious Gemstones</a>
+                <a href="{% url 'products' %}?category=diamond" class="dropdown-item">Diamond</a>
+                <a href="{% url 'products' %}?category=emerald" class="dropdown-item">Emerald</a>
+                <a href="{% url 'products' %}?category=ruby" class="dropdown-item">Ruby</a>
+                <a href="{% url 'products' %}?category=blue,yellow,pink,purple" class="dropdown-item">Sapphire</a>
+                <a href="{% url 'products' %}?category=diamond,emerald,blue,yellow,pink,purple,ruby" class="dropdown-item">All Precious Gemstones</a>
             </div>
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Semi-Precious Gems
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+                <a href="{% url 'products' %}?category=alexandrite" class="dropdown-item">Alexandrite</a>
                 <a href="{% url 'products' %}?category=amethyst" class="dropdown-item">Amethyst</a>
                 <a href="{% url 'products' %}?category=aquamarine" class="dropdown-item">Aquamarine</a>
                 <a href="{% url 'products' %}?category=citrine" class="dropdown-item">Citrine</a>
                 <a href="{% url 'products' %}?category=garnet" class="dropdown-item">Garnet</a>
-                <a href="{% url 'products' %}?category=onyx" class="dropdown-item">Onyx</a>
-                <a href="{% url 'products' %}?category=opal" class="dropdown-item">Opal</a>
+                <a href="{% url 'products' %}?category=jade" class="dropdown-item">Jade</a>
+                <a href="{% url 'products' %}?category=morganite" class="dropdown-item">Morganite</a>
                 <a href="{% url 'products' %}?category=peridot" class="dropdown-item">Peridot</a>
+                <a href="{% url 'products' %}?category=spinel" class="dropdown-item">Spinel</a>
+                <a href="{% url 'products' %}?category=sunstone" class="dropdown-item">Sunstone</a>
                 <a href="{% url 'products' %}?category=tanzanite" class="dropdown-item">Tanzanite</a>
                 <a href="{% url 'products' %}?category=topaz" class="dropdown-item">Topaz</a>
-                <a href="{% url 'products' %}?category=amethyst, aquamarine, citrine, garnet, onyx, opal, peridot, tanzanite,topaz" class="dropdown-item">All Semi-Precious Gems</a>
+                <a href="{% url 'products' %}?category=tourmaline" class="dropdown-item">Tourmaline</a>
+                <a href="{% url 'products' %}?category=alexandrite,amethyst,aquamarine,citrine,garnet,jade,morganite,peridot,spinel,sunstone,tanzanite,topaz,tourmaline" class="dropdown-item">All Semi-Precious Gems</a>
             </div>
         </li>
 
@@ -47,8 +56,8 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=new" class="dropdown-item">New Arrival</a>
+                <a href="{% url 'products' %}?category=deal" class="dropdown-item">Deals</a>
             </div>
         </li>
     </ul>
