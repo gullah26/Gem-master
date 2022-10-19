@@ -1,4 +1,6 @@
+from django.contrib import admin
 from django.urls import path
+from contact.views import Contact
 from . import views
 
 urlpatterns = [

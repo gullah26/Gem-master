@@ -1,19 +1,19 @@
 from django.shortcuts import render
+from .models import Contact
+from .forms import ContactForm
+from django.http import HttpResponse
 from django.conf import settings
 from django.core.mail import send_mail
-
-from .forms import ContactForm
 
 
 def contact(request):
     """A view to submit the form and send to customer support"""
 
     if request.method == "POST":
-        form = Contact(request.POST)
+        form = ContactForm(request.POST)
         if form.is_valid():
-            customer_email = form.cleaned_data["email"]
+            customer_email = form.cleaned_data["email"],
             subject = form.cleaned_data["subject"]
-
             body = {
                 "name": form.cleaned_data["full_name"],
                 "email": form.cleaned_data["email"],
