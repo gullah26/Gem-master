@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'profiles',
     'favorites',
     'contact',
-    'django_mailbox',
 
     # other
     'crispy_forms',
