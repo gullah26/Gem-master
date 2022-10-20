@@ -20,7 +20,7 @@ def contact(request):
                 "subject": form.cleaned_data["subject"],
                 "message": form.cleaned_data["message"],
             }
-            template = "contact/contact.html"
+            template = "contact/success.html"
             return render(request, template)
 
     form = ContactForm()

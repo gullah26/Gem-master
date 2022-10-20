@@ -284,6 +284,13 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
