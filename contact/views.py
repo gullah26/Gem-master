@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .models import Contact
-from .forms import ContactForm
-from django.http import HttpResponse
+
 from django.conf import settings
 from django.core.mail import send_mail
+
+from .forms import ContactForm
 
 
 def contact(request):
@@ -12,14 +12,18 @@ def contact(request):
     if request.method == "POST":
         form = ContactForm(request.POST)
         if form.is_valid():
-            customer_email = form.cleaned_data["email"],
+            form.save()
+            customer_email = form.cleaned_data["email"]
             subject = form.cleaned_data["subject"]
+
             body = {
-                "name": form.cleaned_data["full_name"],
+                "firt_name": form.cleaned_data["first_name"],
+                "last_name": form.cleaned_data["last_name"],
                 "email": form.cleaned_data["email"],
                 "subject": form.cleaned_data["subject"],
                 "message": form.cleaned_data["message"],
             }
+
             template = "contact/success.html"
             return render(request, template)
 
