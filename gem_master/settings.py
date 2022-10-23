@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['gem-master.herokuapp.com', 'localhost']
 
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['gem-master.herokuapp.com', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -48,10 +49,12 @@ INSTALLED_APPS = [
     'profiles',
     'favorites',
     'contact',
+    'marketing',
 
     # other
     'crispy_forms',
     'storages',
+    'mailchimp',
 ]
 
 MIDDLEWARE = [
@@ -229,3 +232,8 @@ else:
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Mailchimp credentials
+MAILCHIMP_API_KEY = '9afe2c5ed81a41d65ad2a222f3843583-us21'
+MAILCHIMP_DATA_CENTER = 'us21'
+MAILCHIMP_EMAIL_LIST_ID = '0065859ba3'

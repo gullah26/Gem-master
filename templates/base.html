@@ -43,8 +43,16 @@
     <header class="container-fluid fixed-top ">
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-warning">
-                <h5 class="logo-font my-1 text-black">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
-            </div>            
+                <h5 class="logo-font my-0 text-black">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+            </div>  
+            <div class="row">
+                <ul class="d-flex flex-row list-unstyled justify-content-end bg-warning h-100">
+                    <li><a href="{% url 'contact'  %}" class="nav-link text-black"> <i class="fa fa-envelope"></i> Email </a></li>
+                    <li><a href="#" class="nav-link text-black"> <i class="fa fa-phone"></i>124567890</a></li>
+                </ul>
+            </div>
+                 
+            
         </div>
         <div id="topnav" class="row bg-danger pt-lg-2 d-none d-lg-flex ">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-lg-left">
