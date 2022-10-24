@@ -65,7 +65,7 @@
                     <div class="col float-left cat-block-mobile text-white" >
                         <div class="category-wrap dropdown d-inline-block">
                             <button type="button" class="btn btn-black dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-bars"></i> All Category
+                                <i class="fa fa-bars px-1"></i>Category
                             </button>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By
@@ -79,16 +79,11 @@
                         <!-- category-->
                     </div>
 
-
-
-                    <a href="{% url 'products' %}?category=new" class="btn btn-outline-primary float-left btn-block-mobile">New</a>
-
-
                     <!-- product search bar -->
                     <div class="col search-block-mobile">
                         <form action="{% url 'products' %}" method="GET" class="search">
                             <div class="input-group w-100">
-                                <input type="text" class="form-control border" style="width:60%;" name="q"
+                                <input type="text" class="form-control" style="width:100%;" name="q"
                                     placeholder="Search">
                                 <div class="input-group-append">
                                     <button class="btn btn-black border" type="submit">
