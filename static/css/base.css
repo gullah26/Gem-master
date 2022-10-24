@@ -467,13 +467,6 @@ footer a:hover {
         display: none;
     }
 
-    .logo-font {
-
-        text-align: center;
-        font-family: 'Rubik Maze', cursive;
-
-    }
-
     .badge-notification {
 
         background: red;
@@ -809,15 +802,13 @@ footer a:hover {
 
 }
 
-
-
 @media all and (max-width: 360px) {
     /* mobile devices */
 
     /* Home font */
 
     .logo-font {
-      font-size: 2.5rem;
+      font-size: 1rem;
       padding: 1rem;
     }
 
@@ -826,6 +817,15 @@ footer a:hover {
     .shop-now-button {
         font-size: 1.5rem;
         
+    }
+
+    .bag-middle-mobile{
+       justify-items: center;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       display: inline;
+       position : absolute;
     }
 
     /*footer*/
