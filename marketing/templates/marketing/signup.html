@@ -12,20 +12,19 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container ">
-    <div class="row my-4 text-center">
+<div class="container mailchimp">
+    <div class="row mt-4 text-center">
         <div class="col">
-            <hr>
-            <h1 class="logo-font text-black">Subscribe to Our NewsLetter</h1>
+            <h3 class=" text-black">Subscribe to Our NewsLetter</h3>
             <hr>
         </div>
     </div>
-    <div class="row mt-5 justify-content-center w-100">
+    <div class="row mt-5 justify-content-center mt-5">
         <!--Email subscription Form -->
         <form method="post" action="{% url 'subscription' %}">
             {% csrf_token %}
-            <input type="email" name="email" placeholder="Please type your Email">
-            <button class="btn btn-black" type="submit">Subscribe</button>
+            <div><input class="form-control form-control-lg"  type="email" name="email" placeholder="Please Your Enter Email"></div>
+            <div class="text-center pt-3 mb-5"><button class="btn btn-black" type="submit">SignUp</button></div>
         </form>
 
     </div>

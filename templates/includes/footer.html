@@ -1,25 +1,145 @@
 {% load static %}
 
-<div class="container-fluid fixed bg-white">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center copy-right">
-        <a href="https://github.com/gullah26" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-          <i class="fab fa-github fa-2x text-black"></i>
-        </a>
-        
-          <p class="text-black px-3"><strong>&copy; 2022 Gemmaster</strong></p>
+<!-- Footer -->
+<footer class="text-center text-lg-start text-dark">
+	<!-- Delivery Threshold-->
+	<section class="bg-black">
+		<div id="delivery-banner" class="row">
+			<div class="col text-white ">
+				<h5 class="logo-font">Free shipping and returns on orders over
+					${{ free_delivery_threshold }} !<i class="fas fa-shipping-fast text-success"></i></h5>
+			</div>
+		</div>
 
-      </div>
+	</section>
 
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex contact">
-        <li><a class="px-3 text-decoration-none" href="{% url 'subscription'  %}" target="_blank" rel="noopener" target="_blank"><i class="fas fa-rss"></i>  Newsletter</a></li>
-      </ul>
+	<!-- Newseletter, Shipping, Contact, social media and Payment-->
+	<section class="mt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col text-left">
+					<h6 class="text-capitalize fw-bold">Newsletter</h6>
+					<hr class="mb-2 mt-0 d-inline-block mx-auto"
+						style="width: 100px; background-color: #2013dd; height: 1px" />
+					<p>
+						<a href="#" aria-label="visit our Newsletter (opens in new tab)"
+							rel="noopener" target="_blank"><i class="fas fa-rss px-1"></i>News</a>
 
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex social-media">
-        <li class="ms-3"><a class="text-info  px-3" href="https://www.twitter.com/" rel="noopener" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
-        <li class="ms-3"><a class="text-primary px-3" href="https://www.facebook.com/" rel="noopener" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-        <li class="ms-3"><a class="text-danger px-3" href="https://www.instagram.com/" rel="noopener" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
-      </ul>
-    </footer>
-  </div>
+					</p>
+
+					<p>
+						<a href="{% url 'subscription'  %}" aria-label="visit our Newsletter (opens in new tab)"
+							rel="noopener" target="_blank"> <button type="button" class="btn btn-black btn-sm px-1">Subscribe</button>
+						</a>
+					</p>
+
+        </div>
+
+				<div class="col text-left">
+					<h6 class="text-capitalize fw-bold">Shipping & Delivery</h6>
+					<hr class="mb-2 mt-0 d-inline-block mx-auto"
+						style="width: 100px; background-color: #2013dd; height: 1px">
+					
+					<p><i class="fas fa-truck px-1"></i> We ship with</p>
+					<a href="{% url 'shipping'%}" aria-label="(opens in new tab)" rel="noopener" target="_blank">
+
+						<span><i class="fab  fa-ups fa-lg px-1"></i></span>
+						<span><i class="fab  fa-dhl fa-lg px-1"></i></span>
+						<span><i class="fab  fa-fedex fa-lg px-1"></i></span>
+
+					</a>
+
+
+				</div>
+
+				<div class="col text-left">
+
+					<h6 class="text-capitalize fw-bold">Accepted Payments</h6>
+					<hr class="mb-2 mt-0 d-inline-block mx-auto"
+						style="width: 100px; background-color: #2013dd; height: 2px" />
+					
+						<p>
+							<a href="https://www.visa.se/" class="text-dark">
+							<i class="fab fa-lg fa-cc-visa fa-lg px-1"></i><span>Visa</span>
+							</a>
+						</p>
+					
+
+						<p>
+							<a href="https://www.mastercard.com/global/en.html" class="text-dark">
+							<i class="fab fa-lg fa-cc-mastercard fa-lg px-1"></i><span>Mastercard</span>
+							</a>
+						</p>					
+
+				</div>
+
+				<div class="col text-left">
+					<h6 class="text-capitalize fw-bold">Contact</h6>
+					<hr class="mb-2 mt-0 d-inline-block mx-auto"
+						style="width: 100px; background-color:  #2013dd; height: 2px" />
+					
+          <p>
+            <a href="{% url 'contact' %}" aria-label="contact our Customer Support page (opens in new tab)"
+              rel="noopener" target="_blank"><i class="fas fa-envelope px-1"></i>Email US
+            </a>  
+          </p>
+					<p><i class="fas fa-phone px-1"></i>+ 46 123 456 7890</p>
+					<p><i class="fas fa-print px-1"></i> + 46 123 456 7890</p>
+
+				</div>
+
+
+			</div>
+		</div>
+
+	</section>
+
+	<!-- social media -->
+	<div class="social-network">
+
+		<ul>
+
+			<li>
+				<a href="https://github.com/gullah26" class="me-4"
+					aria-label="find us on github (opens in new tab)" rel="noopener" target="_blank"><i
+						class="fab fa-github fa-2x text-black"></i>
+				</a>
+			</li>
+
+			<li>
+				<a href="https://www.facebook.com/" class="me-4"
+					aria-label="find us on Facebook (opens in new tab)" rel="noopener" target="_blank"><i
+						class="fab fa-facebook-f fa-2x text-primary"></i>
+				</a>
+			</li>
+
+			<li>
+				<a href="https://twitter.com/" class="me-4"
+					aria-label="find us on Twitter (opens in new tab)" rel="noopener" target="_blank"><i
+						class="fab fa-twitter fa-2x text-info"></i>
+				</a>
+			</li>
+
+			<li>
+				<a href="https://www.instagram.com/" class="me-4"
+					aria-label="find us on Instagram (opens in new tab)" rel="noopener" target="_blank"><i
+						class="fab fa-instagram fa-2x text-danger"></i>
+				</a>
+			</li>
+		</ul>
+
+
+	</div>
+
+	<!-- Copyright -->
+	<div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 2)">
+		<small class="copyright-text">
+			&copy; Copyright 2022. Seun Ajetomobi. This project data and it's informations are for educational purposes only.
+			No commercial revenue is generated from the project.
+		</small>
+	</div>
+
+
+
+
+</footer>

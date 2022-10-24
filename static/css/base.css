@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/background_one.jpg') no-repeat center center fixed;
+    background: url('/media/colorful_gemstones.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -284,6 +284,56 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/*footer*/
+footer {
+    margin-top: 250px;
+    position: relative;
+    /* hhheight: 150px; */
+    background-color: rgb(250, 246, 246) !important;
+    text-align: center;
+    color: black;
+}
+
+footer li {
+    display: inline-block;
+    padding: 15px;
+}
+
+footer i {
+    color: black;
+    font-size: 140%;
+    margin-top: 15px;
+}
+
+footer i:hover {
+    color: #333;
+}
+
+footer a {
+    padding-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    text-align: justify;
+    margin: 0;
+
+}
+
+/* end of footer */
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
@@ -335,7 +385,7 @@ input[name='q']::placeholder {
     }
 
     #delivery-banner h4 {
-        font-size: .9rem;
+        font-size: .5rem;
     }
 
     .btn.btn-outline-black.rounded-0,
@@ -389,13 +439,41 @@ input[name='q']::placeholder {
     }
 
 
-    .social-media{
+    /* .social-media{
         justify-items: center;
         justify-content: center;
         align-items: center;
-        margin-right: 6em;
-        width: 100%;
+        margin: 6em;
         
+    } */
+
+    .cat-block-mobile{
+        display:none;       
+        
+    }
+
+    .btn-block-mobile{
+
+        display:none;
+    }
+
+
+    .search-block-mobile{
+
+        display:none;
+    }
+
+    .user-fav-cart-block-mobile{
+        display: none;
+
+    }
+
+    .float-left{
+        text-align: center !important;
+    }
+
+    .mailchimp h1 {
+        display: none;        
     }
 
 
