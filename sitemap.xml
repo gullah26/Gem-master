@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://gem-master.herokuapp.com/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=new</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/bag/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=diamond</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=emerald</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=ruby</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=blue,yellow,pink,purple</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=diamond,emerald,blue,yellow,pink,purple,ruby</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=alexandrite</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=amethyst</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=aquamarine</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=citrine</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=garnet</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=jade</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=morganite</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=peridot</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=spinel</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=sunstone</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=tanzanite</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=topaz</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=tourmaline</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=alexandrite,amethyst,aquamarine,citrine,garnet,jade,morganite,peridot,spinel,sunstone,tanzanite,topaz,tourmaline</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=deal</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/marketing</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/shipping</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/contact/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/12</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/12/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/14</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/14/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/49</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/49/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/16</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/16/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/11</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/11/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/19</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/19/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/42</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/42/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/13</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/13/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/48</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/48/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/47</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/47/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/98</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/98/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/7</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/7/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/46</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/46/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/4</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/4/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/17</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/17/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/97</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/97/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/99</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/99/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/8</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/8/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/41</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/41/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/15</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/15/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/44</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/44/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/45</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/45/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/100</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/100/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/18</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/18/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/50</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/50/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/96</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/96/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/9</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/9/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/88</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/88/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=tanzanites</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/37</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/37/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/6</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/6/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/62</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/62/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=pink</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/91</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/91/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/85</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/85/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/39</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/39/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/89</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/89/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/87</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/87/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/81</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/81/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/56</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/56/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=sapphire</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/43</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/43/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/60</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/60/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/65</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/65/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/63</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/63/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/93</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/93/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/67</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/67/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=purple</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/3</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/3/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/59</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/59/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/20</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/20/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/36</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/36/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/83</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/83/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/5</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/5/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/90</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/90/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/82</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/82/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/68</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/68/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/79</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/79/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/57</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/57/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/86</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/86/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/69</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/69/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/61</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/61/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/38</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/38/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/73</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/73/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=yellow</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/58</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/58/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/95</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/95/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/92</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/92/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/2</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/2/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/70</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/70/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/40</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/40/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/94</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/94/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/74</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/74/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/71</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/71/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/64</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/64/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/66</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/66/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/10</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/10/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/1</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/1/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/54</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/54/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/55</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/55/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/84</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/84/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/35</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/35/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/78</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/78/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/52</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/52/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/77</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/77/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/51</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/51/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/33</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/33/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/72</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/72/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/80</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/80/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/34</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/34/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/31</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/31/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/75</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/75/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/76</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/76/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/53</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/53/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/32</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/32/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/26</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/26/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/25</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/25/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/28</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/28/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/27</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/27/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/24</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/24/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/29</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/29/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/21</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/21/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/22</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/22/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/23</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/23/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=/favorites/add_to_favorite/30</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/30/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2F</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/products/?category=blue</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F12</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F14</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F49</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F16</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F11</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F19</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F42</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F13</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F48</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F47</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F98</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F7</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F46</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F4</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F17</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F97</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F99</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F8</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F41</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F15</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F44</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F45</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F100</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F18</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F50</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F96</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F9</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F88</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F37</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F6</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F62</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F91</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F85</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F39</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F89</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F87</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F81</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F56</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F43</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F60</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F65</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F63</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F93</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F67</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F3</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F59</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F20</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F36</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F83</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F5</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F90</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F82</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F68</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F79</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F57</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F86</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F69</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F61</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F38</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F73</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F58</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F95</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F92</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F2</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F70</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F40</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F94</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F74</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F71</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F64</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F66</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F10</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F1</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F54</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F55</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F84</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F35</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F78</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F52</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F77</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F51</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F33</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F72</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F80</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F34</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F31</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F75</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F76</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F53</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F32</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F26</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F25</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F28</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F27</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F24</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F29</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F21</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F22</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F23</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/signup/?next=%2Ffavorites%2Fadd_to_favorite%2F30</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2F</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F12</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F14</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F49</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F16</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F11</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F19</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F42</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F13</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F48</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F47</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F98</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F7</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F46</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F4</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F17</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F97</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F99</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F8</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F41</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F15</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F44</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F45</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F100</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F18</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F50</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F96</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F9</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F88</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F37</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F6</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F62</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F91</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F85</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F39</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F89</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F87</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F81</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F56</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F43</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F60</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F65</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F63</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F93</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F67</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F3</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F59</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F20</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F36</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F83</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F5</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F90</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F82</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F68</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F79</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F57</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F86</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F69</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F61</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F38</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F73</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F58</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F95</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F92</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F2</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F70</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F40</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F94</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F74</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F71</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F64</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F66</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F10</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F1</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F54</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F55</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F84</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F35</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F78</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F52</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F77</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F51</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F33</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F72</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F80</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F34</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F31</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F75</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F76</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F53</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F32</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F26</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F25</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F28</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F27</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F24</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F29</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F21</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F22</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F23</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://gem-master.herokuapp.com/accounts/login/?next=%2Ffavorites%2Fadd_to_favorite%2F30</loc>
+  <lastmod>2022-10-24T13:09:59+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>

@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /profile/
+disallow: /bag/
+site-map: https://gem-master.herokuapp.com/sitemap.xml
