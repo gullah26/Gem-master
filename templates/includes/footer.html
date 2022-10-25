@@ -1,26 +1,24 @@
 {% load static %}
 
 <!-- Footer -->
-<footer>
+<footer class="container-fluid w-100">
 	<!-- Delivery Threshold-->
-	<section class="bg-black">
+	
 		<div id="delivery-banner" class="row">
-			<div class="col text-white text-center ">
+			<div class="col text-white text-center bg-black">
 				<h5 class="logo-font text-center">Free shipping and returns on orders over
 					${{ free_delivery_threshold }} !<i class="fas fa-shipping-fast text-success"></i></h5>
 			</div>
 		</div>
 
-	</section>
 
 
 	<!-- Newseletter, Shipping, Contact, social media and Payment-->
-	<section>
 
 		<div class="row">
 
 			<div class="card text-center w-25">
-				<div class="card-header">
+				<div class="card-header bg-primary">
 					<i class="fas fa-book-reader px-1"></i> Newsletter
 				</div>
 				<div class="card-body">
@@ -28,13 +26,13 @@
 					<p class="card-text">Subscribe to our mailing list for latest news and deals.</p>
 					<a href="{% url 'subscription'  %}" class="btn btn-black rounded">Subscribe</a>
 				</div>
-				<div class="card-footer text-muted">
+				<div class="card-footer text-muted bg-warning">
 					<i class="fas fa-rss" rel="noopener" target="_blank"></i>
 				</div>
 			</div>
 
 			<div class="card text-center w-25">
-				<div class="card-header">
+				<div class="card-header bg-warning">
 					<i class="fas fa-truck-moving px-1"></i>Shipping & Delivery
 				</div>
 				<div class="card-body">
@@ -42,13 +40,13 @@
 					<p class="card-text">Our delivery is fast and effective across the globe.</p>
 					<a href="{% url 'shipping'%}" class="btn btn-black" rel="noopener" target="_blank">Shipping</a>
 				</div>
-				<div class="card-footer text-muted">
+				<div class="card-footer text-muted bg-primary">
 					<i class="fas fa-truck"></i>
 				</div>
 			</div>
 
 			<div class="card text-center w-25">
-				<div class="card-header">
+				<div class="card-header bg-primary">
 					<i class="fas fa-credit-card px-1"></i> Accepted Payment
 				</div>
 				<div class="card-body">
@@ -65,13 +63,13 @@
 					</p>
 
 				</div>
-				<div class="card-footer text-muted">
+				<div class="card-footer text-muted bg-warning">
 					<a href="https://stripe.com/" class="text-dark"><i class="fab fa-stripe"></i></a>
 				</div>
 			</div>
 
 			<div class="card text-center w-25">
-				<div class="card-header">
+				<div class="card-header bg-warning">
 					<i class="fas fa-phone px-1"></i> Customer Service
 				</div>
 				<div class="card-body">
@@ -81,18 +79,16 @@
 						aria-label="contact our Customer Support page (opens in new tab)" rel="noopener"
 						target="_blank"><i class="fas fa-envelope text-black px-1"></i>Email Us</a>
 				</div>
-				<div class="card-footer text-muted">
-					<p>+46 123 456 7890</p>
+				<div class="card-footer text-black bg-primary">
+					<p>Tel: 1234567890</p>				
 
 				</div>
 			</div>
 
 		</div>
 
-	</section>
-
 	<!-- social media -->
-	<div class="social-network container d-flex justify-content-center">
+	<div class="social-network container d-flex justify-content-center w-100">
 
 		<ul class="list-style-none">
 
@@ -125,7 +121,7 @@
 	</div>
 
 	<!-- Copyright -->
-	<div class="text-center p-3 text-white" style="background-color: rgba(0, 0, 0, 2)">
+	<div class="text-center p-3 text-white bg-black w-100">
 		<small class="copyright-text">
 			&copy; Copyright 2022. Seun Ajetomobi. This project data information is for educational purposes only.
 			No commercial revenue is generated from the project.
