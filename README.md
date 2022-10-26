@@ -1,108 +1,295 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Gemmaster**
+## **Introduction** ##
 
-Welcome Seun Ajetomobi,
+* Gemmaster is an E-commerce application built to serve numerous products and services to cosumers and customers from a click away and with ease regardless of their location. the site offer varieties of products for men, women, children, bed and bath and other general home matrials.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+* The aim of this website is to provide an easily accessible, sustainable and environmental friendly platform for B2B (Business to Business) and B2C(Business to Customer).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+* Secondly, the online E-commerce site saves user time and energy, not having to be physically present at a shopping location before their needs can be met. However, E-commerce applications recently changed the dynamics of online-shopping and services, as it helped in mitigating the effects and spread of the Covid-19 virus during the pandemic.  
 
-## Gitpod Reminders
+* Further more, this site creates a user friendly environment that allows customers/users/consumers to be able to find men, women and children clothing, apparels, accessories, home and kitchen equipments and materials of their choice, select the  sizes & quantities that suite their needs, place an order online using a credit-card or debit card payments. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## **UX**
 
-A blue button should appear to click: _Make Public_,
+### **User Stories**
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+This E-commerce website was created, structured and designed to meet the end user goals, ranging from customer friendly user experience (UX), easy navigaton, efficient product search tool, comprehensive and easy signup and sign in process functionality.  A customer or a user  has the option to create a personalized profile to monitor the activities of their orders, shipment and save personal data like addresses, phone numbers and payment information  on their personal profile.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+#### **Views and Navigation**
+*****************************
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- As a shopper I can be able to view a list of products so that I can choose what to buy.
 
-To log into the Heroku toolbelt CLI:
+- As a shopper I can be able to view each product details so that I can See the price, item description, item images, item rating and sizes.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- As a shopper I can be able to see deals, clearance items and special offers so that I can have the chance to save on items I wants to buy.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- As a shopper I can be able to view my purchase total with ease at any given time so that I do not overspend.
 
-------
+- As a shopper I can be able to like products so that I can view them later in my wishlist.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### **Registrations and User Accounts**
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- As a/an Site User I can be able to register an account with ease so that I can have an account that allows me to have a private profile.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- As a Site User I can be able to signin and signout easily so that I can **my personal account informations and update my profile.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- As a Site User I can be able to **recover my forgotten password with ease so that I can gain access to my account.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- As a Site User I can be able to receive a confirmation email after registration so that I can be rest assured my registration was successful.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- As a Site User I can be able to customize my user profile so that I can view my order history,confirmation and able to securely save my payment information and addresses on my profile.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### **Searching and Filtering**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- As a shopper I can be able to filter through available products so that I can identify best rated, best priced and filter products categorically.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a shopper I can be able to filter through products categorically so that I can **find the best priced, highly rated product in a specific category or filter products in that category by name.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- As a shopper I can be able to filter numerous categories of products simultaneously so that I can find the best priced or highly rated product across broad categories, such as "apparel" or "homeware".
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- As a shopper I can be able to search for item by name or description so that I can locate the item I want to buy.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- As a shopper I can be able to view my searh results and what I have searched for so that I can easily see if the search product is available.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### **Purchasing and Checkout**
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- As a shopper I can be able to **choose the size and quantity of a product when making a order so that I can carefully select item size or quantity without mistake.
 
-------
+- As a shopper I can be able to **view the content of my shopping cart so that I can **keep track of the total cost of my order and what to receive.
 
-## FAQ about the uptime script
+- As a shopper I can be able to modify the contents of my shopping cart so that I can make changes before final checkout.
 
-**Why have you added this script?**
+- As a shopper I can be able to enter my payment information with ease so that I can **checkout easily without delay.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- As a shopper I can be able to have a sense of security that my personal data is well protected and secure so that I can feel at ease to enter my information without feeling insecure.
 
-**How will this affect me?**
+- As a shopper I can be able to **view an order confirmation after checkout so that I can be sure that no mistake was made on my order.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- As a shopper I can be able to get an email confirmation of my order after checkout so that I can keep track my order record and purchases.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+#### **Admin and Store Management**.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- As a/an Store Owner** I can be able to Add, Edit/Update and Delete products/items so that I can Add new Items, Change/Edit product prices, modify product descriptions, edit images, Remove/Delete items/Products that are out of stock.
 
-**So….?**
+#### **Screenshot of the website rendering on  different devices**.
+![title and logo screen](/media/responsiveness.jpg)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+## **Features and Functionality**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### **Cart**
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+*  Allows user to add items to their shopping basket
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### **Checkout**
 
----
 
-Happy coding!
+* This handles the checkout process and payment of the website. 
+#### **Contact**
+
+
+* This feature allow user to contact the site support team.
+
+#### **Favorite**
+
+
+* This functionality allows user to add favorite items to the wishlist. 
+
+#### **Home**
+
+
+* This is the welcome homepage of the site it contains the hero image. 
+
+
+#### **Newsletter**
+
+
+* This is a feature that enables a user to subscribe and unsubscribe to the site newsletter.
+
+#### **Products**
+
+* This handles all the products, items logics and functionality
+
+#### **Profiles**
+
+* This allows the user to register by creating a profile.
+
+
+### Design and Structure
+The Gemmaster website is a well structured E-commerce with well laid down pattern and functionality using a User stories, MVT (Model-View-Template) architecture based on CRUD(Create-Read-Update-Delete) functionality.
+
+### Footer
+
+- The top footer section contain a message "Fress shipping on order over 50" , the main footer area contain Newsletter, Shipping and Delivery, Accepted payment, and contact for customer support.
+
+- The newsletter app is fully functional, through mailchimp marketing integration api.
+
+- The newsletter layout still needs to be fixed and other functionality to be added same applies to the contact functionality.
+
+- More additional interactive functionality will be added in future
+
+- Enable users to signup or login using their social media accounts or googlemail account.
+
+- Integrate more available payment option like invoice checkout, Paypal checkout and adding other payment providers in the future.
+
+- The final footer section contains social media links and copyright information
+
+
+## **Technologies used**
+
+
+- [Python](https://www.python.org/) 
+
+    - The following Python modules were used on this project:
+
+        - asgiref==3.5.2
+        -  boto3==1.24.91
+        - botocore==1.27.91
+        - dj-database-url==0.5.0
+        - Django==3.2
+        - django-allauth==0.51.0
+        - django-core==1.4.1
+        - django-countries==7.2.1
+        - django-crispy-forms==1.14.0
+        - django-storages==1.13.1
+        - djangorestframework==3.14.0
+        - docopt==0.4.0
+        - gunicorn==20.1.0
+        - jmespath==1.0.1
+        - mailchimp==2.0.10
+        - mailchimp-marketing==3.0.75
+        - oauthlib==3.2.1
+        - Pillow==9.2.0
+        - psycopg2-binary==2.9.4
+        - PyJWT==2.5.0
+        - python3-openid==3.2.0
+        - pytz==2022.4
+        - requests-oauthlib==1.3.1
+        - s3transfer==0.6.0
+        - sqlparse==0.4.3
+        - stripe==4.2.0
+        - types-cryptography==3.3.23
+
+
+- [Django](https://docs.djangoproject.com/en/3.2/)
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+- [Fire-fox Developer Tools](https://firefox-dev.tools/)
+
+- [Bootstrap](https://getbootstrap.com/)
+
+- [jQuery](https://jquery.com/)
+
+- [JavaScript](https://www.javascript.com/)
+
+- [Google Fonts](https://fonts.google.com/)
+
+- [Font Awesome](https://fontawesome.com/)
+
+- [AWS S3](https://aws.amazon.com/)
+
+- [Heroku Postgres](https://www.heroku.com/postgres)
+
+- [Github](https://github.com/)
+
+- [Git](https://git-scm.com/)
+
+- [Gitpod](https://www.gitpod.io/)
+
+- [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+
+- [Stripe](https://stripe.com/)
+
+
+## **Bugs**
+
+ * Server error 500 was fixed .
+
+ * Fix CSS not loading after deployment.
+
+ * server error 500 was fixed .
+
+ * Database error was fixed
+
+
+## **Deployment**
+
+The Code Institiue student template was used to create this project.
+
+[Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+### Hosting Platforms
+
+The website is deployed to [Heroku](https://www.heroku.com/home) directly from the 'main' branch. While the static files are hosted on [Amazon Web Services](https://aws.amazon.com/).
+
+The deployed website will update automatically when new changes are committed to the main branch of Github. 
+
+To host this website:
+- I created a requirements.txt file using the terminal command 'pip freeze > requirements.txt'.
+- Then created a Procfile with the terminal command 'echo web: gunicorn mens_style_store.wsgi:application > Procfile'.
+- I added, committed, and pushed the files to the projects Github repository.
+- After that I created a new app on the Heroku website by clicking the "New" button in the dashboard.
+- From within the new app I clicked on settings --> deploy --> deployment method and then selected Github to connect the app to my Github repository.
+- Lastly I added the necessary config vars for 'AWS_ACCESS_KEY_ID', 'AWS_SECRET_ACCESS_KEY', 'DATABASE_URL', 'EMAIL_HOST_PASS', 'EMAIL_HOST_USER', 'SECRET_KEY', 'STRIPE_PUBLIC_KEY', 'STRIPE_SECRET_KEY' and 'USE_AWS' in order to make the app able to run.
+
+
+## **Credits**
+
+**Product Images / Names / Descriptions**
+
+- All the content relating to the products all came from the Codeinstitute botique Ado walk through video. 
+
+**Code**
+- A large amount of code came from the Code Institute, Boutique Ado Project.
+
+- [Code Institute, Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
+
+    - Boutique Ado is a walkthrough project by Code Institute, this project gave students an introduction to Django/AWS S3/Stripe/Heroku Postgres
+
+**Bootstrap**
+- The Bootstrap Library was used through the project. The project used version 4.6.
+- [Bootstrap](https://getbootstrap.com/docs/4.6/components/alerts/)
+
+**Django Documentation**
+- Django have amazing documentation with a tutorial project and in depth explanations on core components.
+- [Django Documentation ](https://docs.djangoproject.com/en/3.2/)
+
+## **Aknowledgements**
+
+*  Codeinstitute , the slack community, and Codeinstitue mentor support team
+
+**Harry Leepz**
+- [Github](https://github.com/Harry-Leepz/Nourish-and-Lift)
+    - The favorite app code used was taken from Harry Leepz Github page.
+
+**Dennis Chmielewski**
+- [Github](https://github.com/dennisdevio)
+    - The code for the contact app was taken from this Dennis Devio
+
+
+**Master Code Online**
+- [Youtube](https://www.youtube.com/watch?v=yZPgBThZT04&list=PL_557Q1uZ7gKYcVQtDYFvYONKtwtguF03&index=7)
+
+    - A youtube learning platform was used for the functionality of the Newsletter app.
+
+**Kenbrotech**
+- [KenbroTech](https://www.youtube.com/watch?v=hWtlskOaFNI)
+
+
+
+* The Live link to the deployed website on Heroku [Gemmaster](https://eazyshopper.herokuapp.com/ "Gemmaster").
+
+* The github link is  [Gemmaster](https://github.com/gullah26/Gemmaster "Gemmaster").
+
+* Admin details will be attached to the submission form.
+
+## Thank you.
