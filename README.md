@@ -1,295 +1,585 @@
-# **Gemmaster**
-## **Introduction** ##
+# Gem*master
 
-* Gemmaster is an E-commerce application built to serve numerous products and services to cosumers and customers from a click away and with ease regardless of their location. the site offer varieties of products for men, women, children, bed and bath and other general home matrials.
-
-* The aim of this website is to provide an easily accessible, sustainable and environmental friendly platform for B2B (Business to Business) and B2C(Business to Customer).
-
-* Secondly, the online E-commerce site saves user time and energy, not having to be physically present at a shopping location before their needs can be met. However, E-commerce applications recently changed the dynamics of online-shopping and services, as it helped in mitigating the effects and spread of the Covid-19 virus during the pandemic.  
-
-* Further more, this site creates a user friendly environment that allows customers/users/consumers to be able to find men, women and children clothing, apparels, accessories, home and kitchen equipments and materials of their choice, select the  sizes & quantities that suite their needs, place an order online using a credit-card or debit card payments. 
+![](static/docs/images/mockup.PNG)
 
 
-## **UX**
+## About
+
+**E-shopperonline** 
+Is an online store that offers to customers who are looking for food or supplements, from athletes to anyone who wants to get fit. This website has functions to make it easily available our range of products to all users, the website is made to be responsive and simple to use on a range of devices.
+
+**Please note**: This site was created solely for educational purposes.
+[Click here for a live demo version of this project.](http://e-shopperonline.herokuapp.com/)
+
+## Table of Contents
+
+
+- [**UX (User Experience)**](#ux-user-experience)
+  - [**User Stories**](#user-stories)
+- [**Design Choices**](#design-choices)
+  - [**Typography**](#Typography)
+  - [**Colour Scheme**](#colour-scheme)
+  - [**Wireframes**](#wireframes)
+- [**Features**](#features)
+  - [**Site Navigation**](#site-navigation)
+  - [**Future Features**](#feature-features)
+  - [**Error Page**](#error-page)
+  - [**Responsive Design**](#responsive-design)
+  - [**Defensive Design**](#defensive-design)
+- [**Database Schema**](#database-schema)
+- [**Technologies**](#technologies)
+  - [**Languages**](#languages)
+  - [**Frameworks**](#frameworks)
+  - [**Libraries**](#libraries)
+  - [**Tools**](#tools)
+- [**Manual Testing**](#manual-testing)
+- [**Bugs**](#bugs)
+  - [**Bugs fixed**](#bugs-fixed)
+  - [**Known Bugs**](#known-bugs)
+- [**Deployment**](#deployment)
+  - [**Running Locally**](#forking-the-gitHub-repository)
+- [**Web Marketing & Business**](#web-marketing-&-business)
+- [**Credits**](#credits)
+  - [**Media**](#media)
+  - [**Acknowledgements**](#acknowledgements)
+
+
+
+## **UX (User Experience)**
 
 ### **User Stories**
 
+| User Story ID  | As a/an  | I want to be able to...  | So that I can... |
+|---|---|---|---|
+| Viewing Products & Navigation |
+| 1  | User/Shopper | view the website from any device (mobile, desktop, tablet) | identify their qualities and compare. |
+| 2  | User/Shopper   |to be able to navigate through the menu bar | to browse products. |
+| 3  | User/Shopper    | to be able to find products by categories| to purchase products according to your interest. |
+| Registration and Accounts |
+| 4  | User/Shopper | register for an account | keep track of my orders and check my personal details. |
+| 5  | User/Shopper   | receive email confirmation upon signing up | verify my set up was successful. |
+| 6  |  User/Shopper  | be able to reset my password in case I forget it | gain access to my account. |
+| 7  | User/Shopper   | have the ability to log in to the site with my details | view my orders and personal details |
+| 8  | User/Shopper   | update my personal details | keep them up to date. |
+| 9 | User/Shopper   | purchase from the site without having to register an account all the time| check out quickly and easily. |
+| Searching products |
+| 10  | User/Shopper   | to search product in the search tool | find product according to brand, type or key words. |
+|11 | User/Shopper  | sort by price, name, category and rating  | view a wide range and choose which to buy. |
+|12 | User/Shopper  | view the best sellers products on the home page  | choose the best range according to best sold products. |
+| Checkout  |
+| 13  | User/Shopper | have a total amount for selected products | stay within my budget.|
+| 14 | User/Shopper  | view my bag contents |track of which products I have selected for purchase. 
+| 15 | User/Shopper | adjust the quantity of products before the payment | stay on the page without being redirected to the home page. |
+| 16  | User/Shopper  |  enter my payment details | to complete the purchase quickly. |
+| 17  |  User/Shopper | view the full order before entering card details | check it before confirmation. |
+| 18  | User/Shopper  | receive email notifications when I make an order | confirm my order has been placed and refer back to. |
+| Admin/Management  |
+| 19 | Admin/Management  | add products to the website | add new products and pictures for other users purchase. through user account. |
+| 20 | Admin/Management  | remove or edit products to the website | remove or edit products and pictures for products posted by the main account. through user account. |
+|  21 | User/Shopper | sign up for newsletter  | and receive emails with newsletter from the website |
+|  22 | Admin/Management | create comments for each products  | leave my review about the products for future users. |
 
-This E-commerce website was created, structured and designed to meet the end user goals, ranging from customer friendly user experience (UX), easy navigaton, efficient product search tool, comprehensive and easy signup and sign in process functionality.  A customer or a user  has the option to create a personalized profile to monitor the activities of their orders, shipment and save personal data like addresses, phone numbers and payment information  on their personal profile.
+[Back to contents](#table-of-contents)
 
+## **Design Choices**
 
-#### **Views and Navigation**
-*****************************
+### **Typography**
 
-- As a shopper I can be able to view a list of products so that I can choose what to buy.
+- The navigation bar, page titles, and buttons are all in the "'Open Sans'" font family. This design has a very become and neutral, yet friendly appearance, and even though the website is dedicated to health and fitness, it just seemed appropriate to employ.
+- And for Logo I decided to apply 'Roboto' to allows letters to take up the space needed to give power aspect to logo. 
 
-- As a shopper I can be able to view each product details so that I can See the price, item description, item images, item rating and sizes.
 
-- As a shopper I can be able to see deals, clearance items and special offers so that I can have the chance to save on items I wants to buy.
+### **Colour Scheme**
 
-- As a shopper I can be able to view my purchase total with ease at any given time so that I do not overspend.
+The colors used in this project are:
+- (#BB390F) - Rust
+- (#EAE7EA )- Platinum
+- (#D8B34E) - Metallic gold
+  - The combination of these colors gave a very attractive look to the site. I decided go for rust for the buttons because stand out and packs an energetic punch.
 
-- As a shopper I can be able to like products so that I can view them later in my wishlist.
+  ![](static/docs/images/color.PNG)
 
+-   ### Wireframes
+    - The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
 
-#### **Registrations and User Accounts**
+  [wireframe](https://github.com/artneto/Eshopper/blob/main/static/docs/images/wireframe.png)
 
-- As a/an Site User I can be able to register an account with ease so that I can have an account that allows me to have a private profile.
+  
 
-- As a Site User I can be able to signin and signout easily so that I can **my personal account informations and update my profile.
+[Back to contents](#table-of-contents)
+## Features
 
-- As a Site User I can be able to **recover my forgotten password with ease so that I can gain access to my account.
 
-- As a Site User I can be able to receive a confirmation email after registration so that I can be rest assured my registration was successful.
+### Site Navigation
 
-- As a Site User I can be able to customize my user profile so that I can view my order history,confirmation and able to securely save my payment information and addresses on my profile.
+Links essential for ease of access are displayed in the navigation bar.
 
+| Link | Not logged in  | Logged in | Logged in as super user |
+|---------------|---------------|---------------|-------------|
+| Home | &#10003;| &#10003; | &#10003; |
+| Log In  | &#10003;  | &#10007;  | &#10007;  |
+| Register | &#10003;  | &#10007;  | &#10007;  |
+| Profile  | &#10007;  | &#10003;  | &#10003;  |
+| Log Out  | &#10007;  | &#10003;  | &#10003;  |
+| Search  | &#10003;  | &#10003;  | &#10003;  |
+| Add Product | &#10007; |&#10007;  |  &#10003; |
+| edit/remove Product | &#10007; |&#10007;  |  &#10003; |
+| Add Comment | &#10007; |&#10003;  |  &#10003; |
 
-#### **Searching and Filtering**
+### Exisiting Features
 
-- As a shopper I can be able to filter through available products so that I can identify best rated, best priced and filter products categorically.
+#### Register an account
+- Anyone can register free of charge and make their own account with their essential information. In the navigation bar, there is a registration button. Only a username, email address and password are required.
 
-- As a shopper I can be able to filter through products categorically so that I can **find the best priced, highly rated product in a specific category or filter products in that category by name.
+#### Log In/ Log Out to/from Account
+- Registered users can securely log in and out using the login/logout buttons on the navigation bar.
 
-- As a shopper I can be able to filter numerous categories of products simultaneously so that I can find the best priced or highly rated product across broad categories, such as "apparel" or "homeware".
+#### View, search and sort products 
+- The "Shop Now" button on the home page and the navigation bar both provide access to the products. By clicking on the image of the product they to give more information about the product, users may view detailed information such as cost, brand, and product ratings.
+Users can search for a specific product by name or by keyword using the search box at the top of the page.
+A search box at the top of the screen allows you to filter products by category, and a dropdown selector on the right of the screen allows you to sort by price, classification as A-Z products, or low-to-high pricing.
 
-- As a shopper I can be able to search for item by name or description so that I can locate the item I want to buy.
+#### Add/remove products to/from cart and update quantity
+- On the product detail page, unregistered users can add items to their shopping cart.
+Once logged in, customers can add items from the detailed product page to their bag and choose how many of that particular item to add to their cart. The user must click on the cart information to be taken to the cart page, where there will be action buttons to remove items from the cart and entries to change the quantity.
 
-- As a shopper I can be able to view my searh results and what I have searched for so that I can easily see if the search product is available.
+#### Payment, save information and confirmation email 
+  - Users with and without accounts can buy products. When the user is ready to proceed with the  payment and is on the cart page, they can click the "checkout" button to be taken to the payment page, that they can fill out the required fields that really are missing (users can choose to store the information), and then complete their order. Users are routed to a success page where order information is available after the order has indeed been completed. When an order is completed, users are automatically sent a confirmation email including the order details.
 
-#### **Purchasing and Checkout**
 
-- As a shopper I can be able to **choose the size and quantity of a product when making a order so that I can carefully select item size or quantity without mistake.
 
-- As a shopper I can be able to **view the content of my shopping cart so that I can **keep track of the total cost of my order and what to receive.
+#### Profiles 
+  - The user can modify the delivery details under the profile page management.
 
-- As a shopper I can be able to modify the contents of my shopping cart so that I can make changes before final checkout.
+#### Review
 
-- As a shopper I can be able to enter my payment information with ease so that I can **checkout easily without delay.
+  - The product details tab allows users who are logged in to leave reviews for each item. The user will view a message asking for his login in order to submit a comment if he is not currently logged in.
 
-- As a shopper I can be able to have a sense of security that my personal data is well protected and secure so that I can feel at ease to enter my information without feeling insecure.
+#### Admin Superuser
+To access the admin interface by adding /admin to the end of the Eshopper URL.
 
-- As a shopper I can be able to **view an order confirmation after checkout so that I can be sure that no mistake was made on my order.
+  In the admin interface, a superuser or administrator can:
+  -  View the list of categories and goods and create, update, or delete them.
+  -  Product and its information may be edited, deleted, or added.
+  -  View the whole list of users and remove any you want.
+  -  View the order history and all associated details. Which user, when, how much, what order number, etc.
+ 
+### Feature Features
 
-- As a shopper I can be able to get an email confirmation of my order after checkout so that I can keep track my order record and purchases.
+- Integrate OAuth app to add Google login for quick user registration and login.
+- A star rating or upvote feature for the products.
+- Implement a space where users can discuss diet or training tips with other users.
+- Adding a Sold Out option to price field.
 
-#### **Admin and Store Management**.
+### Error Page
 
-- As a/an Store Owner** I can be able to Add, Edit/Update and Delete products/items so that I can Add new Items, Change/Edit product prices, modify product descriptions, edit images, Remove/Delete items/Products that are out of stock.
+ - 404 page created to redirect users back to the main site in case of an error
 
-#### **Screenshot of the website rendering on  different devices**.
-![title and logo screen](/media/responsiveness.jpg)
+  ![](static/docs/images/404error.PNG)
 
+ - 500 error page created to redirect users to the main site after a server error
 
-## **Features and Functionality**
+ ![](static/docs/images/500error.PNG)
 
-#### **Cart**
+### Responsive Design
 
+- The application has been developed for mobile devices but it has been adjusted to provide such a wonderful experience for desktop and tablet users too though.
 
-*  Allows user to add items to their shopping basket
+### Defensive Design
 
-#### **Checkout**
+ - Form Validation
 
+    - All forms also have form validation to help ensure the required information is entered        before    submission.
+    If incorrect data is entered, a warning message will be displayed to advise the user on how to proceed.
 
-* This handles the checkout process and payment of the website. 
-#### **Contact**
+    - A default image will be added if a product is added without an associated image, however form ’ll work this unlikely.
 
+ - Unauthorised Attempts
 
-* This feature allow user to contact the site support team.
+    - If a user attempts to access a section of the website for that they're not permitted, they will receive an error 404 message when the page is loaded.
 
-#### **Favorite**
+ - @login_required
 
+   -  Addition of the login required decorator to prohibit access to specific pages. Only users     who've been granted approval can add, edit, delete, and edit products.
+    A user whom have logged out would be sent to the login page if they attempt to access a restricted page.
 
-* This functionality allows user to add favorite items to the wishlist. 
+ - Review
 
-#### **Home**
+    - Only users who have received approval can leave a review about the available product. The comment box will be available on the products details page.
 
+  - Bag 
 
-* This is the welcome homepage of the site it contains the hero image. 
+   - Validation has been put in place to ensure sure that it only 99 items at the most can be put there in bag.
+    If 0 is selected, the item is taken out of the bag.
+    The user will have access to the necessary information, such as the front addition for purchases under 50 euros.
 
 
-#### **Newsletter**
 
 
-* This is a feature that enables a user to subscribe and unsubscribe to the site newsletter.
+[Back to contents](#contents)
 
-#### **Products**
+#### Database Schema
 
-* This handles all the products, items logics and functionality
+  - PostgreSQL: SQL triught  PostgreSQL was used for fixtures categories.json and products.json
+  
+  - SQLite: A cloud-based database that stores fields for products, users, orders.
+  
 
-#### **Profiles**
+  The ER diagram schema is below:
 
-* This allows the user to register by creating a profile.
+![](static/docs/images/ERdiagram.PNG)
 
+  
 
-### Design and Structure
-The Gemmaster website is a well structured E-commerce with well laid down pattern and functionality using a User stories, MVT (Model-View-Template) architecture based on CRUD(Create-Read-Update-Delete) functionality.
+[Back to contents](#table-of-contents)
+## Technologies
 
-### Footer
 
-- The top footer section contain a message "Fress shipping on order over 50" , the main footer area contain Newsletter, Shipping and Delivery, Accepted payment, and contact for customer support.
+### **Languages**
 
-- The newsletter app is fully functional, through mailchimp marketing integration api.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the main markup language for the website content.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Used to style the individual webpages.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - Used to show the questions through pagination and for the game play.
+- [Python 3](https://www.python.org/)
+    - Used to run the site and database
 
-- The newsletter layout still needs to be fixed and other functionality to be added same applies to the contact functionality.
+[Back to contents](#table-of-contents)
+    
+### **Frameworks**
 
-- More additional interactive functionality will be added in future
+- [Bulma](https://bulma.io/)
 
-- Enable users to signup or login using their social media accounts or googlemail account.
+- [Django](https://www.djangoproject.com/)
 
-- Integrate more available payment option like invoice checkout, Paypal checkout and adding other payment providers in the future.
+[Back to contents](#table-of-contents)
 
-- The final footer section contains social media links and copyright information
+### **Libraries**
 
+  - Panda: Built on top of the Python programming language, Panda Library is an open source data analysis  and manipulation tool that is quick, strong, adaptable, and simple to use. On the home page, it was utilized to create a section listing the best sold products.
 
-## **Technologies used**
+  - OS: included in this website in order to provide basic utility modules for Python.
 
+  - SYS: functions and variables that was used to manipulate different parts of the Python runtime environment.
 
-- [Python](https://www.python.org/) 
+[Back to contents](#table-of-contents)
 
-    - The following Python modules were used on this project:
+### **Tools**
 
-        - asgiref==3.5.2
-        -  boto3==1.24.91
-        - botocore==1.27.91
-        - dj-database-url==0.5.0
-        - Django==3.2
-        - django-allauth==0.51.0
-        - django-core==1.4.1
-        - django-countries==7.2.1
-        - django-crispy-forms==1.14.0
-        - django-storages==1.13.1
-        - djangorestframework==3.14.0
-        - docopt==0.4.0
-        - gunicorn==20.1.0
-        - jmespath==1.0.1
-        - mailchimp==2.0.10
-        - mailchimp-marketing==3.0.75
-        - oauthlib==3.2.1
-        - Pillow==9.2.0
-        - psycopg2-binary==2.9.4
-        - PyJWT==2.5.0
-        - python3-openid==3.2.0
-        - pytz==2022.4
-        - requests-oauthlib==1.3.1
-        - s3transfer==0.6.0
-        - sqlparse==0.4.3
-        - stripe==4.2.0
-        - types-cryptography==3.3.23
+  - [Git](https://git-scm.com/)
 
+  - [GitHub](https://github.com/)
+  
+  - [Gitpod](https://www.gitpod.io/)
+  
+  - [Heroku](https://www.heroku.com/home)
 
-- [Django](https://docs.djangoproject.com/en/3.2/)
+  - [AWS](https://aws.amazon.com/)
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - [Stripe](https://stripe.com/)
 
-- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  - [Google fonts](https://fonts.google.com/)
 
-- [Fire-fox Developer Tools](https://firefox-dev.tools/)
+  - [Htmlcolorcodes](https://htmlcolorcodes.com/)
 
-- [Bootstrap](https://getbootstrap.com/)
+  - [Favicons](https://favicon.io/)
+  
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
-- [jQuery](https://jquery.com/)
+  - [Website Mockup Generator](https://websitemockupgenerator.com/)
 
-- [JavaScript](https://www.javascript.com/)
+  - [JSHint](https://jshint.com/)
 
-- [Google Fonts](https://fonts.google.com/)
+  -  [Balsamiq](https://balsamiq.cloud/)
+  
+  -  [Mailchimp](https://mailchimp.com/)
 
-- [Font Awesome](https://fontawesome.com/)
+  - [PEP8 Online](http://pep8online.com/)
 
-- [AWS S3](https://aws.amazon.com/)
+  - [W3C Markup Validator](https://validator.w3.org/)
 
-- [Heroku Postgres](https://www.heroku.com/postgres)
+  - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
-- [Github](https://github.com/)
+  - [web page mobile friendly ](https://www.google.com/search?q=mobile+friendly+test/)
 
-- [Git](https://git-scm.com/)
+  - [Lucidchart](https://www.lucidchart.com/pages/)
 
-- [Gitpod](https://www.gitpod.io/)
+[Back to contents](#table-of-contents)
 
-- [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+## Manual Testing
 
-- [Stripe](https://stripe.com/)
+  ## Home Page
 
+  - The user is given an introductory text and a "Shop Now" button on the homepage. The user will be directed to the products page by this.
 
-## **Bugs**
 
- * Server error 500 was fixed .
+  ![](static/docs/images/home.PNG)
 
- * Fix CSS not loading after deployment.
+  - The header area also provides access to the products page for the user. The user can choose from a variety of categories from which the products are then sorted. 
 
- * server error 500 was fixed .
+  ![](static/docs/images/navbar.PNG)
 
- * Database error was fixed
+  - The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
 
+  ![](static/docs/images/topnav.PNG)
 
-## **Deployment**
+  - Testing product search bar. 
 
-The Code Institiue student template was used to create this project.
+  ![](static/docs/images/test01.PNG)
 
-[Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-### Hosting Platforms
+ - The homepage also includes a newsletter signup area that will appear on desktop computers and other devices.
 
-The website is deployed to [Heroku](https://www.heroku.com/home) directly from the 'main' branch. While the static files are hosted on [Amazon Web Services](https://aws.amazon.com/).
+ ![](static/docs/images/newsletter.PNG)
 
-The deployed website will update automatically when new changes are committed to the main branch of Github. 
+ - Last but not least, I also developed a function that displays the best-selling items depending on the transactions handled throughout the test period.
 
-To host this website:
-- I created a requirements.txt file using the terminal command 'pip freeze > requirements.txt'.
-- Then created a Procfile with the terminal command 'echo web: gunicorn mens_style_store.wsgi:application > Procfile'.
-- I added, committed, and pushed the files to the projects Github repository.
-- After that I created a new app on the Heroku website by clicking the "New" button in the dashboard.
-- From within the new app I clicked on settings --> deploy --> deployment method and then selected Github to connect the app to my Github repository.
-- Lastly I added the necessary config vars for 'AWS_ACCESS_KEY_ID', 'AWS_SECRET_ACCESS_KEY', 'DATABASE_URL', 'EMAIL_HOST_PASS', 'EMAIL_HOST_USER', 'SECRET_KEY', 'STRIPE_PUBLIC_KEY', 'STRIPE_SECRET_KEY' and 'USE_AWS' in order to make the app able to run.
+ ![](static/docs/images/home1.PNG)
 
+ ## Products
 
-## **Credits**
+ - The user is presented with a list of products from the products page, each of which includes an image, the product name, category, price, brand, and rating. The top left corner also shows the overall number of goods. Using the filter bar in the upper right corner, the user can also continue to filter the products. The user can choose the headline choice and the level of filtering specificity from the dropdown menus to filter for particular categories.
 
-**Product Images / Names / Descriptions**
+ ![](static/docs/images/productsearch.png)
 
-- All the content relating to the products all came from the Codeinstitute botique Ado walk through video. 
 
-**Code**
-- A large amount of code came from the Code Institute, Boutique Ado Project.
+ - Only registered user will be allowed to leave a review for the product.
 
-- [Code Institute, Boutique Ado](https://github.com/Code-Institute-Solutions/boutique_ado_v1)
+  ![](static/docs/images/review01.PNG)
 
-    - Boutique Ado is a walkthrough project by Code Institute, this project gave students an introduction to Django/AWS S3/Stripe/Heroku Postgres
+ - User logged he can pick any product and write a review
 
-**Bootstrap**
-- The Bootstrap Library was used through the project. The project used version 4.6.
-- [Bootstrap](https://getbootstrap.com/docs/4.6/components/alerts/)
+ ![](static/docs/images/reviw2.PNG)
 
-**Django Documentation**
-- Django have amazing documentation with a tutorial project and in depth explanations on core components.
-- [Django Documentation ](https://docs.djangoproject.com/en/3.2/)
+ - Once submitted an alert message will be displayed to indicate that the comment has been posted.
 
-## **Aknowledgements**
+  ![](static/docs/images/review3.PNG)
 
-*  Codeinstitute , the slack community, and Codeinstitue mentor support team
+ - By selecting the product, the user will receive a notice that the product has been added to the  bag. The customer will see the value of the product, the current offer and will have the option to view bag or finalizing the purchase.
 
-**Harry Leepz**
-- [Github](https://github.com/Harry-Leepz/Nourish-and-Lift)
-    - The favorite app code used was taken from Harry Leepz Github page.
+ ![](static/docs/images/bag1.PNG)
 
-**Dennis Chmielewski**
-- [Github](https://github.com/dennisdevio)
-    - The code for the contact app was taken from this Dennis Devio
+  The user has the option to change the quantity and contents of their bag. The + and - icons can be used by the user to raise or reduce the product amount. By clicking the update button, the user can then update their bag with the necessary quantity adjustment, which also updates the overall bag total. The user also has the option of manually entering the quantity they want to change. By choosing the remove button, the user can also take the item out of the bag. The object in the bag will be fully removed as a result. A fresh alert message containing the changes will appear each time a change is made to the bag.
 
+ - Only the admin or the person who added the product on the Eshopper website can edit or delete the selected product, this function is not available for non-users.
 
-**Master Code Online**
-- [Youtube](https://www.youtube.com/watch?v=yZPgBThZT04&list=PL_557Q1uZ7gKYcVQtDYFvYONKtwtguF03&index=7)
+ ![](static/docs/images/admin01.PNG)
 
-    - A youtube learning platform was used for the functionality of the Newsletter app.
+ - To edit the product you need the information needed to complete the form in the Porduct Management area.
 
-**Kenbrotech**
-- [KenbroTech](https://www.youtube.com/watch?v=hWtlskOaFNI)
+ ![](static/docs/images/editpro.PNG)
 
+ - This non-image image will be displayed by default if the product doesn't have a picture.
 
+  ![](static/docs/images/no-img.PNG)
 
-* The Live link to the deployed website on Heroku [Gemmaster](https://eazyshopper.herokuapp.com/ "Gemmaster").
 
-* The github link is  [Gemmaster](https://github.com/gullah26/Gemmaster "Gemmaster").
+ ## Purchase 
 
-* Admin details will be attached to the submission form.
+ - The user will be asked to provide the delivery details along with the complete list of the purchase's items. The "Adjust Bag" button allows the user to return to the shopping bag and make additional changes. Otherwise, the user may choose to pay by clicking the "Complete Order" button. Through Stripe, which uses a secure way, the payment is handled.
 
-## Thank you.
+ ![](static/docs/images/bag02.PNG)
+
+ - The user is redirected to the confirmation page, where the order confirmation is displayed, after the order has been submitted.
+
+  ![](static/docs/images/bag3.PNG)
+
+ - Email confirmation:
+
+  ![](static/docs/images/eshopperemail.PNG)
+
+### Creating an account
+
+  Along with the superuser account (/admin), I've made a personal account for myself. Verify that authentication went smoothly.
+
+  ![](static/docs/images/register.PNG)
+
+### Logging in to an account
+
+  There were several attempts to log in and out. It performed as intended.
+
+  ![](static/docs/images/signin.PNG)
+
+
+### Journal 
+ 
+  User/Admin can create journal post with this model. 
+
+ ![](static/docs/images/blog.PNG)
+
+
+### Contact 
+ 
+  User/Shopper can contact website admin in case needs help with your order or website access. The user received a confirmation or error message if the form is invalid.
+
+ ![](static/docs/images/form1.PNG)
+
+### Validators
+
+- [W3C HTML Validator](https://validator.w3.org) 
+  - checkout_success.html
+  - checkout_success.html
+  - checkout.html
+  - index.html
+  - add_products.html
+  - edit_product.html
+  - product_detail.html
+  - products.html
+  - quantity_input_script.html
+  - profile.html
+  - 404.html
+  - 500.html
+  - base.html
+  - main-nav.html
+  - mobile_top_header.html
+  - toast_error.html
+  - toast_info.html
+  - toast_success.html
+  - toast_warning.html
+  - authentication_error.html
+  - connections.html
+  - login_cancelled.html
+  - signup.html
+  - blog.html
+  - add_blog.html
+  - edit_blog.html
+  - contact.html 
+
+
+- [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
+ - base.css
+ - profile.css
+
+### Other testing 
+- Google Chrome, and Safari, were among the browsers on which the project was evaluated.
+- The project was tested on the iPad, iPhone 12 Pro Max, Iphone 10 mini, MacBook Air, and Samsung galaxy a32.
+- To get user feedback, enhance the user experience, and find any potential problems, Eshopper was put to the test among friends and family.
+
+
+### Bugs fixed
+
+- I needed to remove to add review in the product_detail view but the solution was to define in the product_detail view.
+
+### Know Bugs 
+
+- Home page hero image is not rendered on Iphone 12 pro Max.
+
+
+[Back to contents](#table-of-contents)
+
+## Deployment
+
+### Deployment to Heroku
+
+This project was deployed to [Heroku](https://www.heroku.com/). Find the steps bellow:
+
+1. Go to Heroku webpage and create a new app
+1. Click on "Resources" tab and provision a new PostgreSQL database.
+1. In order to use PostgreSQL, both packages `dj_database_url` and `psycopg2` have to be installed on Gitpod.
+1. Import `dj_database_url` into the project's [`settings.py`](/eshopper/settings.py) to setup new database.
+1. Disable the default database(SQLite) in the project's [`settings.py`](/eshopper/settings.py) and add the PostgreSQL database URL stored in the variable `DATABASE_URL`(can be found by clicking on the "settings" tab followed by clicking on "reveal config vars") in order to connect to PostgreSQL.
+1. Run migrations (due to the use of PostreSQL) on Gitpod.
+
+    ```
+    $ python3 manage.py migrate
+    ```
+
+1. Load data (Categories and Products JSON files in the [`fixtures`](/products/fixtures) folder).
+- Load categories first 
+
+    ```
+    $ python3 manage.py loaddata categories
+    ```
+
+- Then load products
+
+    ```
+    $ python3 manage.py loaddata products
+    ```
+
+1. Create superuser:
+
+    ```
+    $ python3 manage.py createsuperuser 
+    ```
+
+1. In the project's [`settings.py`](/eshopper/settings.py), re-enable the projec's default database(disabled in step number 5) and with an if statment make sure that when the app is running on Heroku the connection is made to PostgreSQL or otherwise to default database (SQLite).
+1. Install `gunicorn` package on Gitpod
+1. Create Procfile
+1. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
+
+    ```
+    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app e-shopperonline
+    ```
+
+1. Add `ALLOWED_HOSTS` variable(containing host name of the premiumbody app and the localhost) to project's [`settings.py`](/eshopper/settings.py) file.
+1. Commit and Push to Github
+1. Since the app was created via the Heroku webpage, initializing heroku git remote is necessary before pushing to Heroku
+
+    ```
+    $ heroku git:remote -a e-shopperonline
+    ```
+
+1. Push to Heroku
+
+    ```
+    $ git push heroku master
+    ```
+
+1. Finally, enable automatic deployment to Heroku when pushing to Github by going to Heroku webpage, clicking on the "Deploy" tab and then on "Connect to Github" button. Search for the eshopper repo and click on "Connect". Scroll down to the "Automatic deploys" section and click on "Enable Automatic Deploys".
+
+[Back to contents](#table-of-contents)
+
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/artneto/Eshopper)
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type "git clone", and then paste the URL you copied in Step 3.
+
+    ```
+    $ git clone https://github.com/artneto/Eshopper
+    ```
+    
+ ### Amazon Services (S3)
+ 
+ After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in Eshopper app.
+
+ ## Web Marketing & Business
+
+ A Facebook page for Eshopper was made as part of the website marketing campaign.
+ Please take note that I made a fake Facebook page using the Code Institute template.
+
+ ![](static/docs/images/facebook.PNG)
+
+## Credits
+
+### Media
+
+-   The hero image is from the free stock image library [Pexels](https://pexels.com/).
+-   The product pictures came from Amazon [Amazon](https://amazon.co.uk/).
+
+### Acknowledgements
+
+
+-   A major part of the logic and web application structure used in the Eshopper project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
+
+- My Family for testing the site and giving feedback on different devices.
+
+- Code Institute slack channel for porviding further information and support. 
+
+- My friend and collegue Beatriz Amorim for supporting me and providing me feedback.
+
+[Back to contents](#table-of-contents)
