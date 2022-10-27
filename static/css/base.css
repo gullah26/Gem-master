@@ -83,6 +83,19 @@ body {
 	z-index: -1;
 }
 
+.main-navbar {
+
+    text-align: center;
+
+}
+
+/*carousel*/
+
+/* .carousel img {
+
+    width: 0px;
+    height: 450px;
+} */
 /* ====Bag notification counter=====*/
 
 .badge-notification {
@@ -286,6 +299,13 @@ input[name='q']::placeholder {
 
 
 /*footer*/
+
+/* .lg-screen-width{
+width: 25%;
+} */
+
+
+
 footer {
     margin-top: 250px;
     position: relative;
@@ -873,5 +893,8 @@ footer a:hover {
     .mailchimp h1 {
         display: none;        
     }
+
+   
+
 
 }

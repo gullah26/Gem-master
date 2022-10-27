@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
+ 
     {% block extra_css %}
     {% endblock %}
 
@@ -50,20 +51,21 @@
 </head>
 
 <body>
-    <header class="section-header fixed-top">
-        <section class="header-main border-bottom bg-black">
-            <nav class="navbar navbar-light bg-black">
-                <a class="navbar-brand pl-5" href="{% url 'home' %}">
+    <header class="container-fluid fixed-top">
+
+        <nav class="navbar navbar-light bg-black">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+                <a class="navbar-brand p-0 my-0" href="{% url 'home' %}">
                     <img src="{% static 'image/Black Gold Classic Jewellery Logo.png'%}" width="30" height="30"
-                        class="d-inline-block align-top" alt="">
+                        class="d-inline-block align-top border rounded-circle" alt="">
                     <strong class="text-white">GEMMASTER</strong>
                 </a>
-               
+            </div>
 
-             <form action="{% url 'products' %}" method="GET" class="search px-auto search-block-mobile">
-                <div class="input-group p-auto">
-                    <input type="text" class="form-control" name="q"
-                        placeholder="Search">
+
+            <form action="{% url 'products' %}" method="GET" class="search p-0 my-0 search-block-mobile">
+                <div class="input-group p-0 my-0">
+                    <input type="text" class="form-control" name="q" placeholder="Search">
                     <div class="input-group-append">
                         <button class="btn btn-black border" type="submit">
                             <i class="fa fa-search"></i>
@@ -73,7 +75,7 @@
             </form>
 
             <div class="col col-4 user-fav-cart-block-mobile">
-                <ul class="list-inline list-unstyled text-center text-right pt-4">
+                <ul class="list-inline list-unstyled text-center text-right p-0 my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-white nav-link" href="#" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
@@ -121,30 +123,23 @@
                     </li>
                 </ul>
             </div>
-        </div>
+
+        </nav>
+
+        <!--main header----mobile header-->
+        <div class="row bg-warning">
+            <nav class="navbar navbar-expand-lg navbar-light w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
+                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {% include 'includes/mobile-top-header.html' %}
+                {% include 'includes/main-nav.html' %}
             </nav>
-
-                    
-
-                <!--main header----mobile header-->
-                <div class="row bg-white">
-                    <nav class="navbar navbar-expand-lg navbar-light w-100">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
-                            aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        {% include 'includes/mobile-top-header.html' %}
-                        {% include 'includes/main-nav.html' %}
-                    </nav>
-                </div>
-        </section> <!-- header-main .// -->
-
-
+        </div>
 
     </header>
     <!--header end-->
-
-
 
     {% if messages %}
     <div class="message-container">

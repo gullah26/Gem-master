@@ -1,11 +1,11 @@
-# Gem*master
+# GemMaster
 
 ![](static/docs/images/mockup.PNG)
 
 
 ## About
 
-**E-shopperonline** 
+**Gemmaster** 
 Is an online store that offers to customers who are looking for food or supplements, from athletes to anyone who wants to get fit. This website has functions to make it easily available our range of products to all users, the website is made to be responsive and simple to use on a range of devices.
 
 **Please note**: This site was created solely for educational purposes.
@@ -13,7 +13,8 @@ Is an online store that offers to customers who are looking for food or suppleme
 
 ## Table of Contents
 
-
+- [**Introduction(About)**](#introduction-about)
+  - [**About the application**](#about-the-application)
 - [**UX (User Experience)**](#ux-user-experience)
   - [**User Stories**](#user-stories)
 - [**Design Choices**](#design-choices)
@@ -43,6 +44,10 @@ Is an online store that offers to customers who are looking for food or suppleme
   - [**Media**](#media)
   - [**Acknowledgements**](#acknowledgements)
 
+
+## **Introduction(About)**
+
+### **About the application**
 
 
 ## **UX (User Experience)**
