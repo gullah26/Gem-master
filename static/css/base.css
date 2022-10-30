@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/static/image/colorful_gemstones.jpg') no-repeat center center fixed;
+    background: url('/static/image/colorful_gemstones.webp') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -40,7 +40,8 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
+    /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -74,13 +75,13 @@ body {
 }
 
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
 .main-navbar {
@@ -91,11 +92,13 @@ body {
 
 /*carousel*/
 
-/* .carousel img {
+.slide > img {
 
-    width: 0px;
-    height: 450px;
-} */
+    height: auto;
+    width: 100%;
+}
+
+
 /* ====Bag notification counter=====*/
 
 .badge-notification {
@@ -109,7 +112,7 @@ body {
 
 /*  bag notification counter end */
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
@@ -157,10 +160,10 @@ input[name='q']::placeholder {
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -210,16 +213,18 @@ input[name='q']::placeholder {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
+    .container {
+        max-width: 80%;
+    }
 }
 
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem;
+    /* mt-4 */
+    color: #6c757d;
+    /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -237,8 +242,8 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -255,18 +260,19 @@ input[name='q']::placeholder {
     border-radius: 0;
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+    /* text-info */
 }
 
 /* Product Form */
@@ -346,8 +352,8 @@ footer a:hover {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     text-align: justify;
     margin: 0;
 
@@ -356,545 +362,3 @@ footer a:hover {
 /* end of footer */
 
 /* ==Media Queries ==  from https://github.com/Harry-Leepz/Nourish-and-Lift*/
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-}
-
-/* Fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 124px;
-    }
-}
-
-/* Fix Mobile/Tablet navbar */
-@media (max-width: 992px) {
-    ul {
-        padding: 0;
-        margin: 0;
-    }
-
-    .navbar-toggler {
-        border: none;
-        color: #001735;
-    }
-
-    .nav-link {
-        padding: 0 .9rem;
-    }
-}
-
-
-/* Add additional padding to the top to drop body on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-
-}
-
-/* Remove padding on navbar to has all icons fit on 320px screens */
-@media (max-width: 320px) {
-    .navbar {
-        padding: 0;
-    }
-
-    .main-search-bar,
-    .user-fav-cart {
-        display: none;
-    }
-
-    .home-font {
-        font-size: 25px;
-        margin-top: 30px;
-    }
-
-    .text-lg-left {
-
-        -webkit-box-align: center;
-
-            -ms-flex-align: center;
-
-                align-items: center;
-    }
-}
-
-/* Keep user account dropdown text within the screen*/
-@media (max-width: 768px) {
-    .dropdown-menu {
-        font-size: 0.7rem;
-    }
-
-    .main-search-bar,
-    .user-fav-cart {
-        display: none;
-    }
-
-    .badge-notification {
-
-        background: red;
-        position: relative;
-        top: 15px;
-        left: 15px;
-        border-radius: 2rem;
-    }
-}
-
-@media (max-width: 800px) {
-    .dropdown-menu {
-        font-size: 0.7rem;
-    }
-
-    .main-search-bar,
-    .user-fav-cart {
-        display: none;
-    }
-
-    .badge-notification {
-
-        background: red;
-        position: relative;
-        top: 15px;
-        left: 15px;
-        border-radius: 2rem;
-    }
-}
-
-
-@media (max-width: 810px) {
-    .dropdown-menu {
-        font-size: 0.7rem;
-    }
-
-    .main-search-bar,
-    .user-fav-cart {
-        display: none;
-    }
-
-    .badge-notification {
-
-        background: red;
-        position: relative;
-        top: 12px;
-        left: 10px;
-        border-radius: 2rem;
-    }
-
-}
-
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
-
-    .nav-link {
-        padding: 0.15rem;
-    }
-
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-    }
-
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .9rem;
-    }
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-    }
-
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-
-    .increment-qty,
-    .decrement-qty {
-        padding: .25rem .5rem !important;
-    }
-}
-
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-}
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-}
-
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
-    }
-
-    .nav-link {
-        padding: 0.15rem;
-    }
-
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-    }
-
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
-    }
-
-    #delivery-banner h4 {
-        font-size: .5rem;
-    }
-
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-    }
-
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-
-    .increment-qty, .decrement-qty {
-        padding: .25rem .5rem !important;
-    }
-}
-
-
-
-@media all and (max-width: 912px) {
-    /* mobile devices */
-
-    /* Home font */
-
-    .logo-font {
-      font-size: 2.5rem;
-      padding: 1rem;
-    }
-
-    /* Shop Now button */
-
-    .shop-now-button {
-        font-size: 1.5rem;
-        
-    }
-
-    /*footer*/
-
-    .copy-right {
-        margin-left: auto;
-        margin-right: auto;
-        width: 8em;
-        
-    }
-
-    .contact {
-        display: flex;
-        
-        margin-left: auto;
-        margin-right: auto;
-        width: 12em;
-    }
-
-    .cat-block-mobile{
-        display:none;       
-        
-    }
-
-    .btn-block-mobile{
-
-        display:none;
-    }
-
-
-    .search-block-mobile{
-
-        display:none;
-    }
-
-    .user-fav-cart-block-mobile{
-        display: none;
-
-    }
-
-    .float-left{
-        text-align: center !important;
-    }
-
-    .mailchimp h1 {
-        display: none;        
-    }
-
-}
-
-@media all and (max-width: 820px) {
-    /* mobile devices */
-
-    /* Home font */
-
-    .logo-font {
-      font-size: 2.5rem;
-      padding: 1rem;
-    }
-
-    /* Shop Now button */
-
-    .shop-now-button {
-        font-size: 1.5rem;
-        
-    }
-
-    /*footer*/
-
-    .copy-right {
-        margin-left: auto;
-        margin-right: auto;
-        width: 8em;
-        
-    }
-
-    .contact {
-        display: flex;
-        
-        margin-left: auto;
-        margin-right: auto;
-        width: 12em;
-    }
-
-    .cat-block-mobile{
-        display:none;       
-        
-    }
-
-    .btn-block-mobile{
-
-        display:none;
-    }
-
-
-    .search-block-mobile{
-
-        display:none;
-    }
-
-    .user-fav-cart-block-mobile{
-        display: none;
-
-    }
-
-    .float-left{
-        text-align: center !important;
-    }
-
-    .mailchimp h1 {
-        display: none;        
-    }
-
-}
-
-@media all and (max-width: 768px) {
-    /* mobile devices */
-
-    /* Home font */
-
-    .logo-font {
-      font-size: 2.5rem;
-      padding: 1rem;
-    }
-
-    /* Shop Now button */
-
-    .shop-now-button {
-        font-size: 1.5rem;
-        
-    }
-
-    /*footer*/
-
-    .copy-right {
-        margin-left: auto;
-        margin-right: auto;
-        width: 8em;
-        
-    }
-
-    .contact {
-        display: flex;
-        
-        margin-left: auto;
-        margin-right: auto;
-        width: 12em;
-    }
-
-    .cat-block-mobile{
-        display:none;       
-        
-    }
-
-    .btn-block-mobile{
-
-        display:none;
-    }
-
-
-    .search-block-mobile{
-
-        display:none;
-    }
-
-    .user-fav-cart-block-mobile{
-        display: none;
-
-    }
-
-    .float-left{
-        text-align: center !important;
-    }
-
-    .mailchimp h1 {
-        display: none;        
-    }
-
-}
-
-@media all and (max-width: 360px) {
-    /* mobile devices */
-
-    /* Home font */
-
-    .logo-font {
-      font-size: 1rem;
-      padding: 1rem;
-    }
-
-    /* Shop Now button */
-
-    .shop-now-button {
-        font-size: 1.5rem;
-        
-    }
-
-    .bag-middle-mobile{
-       justify-items: center;
-       justify-content: center;
-       text-align: center;
-       align-items: center;
-       display: inline;
-       position : absolute;
-    }
-
-    /*footer*/
-
-    .copy-right {
-        margin-left: auto;
-        margin-right: auto;
-        width: 8em;
-        
-    }
-
-    .contact {
-        display: flex;
-        
-        margin-left: auto;
-        margin-right: auto;
-        width: 12em;
-    }
-
-    .cat-block-mobile{
-        display:none;       
-        
-    }
-
-    .btn-block-mobile{
-
-        display:none;
-    }
-
-
-    .search-block-mobile{
-
-        display:none;
-    }
-
-    .user-fav-cart-block-mobile{
-        display: none;
-
-    }
-
-    .float-left{
-        text-align: center !important;
-    }
-
-    .mailchimp h1 {
-        display: none;        
-    }
-
-   
-
-
-}

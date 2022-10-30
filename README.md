@@ -192,19 +192,18 @@ the navigation bar.
 - Products can be added to bag either a registered or non-registered user once a user navigates to the product details page. Item quantity increase and decrease button can help the user edit the quantity of items to be added to the shopping bag.
 
 #### User information, Email confirmation and Payment
-  - Users with and without accounts can buy products. When the user is ready to proceed with the  payment and is on the cart page, they can click the "checkout" button to be taken to the payment page, that they can fill out the required fields that really are missing (users can choose to store the information), and then complete their order. Users are routed to a success page where order information is available after the order has indeed been completed. When an order is completed, users are automatically sent a confirmation email including the order details.
+  - Either a User is registered or not, the user can still checkout regardless of status, user can choose to store their information on their profile or not, generally orders can be completed regardless of the user status, the user will be directed to the appropriate payment page where the order can be completed, if successful an email confirmation is automatically sent to the provided user email address.
 
 #### Profiles 
-  - The user can modify the delivery details under the profile page management.
+  - A user can modify, edit or update the informations on their personal profile with ease.
 
-#### Admin Superuser
-To access the admin interface by adding /admin to the end of the Euser URL.
+#### Admin or Superuser
+only an authorized personel can have access to the Admin page, as the web application security could be breached from an un-authorized access by infiltrators. However, to gain access to the Admin area an back slash is added to the URL of the web application, which will prompt an authorized login details.
 
-  In the admin interface, a superuser or administrator can:
-  -  View the list of categories and goods and create, update, or delete them.
-  -  Product and its information may be edited, deleted, or added.
-  -  View the whole list of users and remove any you want.
-  -  View the order history and all associated details. Which user, when, how much, what order number, etc.
+  If the Admin login was successful:
+  -  A Superuser can Create, Read, Update and Delete product.
+  -  A SuperUser can manage orders and authorize orders and restric suspicious users or cancel a suspicious order.
+  - SuperUser can maintain the website and make sure everything is up and running.
 
 ### Error Page
 
@@ -266,6 +265,7 @@ To access the admin interface by adding /admin to the end of the Euser URL.
 [Back to contents](#table-of-contents)
 
 ### **Tools**
+  - [Canva](https://canva.com/)
 
   - [GitHub](https://github.com/)
   
@@ -309,158 +309,135 @@ To access the admin interface by adding /admin to the end of the Euser URL.
 
   ## Home Page
 
-  - The user is given an introductory text and a "Shop Now" button on the homepage. The user will be directed to the products page by this.
+  ![](static/image/README_DOC/home.jpg)
 
+  - The web application homepage header consist of the following.
+    - Navigation bar located at the top-most part of the page, spanning from left to right.
 
-  ![](static/docs/images/home.PNG)
+      ![](static/image/README_DOC/Navigation.jpg)
 
-  - The header area also provides access to the products page for the user. The user can choose from a variety of categories from which the products are then sorted. 
+    - Company logo and logo font located at the left-most part of the navbar.
 
-  ![](static/docs/images/navbar.PNG)
+      ![](static/image/README_DOC/company_logo_and_logo_font.jpg)
 
-  - The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
+    - Search box situated at the middle of the navigation bar, The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
 
-  ![](static/docs/images/topnav.PNG)
+      ![](static/image/README_DOC/search.jpg)
 
-  - Testing product search bar. 
+    - The User, Favorite and shopping bag icons can be found at the right-most part of the navigation bar. The User can login and existing account or register a new account using the my account functionlity. Also users can add,remove and view items in their favorite list. The bag contains the added items to purchase.
 
-  ![](static/docs/images/test01.PNG)
+      ![](static/image/README_DOC/user_fav_bag.jpg)
 
- - The homepage also includes a newsletter signup area that will appear on desktop computers and other devices.
+    - Present on the homepage body is the carousel functionality of image slider which serves as Hero image   but with a dynamic functionality with a SHOP NOW button to navigate to the product display area.
 
- ![](static/docs/images/newsletter.PNG)
+      ![](static/image/README_DOC/hero.jpg)
 
- - Last but not least, I also developed a function that displays the best-selling items depending on the transactions handled throughout the test period.
+    - The footer area is located at the bottom-most part of the homepage made up of Newsletter, Shipping, Payment, customer support, Social media and Copy right.
 
- ![](static/docs/images/home1.PNG)
+      ![](static/image/README_DOC/footer.jpg)
+ 
+
+    - The homepage footer also includes a newsletter signup  and customer support.
+
+      ![](static/image/README_DOC/newsletter.jpg)
+
+      ![](static/image/README_DOC/contact_us.jpg)
+
 
  ## Products
 
  - The user is presented with a list of products from the products page, each of which includes an image, the product name, category, price, brand, and rating. The top left corner also shows the overall number of goods. Using the filter bar in the upper right corner, the user can also continue to filter the products. The user can choose the headline choice and the level of filtering specificity from the dropdown menus to filter for particular categories.
 
- ![](static/docs/images/productsearch.png)
+      ![](static/image/README_DOC/products.jpg)
 
 
- - Only registered user will be allowed to leave a review for the product.
+ - By clicking on add item to bag, a pop up notification shows on bag that an item as been added to the bag, which the User could access by clicking on the bag to check the added item to update the bag by increasing or decreasing the quantity of items or by removing the item.
 
-  ![](static/docs/images/review01.PNG)
-
- - User logged he can pick any product and write a review
-
- ![](static/docs/images/reviw2.PNG)
-
- - Once submitted an alert message will be displayed to indicate that the comment has been posted.
-
-  ![](static/docs/images/review3.PNG)
-
- - By selecting the product, the user will receive a notice that the product has been added to the  bag. The customer will see the value of the product, the current offer and will have the option to view bag or finalizing the purchase.
-
- ![](static/docs/images/bag1.PNG)
-
-  The user has the option to change the quantity and contents of their bag. The + and - icons can be used by the user to raise or reduce the product amount. By clicking the update button, the user can then update their bag with the necessary quantity adjustment, which also updates the overall bag total. The user also has the option of manually entering the quantity they want to change. By choosing the remove button, the user can also take the item out of the bag. The object in the bag will be fully removed as a result. A fresh alert message containing the changes will appear each time a change is made to the bag.
-
- - Only the admin or the person who added the product on the Euser website can edit or delete the selected product, this function is not available for non-users.
-
- ![](static/docs/images/admin01.PNG)
-
- - To edit the product you need the information needed to complete the form in the Porduct Management area.
-
- ![](static/docs/images/editpro.PNG)
-
- - This non-image image will be displayed by default if the product doesn't have a picture.
-
-  ![](static/docs/images/no-img.PNG)
+      ![](static/image/README_DOC/add_to_bag.jpg)
 
 
- ## Purchase 
+ ## Checkout 
 
  - The user will be asked to provide the delivery details along with the complete list of the purchase's items. The "Adjust Bag" button allows the user to return to the shopping bag and make additional changes. Otherwise, the user may choose to pay by clicking the "Complete Order" button. Through Stripe, which uses a secure way, the payment is handled.
 
- ![](static/docs/images/bag02.PNG)
+      ![](static/image/README_DOC/checkout.jpg)
+    
+
+      ![](static/image/README_DOC/check_out_details.jpg)
 
  - The user is redirected to the confirmation page, where the order confirmation is displayed, after the order has been submitted.
 
-  ![](static/docs/images/bag3.PNG)
+      ![](static/image/README_DOC/purchasedetails.jpg)
 
- - Email confirmation:
+      ![](static/image/README_DOC/order_successful.jpg)
 
-  ![](static/docs/images/euseremail.PNG)
+ - E-mail confirmation will be sent to the supplied emailaddress
 
-### Creating an account
 
-  Along with the superuser account (/admin), I've made a personal account for myself. Verify that authentication went smoothly.
+### Register
 
-  ![](static/docs/images/register.PNG)
+  - Here is a detailed registration form which will allow users to create a personalized account.
 
-### Logging in to an account
+  ![](static/image/README_DOC/user%20register.jpg)
+
+### Login and Logout
 
   There were several attempts to log in and out. It performed as intended.
 
-  ![](static/docs/images/signin.PNG)
-
-
-### Journal 
- 
-  User/Admin can create journal post with this model. 
-
- ![](static/docs/images/blog.PNG)
-
-
-### Contact 
- 
-  User/user can contact website admin in case needs help with your order or website access. The user received a confirmation or error message if the form is invalid.
-
- ![](static/docs/images/form1.PNG)
+  ![](static/image/README_DOC/singin.jpg)
 
 ### Validators
 
 - [W3C HTML Validator](https://validator.w3.org) 
+  - add_products.html
+  - authentication_error.html
+  - base.html
   - checkout_success.html
   - checkout_success.html
   - checkout.html
-  - index.html
-  - add_products.html
+  - connections.html
   - edit_product.html
+  - favorite.html
+  - index.html
+  - main-nav.html
+  - mobile_top_header.html
   - product_detail.html
   - products.html
   - quantity_input_script.html
   - profile.html
   - 404.html
   - 500.html
-  - base.html
-  - main-nav.html
-  - mobile_top_header.html
   - toast_error.html
   - toast_info.html
   - toast_success.html
   - toast_warning.html
-  - authentication_error.html
-  - connections.html
   - login_cancelled.html
   - signup.html
-  - blog.html
-  - add_blog.html
-  - edit_blog.html
-  - contact.html 
+  - shipping.html
+  - contact.html
+  - success.html 
 
 
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
  - base.css
+ - responsiveness.css
  - profile.css
 
+    ![](static/image/README_DOC/W3C_testing.jpg)
 ### Other testing 
-- Google Chrome, and Safari, were among the browsers on which the project was evaluated.
-- The project was tested on the iPad, iPhone 12 Pro Max, Iphone 10 mini, MacBook Air, and Samsung galaxy a32.
-- To get user feedback, enhance the user experience, and find any potential problems, Euser was put to the test among friends and family.
+- This application was tested to meet with the requirements of all modern devices, it is responsive.
+
+      ![](static/image/README_DOC/google_mobile_test.jpg)
+
 
 
 ### Bugs fixed
 
-- I needed to remove to add review in the product_detail view but the solution was to define in the product_detail view.
+- There was a checkout issue when making the final payment, and was fixed
 
-### Know Bugs 
+### Un-fixed Bug 
 
-- Home page hero image is not rendered on Iphone 12 pro Max.
+- There was a layout gap on both sides the navigation bar
 
 
 [Back to contents](#table-of-contents)
@@ -529,27 +506,6 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
 [Back to contents](#table-of-contents)
 
 
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-1. You should now have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/artneto/Euser)
-1. Under the repository name, click "Clone or download".
-1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-1. Open Git Bash
-1. Change the current working directory to the location where you want the cloned directory to be made.
-1. Type "git clone", and then paste the URL you copied in Step 3.
-
-    ```
-    $ git clone https://github.com/artneto/Euser
-    ```
-    
  ### Amazon Services (S3)
  
  After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in Euser app.
@@ -565,18 +521,16 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 ### Media
 
--   The hero image is from the free stock image library [Pexels](https://pexels.com/).
--   The product pictures came from Amazon [Amazon](https://amazon.co.uk/).
+-   The product images was taken from Kaggle [Kaggle](https://Kaggle.com/).
+-   The Carousel and Hero images were taken from Pexels [Pexels](https://pexels.com/).
 
 ### Acknowledgements
-
-
--   A major part of the logic and web application structure used in the Euser project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
-
-- My Family for testing the site and giving feedback on different devices.
 
 - Code Institute slack channel for porviding further information and support. 
 
 - My friend and collegue Beatriz Amorim for supporting me and providing me feedback.
+
+-   A major part of the logic and web application structure used in the Euser project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
+
 
 [Back to contents](#table-of-contents)
