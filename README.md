@@ -195,7 +195,7 @@ the navigation bar.
   - Either a User is registered or not, the user can still checkout regardless of status, user can choose to store their information on their profile or not, generally orders can be completed regardless of the user status, the user will be directed to the appropriate payment page where the order can be completed, if successful an email confirmation is automatically sent to the provided user email address.
 
 #### Profiles 
-  - A user can modify, edit or update the informations on their personal profile with ease.
+  - A user can modify, edit or update the informations or previously stored data on their personal profile with ease.
 
 #### Admin or Superuser
 only an authorized personel can have access to the Admin page, as the web application security could be breached from an un-authorized access by infiltrators. However, to gain access to the Admin area an back slash is added to the URL of the web application, which will prompt an authorized login details.
