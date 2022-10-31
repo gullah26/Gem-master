@@ -156,15 +156,15 @@ The colors used in this project are:
 - (#F33A6A) - Red
 
 
-![](static/image/README_DOC/color.jpg)
+![](/README_DOC/color.jpg)
 
   - The color combination used give the website a unique, warm and beautiful outlook.
 
 ### **Wireframes**
 
-![](static/image/README_DOC/Wireframe.jpg)
+![](/README_DOC/Wireframe.jpg)
 
-  - The wireframe using Figma:
+  - The application wireframe using Figma:
   
 
 [Back to contents](#table-of-contents)
@@ -209,7 +209,7 @@ only an authorized personel can have access to the Admin page, as the web applic
 
  - 404 page created to redirect users back to the main site in case of an error
 
-  ![](static/docs/images/404error.PNG)
+  ![](/README_DOC/)
 
  - 500 error page created to redirect users to the main site after a server error
 
