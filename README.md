@@ -213,6 +213,18 @@ only an authorized personel can have access to the Admin page, as the web applic
 
  - In case of a server error , a 500 error page was created to handle the error and redirect users back to the homepage.
 
+### Marketing
+
+  - The marketing app is reponsible for the Newsletter subscription, powered by mailchimp.
+
+  ![](/README_DOC/newsletter.jpg)
+
+### Shipping
+
+  - Information about the shipping , delivery and return policies.
+
+  ![](/README_DOC/shipping.jpg)
+
 
 ### Responsive Design
 
@@ -236,8 +248,6 @@ only an authorized personel can have access to the Admin page, as the web applic
 
 
 
-
-
 [Back to contents](#contents)
  
 ### Database Schema
@@ -256,9 +266,15 @@ only an authorized personel can have access to the Admin page, as the web applic
 [Back to contents](#table-of-contents)
 ## Technologies
     
+## **Languages
+
+  - HTML5
+  - CSS3
+  - JavaScript
 ### **Frameworks**
 
 - [Django](https://www.djangoproject.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 [Back to contents](#table-of-contents)
 
@@ -507,7 +523,7 @@ This project was deployed to [Heroku](https://www.heroku.com/). Below is a step 
 
  ### Amazon Services (S3)
  
- After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in gem-master app.
+Amazon Web Services(AWS) - S3 was deployed to handle  media and static files storage in gem-master app after being deployed by Heroku.
 
  ## Web Marketing & Business
 
@@ -548,12 +564,12 @@ This project was deployed to [Heroku](https://www.heroku.com/). Below is a step 
 - [KenbroTech](https://www.youtube.com/watch?v=hWtlskOaFNI)
 
 
-* The github link is  [Eazy-Shopper](https://github.com/gullah26/Gem-master "Gem Master").
+* The github link is  [GemMaster](https://github.com/gullah26/Gem-master "Gem Master").
 
 * Admin details will be attached to the submission form.
 
 ## Thank you.
--   A major part of the logic and web application structure used in the Gem project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
+-   A major part of the logic and web application structure used in the Gemmaster project was taken from code institute walk through project [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
 
 
 [Back to contents](#table-of-contents)
