@@ -9,7 +9,7 @@ Gemmaster is an E-commerce web application that ticks every single boxes of a fu
 Gemmaster is specialized in various gemstone sales to direct consumers so it is  categorized a B2C web application in the sense that it only services is based on a business to customer relationship, it is a fully E-commerce web application  that deals in varieties of gemstones accross the globe, from Diamonds, Emeralds, Sapphires to name a few to Gemstone lovers who are keen about the originality and detailed history of what their customized jewellry is made of.The E-commerce application is user friendly and with a functional responsive interface across all devices.
 
 
-![](static/image/README_DOC/all-devices-mockup.png)
+![](/README_DOC/all-devices-mockup.png)
 **NB: Please Note**: The data on the website is for educational purposes only.
 
 [Here is the link to the live version](https://gem-master.herokuapp.com/)
@@ -22,13 +22,12 @@ Gemmaster is specialized in various gemstone sales to direct consumers so it is 
 - [**UX (User Experience)**](#ux-user-experience)
   - [**User Stories**](#user-stories)
 - [**Design Choices**](#design-choices)
-  - [**Typography**](#Typography)
+  - [**Typography**](#typography)
   - [**Colour Scheme**](#colour-scheme)
   - [**Wireframes**](#wireframes)
 - [**Features**](#features)
   - [**Site Navigation**](#site-navigation)
-  - [**Future Features**](#feature-features)
-  - [**Error Page**](#error-page)
+  - [**Customized Error Handling**](#customized-error-handling)
   - [**Responsive Design**](#responsive-design)
   - [**Defensive Design**](#defensive-design)
 - [**Database Schema**](#database-schema)
@@ -205,53 +204,52 @@ only an authorized personel can have access to the Admin page, as the web applic
   -  A SuperUser can manage orders and authorize orders and restric suspicious users or cancel a suspicious order.
   - SuperUser can maintain the website and make sure everything is up and running.
 
-### Error Page
+### Customized Error Handling
 
- - 404 page created to redirect users back to the main site in case of an error
+ - To handle the 404 error, a 404 error handling page was created incase there was a 404 error
+ which the soul purpose is to direct the user back to the homepage or product page.
 
-  ![](/README_DOC/)
+  ![](/README_DOC/error404.jpg)
 
- - 500 error page created to redirect users to the main site after a server error
+ - In case of a server error , a 500 error page was created to handle the error and redirect users back to the homepage.
 
- ![](static/docs/images/500error.PNG)
 
 ### Responsive Design
 
-- The application has been developed for mobile devices but it has been adjusted to provide such a wonderful experience for desktop and tablet users too though.
+- This application was tested on all modern available devices, redering perfectly and adjusting to different screen sizes of each and every device it was tested on.
 
 ### Defensive Design
 
+ - @login_required
+
+   -  Addition of the login required decorator to separates a user from some of the website functionality i.e a user cannot use the favorite function if not logged in, also a user cannot modify any details in his or her profile without login in and finally a user cannot access a superuser section of the website or superuser features.
+
  - Form Validation
 
-    - All forms also have form validation to help ensure the required information is entered        before    submission.
-    If incorrect data is entered, a warning message will be displayed to advise the user on how to proceed.
-
-    - A default image will be added if a product is added without an associated image, however form ’ll work this unlikely.
+    - Forms can only be submitted if the required information is supplied correctly.
 
  - Unauthorised Attempts
 
-    - If a user attempts to access a section of the website for that they're not permitted, they will receive an error 404 message when the page is loaded.
+    - Any unauthorized attempt on the web application environment will raise a 404 error.
 
- - @login_required
+ - For security reasons an env.py file was created to enable environment consent and chose what environmental variables, api keys should be ignored in the github commits.
 
-   -  Addition of the login required decorator to prohibit access to specific pages. Only users     who've been granted approval can add, edit, delete, and edit products.
-    A user whom have logged out would be sent to the login page if they attempt to access a restricted page.
 
 
 
 
 [Back to contents](#contents)
+ 
+### Database Schema
 
-#### Database Schema
-
-  - PostgreSQL: SQL triught  PostgreSQL was used for fixtures categories.json and products.json
-  
   - AWS: A cloud-based database that stores fields for products, users, orders.
+
+  - PostgreSQL: PostgreSQL was used for fixtures categories.json and products.json  
   
 
-  The ER diagram schema is below:
+  Below is the ER Diagram:
 
-![](static/docs/images/ERdiagram.PNG)
+![](/README_DOC/DatabaseER.png)
 
   
 
@@ -309,67 +307,67 @@ only an authorized personel can have access to the Admin page, as the web applic
 
   ## Home Page
 
-  ![](static/image/README_DOC/home.jpg)
+  ![](/README_DOC/home.jpg)
 
   - The web application homepage header consist of the following.
     - Navigation bar located at the top-most part of the page, spanning from left to right.
 
-      ![](static/image/README_DOC/Navigation.jpg)
+      ![](/README_DOC/Navigation.jpg)
 
     - Company logo and logo font located at the left-most part of the navbar.
 
-      ![](static/image/README_DOC/company_logo_and_logo_font.jpg)
+      ![](/README_DOC/company_logo_and_logo_font.jpg)
 
     - Search box situated at the middle of the navigation bar, The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
 
-      ![](static/image/README_DOC/search.jpg)
+      ![](/README_DOC/search.jpg)
 
     - The User, Favorite and shopping bag icons can be found at the right-most part of the navigation bar. The User can login and existing account or register a new account using the my account functionlity. Also users can add,remove and view items in their favorite list. The bag contains the added items to purchase.
 
-      ![](static/image/README_DOC/user_fav_bag.jpg)
+      ![](/README_DOC/user_fav_bag.jpg)
 
     - Present on the homepage body is the carousel functionality of image slider which serves as Hero image   but with a dynamic functionality with a SHOP NOW button to navigate to the product display area.
 
-      ![](static/image/README_DOC/hero.jpg)
+      ![](/README_DOC/hero.jpg)
 
     - The footer area is located at the bottom-most part of the homepage made up of Newsletter, Shipping, Payment, customer support, Social media and Copy right.
 
-      ![](static/image/README_DOC/footer.jpg)
+      ![](/README_DOC/footer.jpg)
  
 
     - The homepage footer also includes a newsletter signup  and customer support.
 
-      ![](static/image/README_DOC/newsletter.jpg)
+      ![](/README_DOC/newsletter.jpg)
 
-      ![](static/image/README_DOC/contact_us.jpg)
+      ![](/README_DOC/contact_us.jpg)
 
 
  ## Products
 
  - The user is presented with a list of products from the products page, each of which includes an image, the product name, category, price, brand, and rating. The top left corner also shows the overall number of goods. Using the filter bar in the upper right corner, the user can also continue to filter the products. The user can choose the headline choice and the level of filtering specificity from the dropdown menus to filter for particular categories.
 
-      ![](static/image/README_DOC/products.jpg)
+      ![](/README_DOC/products.jpg)
 
 
  - By clicking on add item to bag, a pop up notification shows on bag that an item as been added to the bag, which the User could access by clicking on the bag to check the added item to update the bag by increasing or decreasing the quantity of items or by removing the item.
 
-      ![](static/image/README_DOC/add_to_bag.jpg)
+      ![](/README_DOC/add_to_bag.jpg)
 
 
  ## Checkout 
 
  - The user will be asked to provide the delivery details along with the complete list of the purchase's items. The "Adjust Bag" button allows the user to return to the shopping bag and make additional changes. Otherwise, the user may choose to pay by clicking the "Complete Order" button. Through Stripe, which uses a secure way, the payment is handled.
 
-      ![](static/image/README_DOC/checkout.jpg)
+      ![](/README_DOC/checkout.jpg)
     
 
-      ![](static/image/README_DOC/check_out_details.jpg)
+      ![](/README_DOC/check_out_details.jpg)
 
  - The user is redirected to the confirmation page, where the order confirmation is displayed, after the order has been submitted.
 
-      ![](static/image/README_DOC/purchasedetails.jpg)
+      ![](/README_DOC/purchasedetails.jpg)
 
-      ![](static/image/README_DOC/order_successful.jpg)
+      ![](/README_DOC/order_successful.jpg)
 
  - E-mail confirmation will be sent to the supplied emailaddress
 
@@ -378,13 +376,13 @@ only an authorized personel can have access to the Admin page, as the web applic
 
   - Here is a detailed registration form which will allow users to create a personalized account.
 
-  ![](static/image/README_DOC/user%20register.jpg)
+  ![](/README_DOC/user%20register.jpg)
 
 ### Login and Logout
 
   There were several attempts to log in and out. It performed as intended.
 
-  ![](static/image/README_DOC/singin.jpg)
+  ![](/README_DOC/singin.jpg)
 
 ### Validators
 
@@ -423,11 +421,11 @@ only an authorized personel can have access to the Admin page, as the web applic
  - responsiveness.css
  - profile.css
 
-    ![](static/image/README_DOC/W3C_testing.jpg)
+    ![](/README_DOC/W3C_testing.jpg)
 ### Other testing 
 - This application was tested to meet with the requirements of all modern devices, it is responsive.
 
-      ![](static/image/README_DOC/google_mobile_test.jpg)
+    ![](/README_DOC/google_mobile_test.jpg)
 
 
 
@@ -446,20 +444,21 @@ only an authorized personel can have access to the Admin page, as the web applic
 
 ### Deployment to Heroku
 
-This project was deployed to [Heroku](https://www.heroku.com/). Find the steps bellow:
+This project was deployed to [Heroku](https://www.heroku.com/). Below is a step by step deployment process:
 
-1. Go to Heroku webpage and create a new app
-1. Click on "Resources" tab and provision a new PostgreSQL database.
-1. In order to use PostgreSQL, both packages `dj_database_url` and `psycopg2` have to be installed on Gitpod.
-1. Import `dj_database_url` into the project's [`settings.py`](/euser/settings.py) to setup new database.
-1. Disable the default database(SQLite) in the project's [`settings.py`](/euser/settings.py) and add the PostgreSQL database URL stored in the variable `DATABASE_URL`(can be found by clicking on the "settings" tab followed by clicking on "reveal config vars") in order to connect to PostgreSQL.
-1. Run migrations (due to the use of PostreSQL) on Gitpod.
+1. Go to Heroku website and register as user
+2. Create a new app
+3. Navigate to the "Resources" tab and search for Heroku Postgres.
+4. In order to use PostgreSQL, both packages `dj_database_url` and `psycopg2` have to be installed on Gitpod.
+5. Import `dj_database_url` into the project's [`settings.py`](/gem_master/settings.py) to setup new database.
+6. Disable the default database(SQLite) in the project's [`settings.py`](/gem_master/settings.py) and add the PostgreSQL database URL stored in the variable `DATABASE_URL`(can be found by clicking on the "settings" tab followed by clicking on "reveal config vars") in order to connect to PostgreSQL.
+7. Run migrations (due to the use of PostreSQL) on Gitpod.
 
     ```
     $ python3 manage.py migrate
     ```
 
-1. Load data (Categories and Products JSON files in the [`fixtures`](/products/fixtures) folder).
+8. Load data (Categories and Products JSON files in the [`fixtures`](/products/fixtures) folder).
 - Load categories first 
 
     ```
@@ -472,50 +471,49 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
     $ python3 manage.py loaddata products
     ```
 
-1. Create superuser:
+9. Create superuser:
 
     ```
     $ python3 manage.py createsuperuser 
     ```
 
-1. In the project's [`settings.py`](/euser/settings.py), re-enable the projec's default database(disabled in step number 5) and with an if statment make sure that when the app is running on Heroku the connection is made to PostgreSQL or otherwise to default database (SQLite).
-1. Install `gunicorn` package on Gitpod
-1. Create Procfile
-1. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
+10. In the project's [`settings.py`](/gem_master/settings.py), re-enable the projec's default database(disabled in step number 5) and with an if statment make sure that when the app is running on Heroku the connection is made to PostgreSQL or otherwise to default database (SQLite).
+11. Install `gunicorn` package on Gitpod
+12. Create Procfile
+13. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
 
     ```
-    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app e-useronline
+    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app gem-master
     ```
 
-1. Add `ALLOWED_HOSTS` variable(containing host name of the premiumbody app and the localhost) to project's [`settings.py`](/euser/settings.py) file.
-1. Commit and Push to Github
-1. Since the app was created via the Heroku webpage, initializing heroku git remote is necessary before pushing to Heroku
+14. Add `ALLOWED_HOSTS` variable(containing host name of the premiumbody app and the localhost) to project's [`settings.py`](/gem_master/settings.py) file.
+15. Commit and Push to Github
+16. Since the app was created via the Heroku webpage, initializing heroku git remote is necessary before pushing to Heroku
 
     ```
-    $ heroku git:remote -a e-useronline
+    $ heroku git:remote -a gem-master
     ```
 
-1. Push to Heroku
+17. Push to Heroku
 
     ```
     $ git push heroku master
     ```
 
-1. Finally, enable automatic deployment to Heroku when pushing to Github by going to Heroku webpage, clicking on the "Deploy" tab and then on "Connect to Github" button. Search for the euser repo and click on "Connect". Scroll down to the "Automatic deploys" section and click on "Enable Automatic Deploys".
+18. Finally, enable automatic deployment to Heroku when pushing to Github by going to Heroku webpage, clicking on the "Deploy" tab and then on "Connect to Github" button. Search for the gem-master repo and click on "Connect". Scroll down to the "Automatic deploys" section and click on "Enable Automatic Deploys".
 
 [Back to contents](#table-of-contents)
 
 
  ### Amazon Services (S3)
  
- After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in Euser app.
+ After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in gem-master app.
 
  ## Web Marketing & Business
 
- A Facebook page for Euser was made as part of the website marketing campaign.
- Please take note that I made a fake Facebook page using the Code Institute template.
+ - A web marketing facebook page was created  [Facebook](https://www.facebook.com/profile.php?id=100086998397922&sk=photos/)
 
- ![](static/docs/images/facebook.PNG)
+ ![](/README_DOC/facebook_marketing_page.jpg)
 
 ## Credits
 
@@ -524,13 +522,38 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
 -   The product images was taken from Kaggle [Kaggle](https://Kaggle.com/).
 -   The Carousel and Hero images were taken from Pexels [Pexels](https://pexels.com/).
 
-### Acknowledgements
+**Django Documentation**
+- Django have amazing documentation with a tutorial project and in depth explanations on core components.
+- [Django Documentation ](https://docs.djangoproject.com/en/3.2/)
 
-- Code Institute slack channel for porviding further information and support. 
+## **Aknowledgements**
 
-- My friend and collegue Beatriz Amorim for supporting me and providing me feedback.
+*  Codeinstitute , the slack community, and Codeinstitue mentor support team
 
--   A major part of the logic and web application structure used in the Euser project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
+**Harry Leepz**
+- [Github](https://github.com/Harry-Leepz/Nourish-and-Lift)
+    - The favorite app code used was taken from Harry Leepz Github page.
+
+**Dennis Chmielewski**
+- [Github](https://github.com/dennisdevio)
+    - The code for the contact app was taken from this Dennis Devio
+
+
+**Master Code Online**
+- [Youtube](https://www.youtube.com/watch?v=yZPgBThZT04&list=PL_557Q1uZ7gKYcVQtDYFvYONKtwtguF03&index=7)
+
+    - A youtube learning platform was used for the functionality of the Newsletter app.
+
+**Kenbrotech**
+- [KenbroTech](https://www.youtube.com/watch?v=hWtlskOaFNI)
+
+
+* The github link is  [Eazy-Shopper](https://github.com/gullah26/Gem-master "Gem Master").
+
+* Admin details will be attached to the submission form.
+
+## Thank you.
+-   A major part of the logic and web application structure used in the Gem project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
 
 
 [Back to contents](#table-of-contents)
