@@ -19,14 +19,16 @@
     {% endblock %}
 
     {% block corecss %}
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Bootstrap 4 cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!--google font  link-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/base.css' %}">
-    <link rel="stylesheet" href="{% static 'css/responsiveness.css' %}">
     {% endblock %}
 
-    {% block favicon %}
+    {% block custom_css %}
+    <link type="text/css" rel="stylesheet" href="{% static 'css/custom.css' %}">
+    <link  type="text/css" rel="stylesheet" href="{% static 'css/responsiveness.css' %}">
     {% endblock %}
 
 
@@ -34,17 +36,14 @@
     {% endblock %}
 
     {% block corejs %}
+    <!-- fontawesome js cdn -->
     <script src="https://kit.fontawesome.com/e9c73d7092.js" crossorigin="anonymous" async></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" async></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"
-        async>
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"
-        async>
-    </script>
+    <!-- jQuery cdn -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" async></script>
+    <!-- Bootstrap Popper tooltips cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"async></script>
+    <!-- Bootstrap js cdn -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" async></script>
     <!-- Stripe -->
     <script src="https://js.stripe.com/v3/" async></script>
     {% endblock %}
@@ -52,128 +51,75 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>GemMaster | One of the biggest online shopping platform for gemstones{% block extra_title %}{% endblock %}
-    </title>
+    <title>GemMaster | One of the biggest online shopping platform for gemstones{% block extra_title %}{% endblock %}</title>
+
 </head>
 
 <body>
-    <!--Main header-->
-    <header class="container-fluid fixed-top bg-black">
 
-        <div class="row">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link">
-                    <h3 class="logo-font text-white my-0"><strong><span class="brand">Gem</span></strong>-<strong><span
-                                class="blue-o">Master</span></strong></h3>
-                </a>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 main-search-bar">
-                <form method="GET" action="{% url 'products'%}">
-                    <div class="input-group w-100">
-                        <input class="form-control border-secondary rounded-pill pr-5" type="search" name="q"
-                            placeholder="Search" value="search">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-light text-dark border-0 rounded-pill ml-n5" type="submit">
-                                <span class="icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+    <!-- main header  -->
+    <header>
+        <nav class="container-fluid fixed bg-black">
+            <div class="row">
 
+                <!-- logo and site name-->
+                <div class="col-6">
+                    
+                    <a href="{% url 'home' %}" class="nav-link">
+                        <h3 class="logo-font text-white my-0"><strong><span class="brand">Gem</span></strong>-<strong><span
+                        class="blue-o">Master</span></strong></h3>
+                    </a>
 
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <ul class="list-inline list-unstyled text-center text-lg-right my-0 user-fav-cart">
-                    <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div>
+                </div>
 
-                                    <i class="far fa-user text-white"></i>
-                                    <p class="my-1 text-white font-weight-bold">My Account</p>
-
+                    <!-- Search bar-->
+                <div class="col-4">
+                        <form method="GET" action="{% url 'products'%}">
+                            <div class="input-group mt-2">
+                                <input class="form-control border border-black rounded=0" type="text" name="q"
+                                    placeholder="Search">
+                                <div class="input-group-append">
+                                    <button class="form-control border border-black btn btn-black  rounded-0" type="submit">
+                                        <span class="icon">
+                                            <i class="fas fa-search"></i>
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
-                        </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            {% if request.user.is_authenticated %}
-                            {% if request.user.is_superuser %}
-                            <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                            {% endif %}
-                            <a href="{% url 'profile' %} " class="dropdown-item">My Profile</a>
-                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                            {% else %}
-                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                            {% endif %}
-                        </div>
-                    </li>
-                    <li class="list-inline-item text-center">
-                        <a class="nav-link text-white" href="{% url 'favorite' %}">
-                            <div class="mx-2 "><i class="fa fa-heart"></i></div>
-
-                            <p class="text-white font-weight-bold my-1">
-                                Favorite
-                            </p>
-                        </a>
+                        </form>
+                           
 
 
-                    </li>
+                </div>
 
-                    <li class="list-inline-item text-center">
-                        <a class="{% if grand_total %}text-warning font-weight-bold{% else %}text-white{% endif %} nav-link pl-3 ml-3"
-                            href="{% url 'view_bag' %}">
-                            <div class="icon">
-                                <i class="fa fa-shopping-bag"></i>
-                            </div>
-                            <span class="badge badge-pill badge-danger badge-notification">{{ product_count }}</span>
-                            <div class="text-center">
-                                <p class="">
-                                    {% if grand_total %}
-                                    ${{ grand_total|floatformat:2 }}
-                                    {% else %}
-                                    $0.00
-                                    {% endif %}
-                                </p>
+        
 
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                <!--  user favorite shopping bag-->
+                <div class="col-2">
+
+                    <ul class="list-inline mt-3 text-right text-white">                       
+
+                        <li class="list-inline-item px-1">
+                            <i class="far fa-user"></i>
+                        </li>
+                        <li class="list-inline-item px-1">
+                            <i class="fa fa-heart"></i>
+                            <span class="badge badge-danger badge-pill">0</span>
+                        </li>
+                        <li class="list-inline-item px-1">
+                            <i class="fa fa-shopping-bag"></i>
+                            <span class="badge badge-danger badge-pill ">0</span>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
             </div>
-        </div>
-        <div class="row bg-white font-weight-bold">
-            <nav class="navbar navbar-expand-lg navbar-light w-100">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
-                    aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                {% include 'includes/mobile-top-header.html' %}
-                {% include 'includes/main-nav.html' %}
-            </nav>
-        </div>
-    </header>
 
-    {% if messages %}
-    <div class="message-container">
-        {% for message in messages %}
-        {% with message.level as level %}
-        {% if level == 40 %}
-        {% include 'includes/toasts/toast_error.html' %}
-        {% elif level == 30 %}
-        {% include 'includes/toasts/toast_warning.html' %}
-        {% elif level == 25 %}
-        {% include 'includes/toasts/toast_success.html' %}
-        {% else %}
-        {% include 'includes/toasts/toast_info.html' %}
-        {% endif %}
-        {% endwith %}
-        {% endfor %}
-    </div>
-    {% endif %}
+        </nav>
+    </header>
 
 
     {% block page_header %}
@@ -182,15 +128,15 @@
     {% block content %}
     {% endblock %}
 
-    <!-- footer -->
-    {% include 'includes/footer.html' %}
+    <!-- {% include 'includes/footer.html' %} -->
 
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
+    {% endblock %}
 
-
+    {% block postloadjquery %}
     {% endblock %}
 
 
