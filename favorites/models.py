@@ -5,10 +5,12 @@ from products.models import Product
 
 class Favorite(models.Model):
     """
-    Displays all items in the user's favorite list
+    Model to show all product items within the users favorite
     """
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    products = models.ManyToManyField(Product, through="FavoriteItem", related_name='product_favorites')
+    products = models.ManyToManyField(Product,
+                                      through="FavoriteItem",
+                                      related_name='product_favorite')
 
     def __str__(self):
         return f'Favorite ({self.user})'
@@ -16,11 +18,18 @@ class Favorite(models.Model):
 
 class FavoriteItem(models.Model):
     """
-    Model that allows user to add item individually to the favorite list.
+    A 'through' model, allowing users to add
+    individual products to their favorite.
     """
 
-    product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
-    favorite = models.ForeignKey(Favorite, null=False, blank=False, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product,
+                                null=False,
+                                blank=False,
+                                on_delete=models.CASCADE)
+    favorite = models.ForeignKey(Favorite,
+                                 null=False,
+                                 blank=False,
+                                 on_delete=models.CASCADE)
 
     def __str__(self):
         return self.product.name

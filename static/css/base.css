@@ -1,101 +1,111 @@
-/* html {
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+html {
     height: 100%;
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
-    background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
-    font-family: 'Lato';
-} */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #fafafa;
+    background-color: #212121;
+}
 
+/* -------------------------------- Color CSS */
+.bgc-offwhite {
+    background-color: #212121;
+}
+
+.dropdown-menu {
+    background-color: #212121;
+}
+
+.dropdown-item {
+    font-weight: 700;
+    color: #fafafa;
+}
+
+.text-muted {
+    color: #fafafa !important;
+}
+
+.table {
+    color: #fafafa;
+}
+
+.large-container {
+    min-height: 65vh;
+}
+
+/* Overide Bootstrap text primary class on search results*/
+.text-primary {
+    color: #17a2b8 !important;
+}
+
+/* -------------------------------- Navbar CSS */
+
+.nav-link {
+    color: #fafafa;
+}
+
+.nav-link:hover {
+    color: #17a2b8;
+}
+
+/* -------------------------------- Project CSS */
+.hero-image {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('/media/homepage-heroimage.jpg') no-repeat center center fixed;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/homepage-heroimage.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/homepage-heroimage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+hr {
+    border-top: 1px solid #17a2b8;
+}
+
+.main-logo-link {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.hero-font {
+    font-weight: 700;
+}
 
 /* from Bulma */
-
-
-/*
 .icon {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+.border-custom {
+    border: 1px solid #fafafa;
+    border-radius: .25rem;
 }
 
-.main-logo-link {
-    width: fit-content;
-}
-
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-
-.btn-black {
-    background: black;
-    color: white;
-}
+/* -------------------------------- Button Styles */
 
 .btn-outline-black {
-    background: white;
-    color: black !important;
-    /* use important to override link colors for <a> elements */
-
-
-/* border: 1px solid black;
-
-} */
-
-
-/*
-.btn-outline-black:hover,
-.btn-outline-black:active,
-.btn-outline-black:focus {
-    background: black;
-    color: white !important;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #000 !important;
-}
-
-.overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
-}
-
-a.category-badge>span.badge:hover {
-    background: #212529 !important;
-    color: #fff !important;
+    color: #212121;
+    border: 1px solid #fafafa;
 }
 
 .btt-button {
@@ -106,194 +116,99 @@ a.category-badge>span.badge:hover {
     right: 10px;
 }
 
-.btt-link,
-.update-link,
-.remove-item {
+.btt-link {
     cursor: pointer;
 }
 
-input[name='q']::placeholder {
-    color: #aab7c4;
-} */
-
-
-/* ------------------------------- bootstrap toasts */
-
-
-/*
-.message-container {
-    position: fixed;
-    top: 72px;
-    right: 15px;
-    z-index: 99999999999;
+.btn-width {
+    width: 70%;
 }
 
-.custom-toast {
-    overflow: visible;
+.edit-btn {
+    border-top-right-radius: 18px;
 }
 
-.toast-capper {
-    height: 2px;
-} */
-
-
-/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
-
-
-/*
-.arrow-up {
-    width: 0;
-    height: 0;
-    border-left: 4px solid transparent;
-    border-right: 4px solid transparent;
-    border-bottom: 10px solid black;
-    position: absolute;
-    top: -10px;
-    right: 36px;
-} */
-
-
-/* Convenience classes - colors copied from Bootstrap */
-
-
-/*
-.arrow-primary {
-    border-bottom-color: #007bff !important;
+.btt-border {
+    border: 1px solid #dee2e6!important;
+    border-radius: 50%;
 }
 
-.arrow-secondary {
-    border-bottom-color: #6c757d !important;
-}
-
-.arrow-success {
-    border-bottom-color: #28a745 !important;
-}
-
-.arrow-danger {
-    border-bottom-color: #dc3545 !important;
-}
-
-.arrow-warning {
-    border-bottom-color: #ffc107 !important;
-}
-
-.arrow-info {
-    border-bottom-color: #17a2b8 !important;
-}
-
-.arrow-light {
-    border-bottom-color: #f8f9fa !important;
-}
-
-.arrow-dark {
-    border-bottom-color: #343a40 !important;
-}
-
-.bag-notification-wrapper {
-    height: 100px;
-    overflow-x: hidden;
-    overflow-y: auto;
-} */
-
-
-/* -------------------------------- Media Queries */
-
-
-/* Slightly larger container on xl screens */
-
-
-/*
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-} */
-
+/* -------------------------------- Form Styles */
 
 /* Allauth form formatting */
 
-
-/*
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; */
-
-
-/* mt-4 */
-
-
-/* color: #6c757d; */
-
-
-/* text-secondary */
-
-
-/*
+    margin-top: 1.5rem; /* mt-4 */
+    color: #fafafa; /* text-secondary */
 }
+
 .allauth-form-inner-content input {
     border-color: #000;
-    border-radius: 0;
 }
+
 .allauth-form-inner-content label:not([for='id_remember']) {
     display: none;
 }
+
+.allauth-form-inner-content input::-webkit-input-placeholder {
+    color: #aab7c4;
+}
+
+.allauth-form-inner-content input::-moz-placeholder {
+    color: #aab7c4;
+}
+
+.allauth-form-inner-content input:-ms-input-placeholder {
+    color: #aab7c4;
+}
+
+.allauth-form-inner-content input::-ms-input-placeholder {
+    color: #aab7c4;
+}
+
 .allauth-form-inner-content input::placeholder {
     color: #aab7c4;
 }
+
 .allauth-form-inner-content button,
-.allauth-form-inner-content input[type='submit'] { */
-
-
-/* btn */
-
-
-/*
-display: inline-block;
-font-weight: 400;
-color: #fff;
-text-align: center;
-vertical-align: middle;
--webkit-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
-background-color: #000;
-border: 1px solid #000;
-padding: .375rem .75rem;
-font-size: 1rem;
-line-height: 1.5;
-border-radius: 0; */
-
-
-/* standard bootstrap btn transitions */
-
-
-/*
-transition: color .15s ease-in-out,
-background-color .15s ease-in-out,
-border-color .15s ease-in-out,
-box-shadow .15s ease-in-out;
-
-}
-.allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {
+.allauth-form-inner-content input[type='submit'] {
+	/* btn */
+	display: inline-block;
+    font-weight: 400;
     color: #fff;
-    background-color: #222;
-    border-color: #222;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #484848;
+    border: 1px solid #fafafa;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem !important;
+
+    /* standard bootstrap btn transitions */
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
 }
+
+.allauth-form-inner-content button:hover,
+.allauth-form-inner-content input[type='submit']:hover {	
+	color: #212121;
+    background-color: #fafafa;
+}
+
 .allauth-form-inner-content a {
-    color: #17a2b8; */
-
-
-/* text-info */
-
-
-/* } */
-
+	color: #fafafa; 
+}
 
 /* Product Form */
 
-
-/*
 .btn-file {
     position: relative;
     overflow: hidden;
@@ -310,22 +225,134 @@ box-shadow .15s ease-in-out;
 }
 
 .custom-checkbox .custom-control-label::before {
-    border-radius: 0;
     border-color: #dc3545;
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #dc3545;
     border-color: #dc3545;
-    border-radius: 0;
 }
- */
 
+/* -------------------------------- Message Styles */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999;
+}
 
-/* fixed top navbar only on medium and up */
+.toast {
+    background-color: #212121;
+    border: 1px solid #17a2b8;
+}
 
+.custom-toast {
+    overflow: visible;
+}
 
-/*
+.bag-notification-wrapper {
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* -------------------------------- Review Styles */
+
+.card {
+    background-color: #212121;
+}
+
+textarea.form-control {
+    height: 5rem;
+}
+
+.review-container {
+    border-radius: 22px;
+    background: #212121;
+    -webkit-box-shadow:  13px 13px 25px #1b1b1b,
+                -13px -13px 25px #272727;
+            box-shadow:  13px 13px 25px #1b1b1b,
+                -13px -13px 25px #272727;
+    border-width: 3px;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* -------------------------------- Bootstrap Modal */
+
+.modal-header{
+    background-color: #212121;
+}
+
+.modal-body {
+    background-color: #212121;
+}
+
+.modal-footer {
+    background-color: #212121;
+}
+
+.close {
+    float: right;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fafafa;
+    text-shadow: none;
+}
+
+/* -------------------------------- Footer CSS */
+
+.social-link a i {
+    font-size: 2rem;
+    color: #fafafa;
+    margin-top: 2rem;
+}
+
+.social-link a i:hover {
+    color: #17a2b8;
+}
+
+.copyright-text {
+    color: #fafafa;
+}
+
+.footer-container {
+    border-top: 1px solid #17a2b8;
+}
+
+/* -------------------------------- Home Page CSS */
+
+/*  CSS Style are havily based on this tutorial by CodeIT,
+    https://www.youtube.com/watch?v=h7Hloe6tQkw */
+
+.content {
+	color: #fafafa;
+	text-align: center;
+	-webkit-transform: translateY(32px);
+	    -ms-transform: translateY(32px);
+	        transform: translateY(32px);
+	opacity: 0;
+	-webkit-transition: .8s ease-out;
+	-o-transition: .8s ease-out;
+	transition: .8s ease-out;
+}
+
+.content.faded-in {
+	-webkit-transform: translateY(0);
+	    -ms-transform: translateY(0);
+	        transform: translateY(0);
+	opacity: 1;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* Fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -334,50 +361,50 @@ box-shadow .15s ease-in-out;
         left: 0;
         z-index: 1030;
     }
+
     .header-container {
         padding-top: 164px;
     }
-} */
+}
 
+/* Fix Mobile/Tablet navbar */
+@media (max-width: 992px) {
+    ul {
+        padding: 0;
+        margin: 0;
+    }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+    .navbar-toggler {
+        border: none;
+        color: #001735;
+    }
 
+    .nav-link {
+        padding: 0 .9rem;
+    }
+}
 
-/*
+/* Add additional padding to the top to drop body on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
+
     body {
         height: calc(100vh - 116px);
     }
-    .display-4.logo-font.text-black {
-        font-size: 2rem;
+}
+
+/* Remove padding on navbar to has all icons fit on 320px screens */
+@media (max-width: 320px) {
+    .navbar {
+        padding: 0;
     }
-    .nav-link {
-        padding: 0.15rem;
+}
+
+/* Keep user account dropdown text within the screen*/
+@media (max-width: 768px) {
+    .dropdown-menu {
+        font-size: 0.7rem;
     }
-    .nav-link i.fa-lg {
-        font-size: 1rem;
-    }
-    .navbar-toggler {
-        padding: .6rem .6rem;
-        font-size: 1rem;
-    }
-    #delivery-banner h4 {
-        font-size: .9rem;
-    }
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
-        padding: .375rem .375rem;
-    }
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
-        padding: .375rem .375rem;
-        font-size: .75rem;
-    }
-    .increment-qty,
-    .decrement-qty {
-        padding: .25rem .5rem !important;
-    }
-} */
+}

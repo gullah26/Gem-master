@@ -3,22 +3,26 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .models import UserProfile
 from .forms import UserProfileForm
-
 from checkout.models import Order
 
 
 @login_required
 def profile(request):
-    """ Display the user's profile. """
+    """
+    A view to render the user's profile page
+    """
     profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == 'POST':
+        # Check to see if the form being submitted is valid
         form = UserProfileForm(request.POST, instance=profile)
         if form.is_valid():
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'Update failed. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Profile wasn not updated, Please check the form is valid')
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -33,12 +37,13 @@ def profile(request):
     return render(request, template, context)
 
 
+@login_required
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (
-        f'This is a past confirmation for order number {order_number}. '
-        'A confirmation email was sent on the order date.'
+        f'This is previous order you made for order number {order_number},'
+        'A confirmation email would have been sent on the order date.'
     ))
 
     template = 'checkout/checkout_success.html'

@@ -1,10 +1,13 @@
 /*
     Core logic/payment flow for this comes from here:
     https://stripe.com/docs/payments/accept-a-payment
-    CSS from here: 
-    https://stripe.com/docs/stripe-js
 */
 
+/*
+    This Javascript file was taken and built from the Code Institute, Boutique Ado Project.
+*/
+
+// Initiate Stripe Card element
 var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
 var clientSecret = $('#id_client_secret').text().slice(1, -1);
 var stripe = Stripe(stripePublicKey);
@@ -27,7 +30,7 @@ var style = {
 var card = elements.create('card', {style: style});
 card.mount('#card-element');
 
-// Handle realtime validation errors on the card element
+// Provide the customer with validations error on the Stripe card element
 card.addEventListener('change', function (event) {
     var errorDiv = document.getElementById('card-errors');
     if (event.error) {
@@ -43,7 +46,10 @@ card.addEventListener('change', function (event) {
     }
 });
 
-// Handle form submit
+/*
+Handle the Stripe card element form submission,
+core logic is taken from the Stripe documentation
+*/
 var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function(ev) {
@@ -53,8 +59,8 @@ form.addEventListener('submit', function(ev) {
     $('#payment-form').fadeToggle(100);
     $('#loading-overlay').fadeToggle(100);
 
-    var saveInfo = Boolean($('#id-save-info').attr('checked'));
-    // From using {% csrf_token %} in the form
+    var saveInfo = Boolean($('id-save-info').attr('checked'));
+    // CSRF value is obtained from the {% csrf_token %} in the form elements
     var csrfToken = $('input[name="csrfmiddlewaretoken"]').val();
     var postData = {
         'csrfmiddlewaretoken': csrfToken,
@@ -114,5 +120,5 @@ form.addEventListener('submit', function(ev) {
     }).fail(function () {
         // just reload the page, the error will be in django messages
         location.reload();
-    })
+    });
 });
