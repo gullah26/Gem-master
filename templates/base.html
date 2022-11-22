@@ -19,8 +19,8 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
@@ -52,7 +52,7 @@
 
 <body>
     <!-- Main Header Starts (Style and design taken from Bootstrap and CI Boutique Ado Project) -->
-    <header class="nav-bgc-black container-fluid fixed-top">
+    <header class="container-fluid fixed-top">
 
         <div id="topnav" class="row d-none d-lg-flex">
             <!-- Left side navbar with about and shop links -->
@@ -122,7 +122,7 @@
                                 <div><i class="fas fa-shopping-bag fa-lg text-white"></i></div>
                                 <span class="hero-font my-0">
                                     {% if grand_total %}
-                                    £{{ grand_total|floatformat:2 }}
+                                    ${{ grand_total|floatformat:2 }}
                                     {% else %}
                                     $0.00
                                     {% endif %}

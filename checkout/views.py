@@ -53,7 +53,7 @@ def checkout(request):
             'town_or_city': request.POST['town_or_city'],
             'street_address1': request.POST['street_address1'],
             'street_address2': request.POST['street_address2'],
-            'commun': request.POST['commun'],
+            'county': request.POST['county'],
         }
         order_form = OrderForm(form_data)
 
@@ -114,7 +114,7 @@ def checkout(request):
                     'town_or_city': profile.default_town_or_city,
                     'street_address1': profile.default_street_address1,
                     'street_address2': profile.default_street_address2,
-                    'commun': profile.default_commun,
+                    'county': profile.default_county,
                 })
             except UserProfile.DoesNotExist:
                 order_form = OrderForm()
@@ -157,7 +157,7 @@ def checkout_success(request, order_number):
                 'default_town_or_city': order.town_or_city,
                 'default_street_address1': order.street_address1,
                 'default_street_address2': order.street_address2,
-                'default_commun': order.commun,
+                'default_county': order.county,
             }
             user_profile_form = UserProfileForm(profile_data, instance=profile)
             if user_profile_form.is_valid():

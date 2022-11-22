@@ -11,15 +11,15 @@ html {
 
 body {
     height: calc(100vh - 164px);
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-weight: 700;
     color: #fafafa;
-    background-color: #212121;
+    background-color: #f8f8f8;
 }
 
 /* -------------------------------- Color CSS */
 .bgc-offwhite {
-    background-color: #212121;
+    background-color: #000000;
 }
 
 .dropdown-menu {
@@ -45,7 +45,7 @@ body {
 
 /* Overide Bootstrap text primary class on search results*/
 .text-primary {
-    color: #17a2b8 !important;
+    color: #1395a9 !important;
 }
 
 /* -------------------------------- Navbar CSS */
@@ -55,14 +55,14 @@ body {
 }
 
 .nav-link:hover {
-    color: #17a2b8;
+    color: #1f616b;
 }
 
 /* -------------------------------- Project CSS */
 .hero-image {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('/media/homepage-heroimage.jpg') no-repeat center center fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/homepage-heroimage.jpg') no-repeat center center fixed;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/homepage-heroimage.jpg') no-repeat center center fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('/media/colorful_gemstones.webp') no-repeat center center fixed;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/colorful_gemstones.webp') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/colorful_gemstones.webp') no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
@@ -254,6 +254,13 @@ hr {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+
+/* -------------------------------- navbar background-color */
+.nav-bgc-black{
+    background: #000000;
+}
+
 
 /* -------------------------------- Review Styles */
 

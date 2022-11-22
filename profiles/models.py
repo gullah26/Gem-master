@@ -21,7 +21,7 @@ class UserProfile(models.Model):
         max_length=80, blank=True)
     default_town_or_city = models.CharField(
             max_length=40, blank=True)
-    default_commun = models.CharField(max_length=80, blank=True)
+    default_county = models.CharField(max_length=80, blank=True)
     default_postcode = models.CharField(max_length=20, blank=True)
     default_country = CountryField(
         blank_label='Country', null=True, blank=True)
